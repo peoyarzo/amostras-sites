@@ -1,76 +1,90 @@
 /**
- * Dados do site — edite este arquivo para criar uma nova amostra.
- * A página lê window.SITE e monta o conteúdo automaticamente.
- * Deixe whatsapp vazio até ter um número. O botão CTA usa ctaLink.
+ * Dados do site. A página lê window.SITE.
+ * Preencha só com dados públicos: nome, região, telefone, Instagram e serviços genéricos.
+ * Deixe whatsapp vazio até ter um número público. Sem e-mail e sem registro de conselho.
  */
 window.SITE = {
   name: "Nome do consultório",
-  shortName: "Nome curto",
-  region: "Bairro, Cidade/UF",
-  tagline: "Uma frase curta e acolhedora sobre o consultório.",
-  heroText: "Texto breve do destaque, sem promessas, prêmios ou especialidades inventadas.",
+  shortName: "Consultório",
+  region: "Bairro, Cidade",
+  tagline: "Uma frase curta sobre o atendimento.",
+  heroText: "Um texto curto, no tom de quem recebe a pessoa e explica o atendimento.",
+  aboutKicker: "A clínica",
   aboutTitle: "Sobre",
-  aboutLead: "Parágrafo de abertura, genérico e convidativo.",
-  aboutText: "Segundo parágrafo. Explique o ambiente e a forma de atender, sem nomes de profissionais, CRO, anos de experiência, depoimentos ou prêmios.",
-  servicesTitle: "Atendimentos odontológicos",
-  servicesIntro: "Frase curta sobre os atendimentos, sempre após avaliação.",
+  aboutLead: "Onde fica e para quem é o atendimento.",
+  aboutText: "Segundo parágrafo. Sem nomes de equipe, sem registro profissional e sem anos de mercado inventados.",
+  servicesKicker: "Atendimentos",
+  servicesTitle: "Atendimentos",
+  servicesIntro: "Serviços genéricos. O que será feito depende da avaliação.",
   services: [
     {
-      title: "Avaliação e consulta",
-      description: "Conversa inicial para entender suas necessidades e indicar o caminho mais adequado."
+      title: "Avaliação",
+      description: "Conversa inicial para entender a demanda."
     },
     {
-      title: "Prevenção e limpeza",
-      description: "Cuidados de rotina para manter a saúde bucal em dia."
+      title: "Rotina",
+      description: "Cuidados de manutenção, quando indicados."
     },
     {
-      title: "Restaurações",
-      description: "Reparos em dentes danificados, sempre após avaliação."
+      title: "Orientação",
+      description: "A gente explica as opções com calma, para você decidir."
     },
     {
-      title: "Clareamento (sob avaliação)",
-      description: "Orientação sobre clareamento, indicado somente quando for adequado ao seu caso."
-    },
-    {
-      title: "Orientação para tratamentos",
-      description: "Explicamos as opções com clareza, para que você decida com tranquilidade."
+      title: "Retorno",
+      description: "Remarcação pelo telefone ou pelo WhatsApp."
     }
   ],
-  locationTitle: "Onde estamos",
-  locationText: "Informe só a região. O endereço exato pode ficar para o agendamento.",
+  locationKicker: "Região",
+  locationTitle: "Onde fica",
+  locationText: "Só a região. O endereço completo fica para o agendamento.",
   hoursLabel: "Horário",
-  hours: "A confirmar",
+  hours: "Horário combinado pelo WhatsApp",
+  contactKicker: "Contato",
   contactTitle: "Contato",
-  contactPlaceholder: "Contato via WhatsApp (número a definir)",
-  ctaLabel: "Agende sua avaliação",
+  contactLead: "Conte rapidinho o que você precisa e a gente responde pelo WhatsApp.",
+  navAbout: "Sobre",
+  navServices: "Atendimentos",
+  navLocation: "Localização",
+  navContact: "Contato",
+  ctaLabel: "Agende uma avaliação",
   ctaLink: "#contato",
+  formButton: "Falar no WhatsApp",
   whatsapp: "",
-  mapQuery: "Vila Sônia, São Paulo - SP",
+  phoneDisplay: "",
+  phones: [],
+  instagram: [],
+  facebook: [],
+  mapQuery: "São Paulo - SP",
   banner: "Prévia demonstrativa",
-  footerNote: "Prévia demonstrativa. Página modelo, sem indexação em buscadores.",
+  footerNote: "Prévia demonstrativa — página modelo.",
+  layout: "classic",
+  font: "odonto",
+  radius: "14px",
   images: {
     hero: {
       src: "images/hero.jpg",
-      alt: "Consultório odontológico em ambiente claro"
+      alt: "Ambiente de atendimento"
     },
     about: {
       src: "images/sobre.jpg",
-      alt: "Sala de atendimento odontológico"
+      alt: "Detalhe do espaço"
     },
     services: {
       src: "images/atendimento.jpg",
-      alt: "Equipamentos odontológicos em consultório"
+      alt: "Outro ângulo do espaço"
     }
   },
   colors: {
     primary: "#0c6b6e",
     primaryDark: "#084f52",
     accent: "#1d8aa3",
-    bg: "#ffffff",
-    muted: "#f3f8f8",
-    text: "#1a2c33",
-    textMuted: "#5a6b73",
-    bannerBg: "#eef4f4",
-    bannerText: "#4a5f5f"
+    bg: "#fbfcfb",
+    muted: "#eef4f3",
+    text: "#1c2b2e",
+    textMuted: "#5c6c70",
+    bannerBg: "#e7f0ef",
+    bannerText: "#3e5554",
+    hero: "#0c3336",
+    line: "#d5e4e2"
   }
 };

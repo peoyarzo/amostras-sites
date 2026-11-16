@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="">
+  <title>Autoescola Athena — Prévia demonstrativa</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <style>:root{--c-primary:#0f4c4c;--c-primary-dark:#0b3333;--c-accent:#b07d32;--c-bg:#f7f6f2;--c-muted:#eef1ee;--c-text:#1a2624;--c-text-muted:#5c6b66;--c-banner-bg:#e6efec;--c-banner-text:#34524c;--c-hero:#0b3333;--c-line:#d5e3df;--radius:10px}</style>
+</head>
+<body data-layout="panel" data-font="cursos">
+  <div class="preview-banner" data-field="banner">Prévia demonstrativa</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark" aria-hidden="true"><span class="monogram" data-monogram>A</span></span>
+        <span class="brand-name" data-field="shortName">Estabelecimento</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <nav id="menu-principal" class="site-nav" aria-label="Seções da página">
+        <a href="#sobre" data-field="navAbout">Sobre</a>
+        <a href="#servicos" data-field="navServices">Serviços</a>
+        <a href="#localizacao" data-field="navLocation">Localização</a>
+        <a href="#contato" data-field="navContact">Contato</a>
+        <a class="btn btn-primary btn-nav" data-cta data-field="ctaLabel" href="#contato">Fale no WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-media" data-image="hero" hidden>
+        <img alt="" width="1400" height="934">
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow" data-field="region"></p>
+        <h1 data-field="name">Autoescola Athena</h1>
+        <p class="lead" data-field="tagline"></p>
+        <p class="hero-text" data-field="heroText"></p>
+        <a class="btn btn-primary btn-lg" data-cta data-field="ctaLabel" href="#contato">Fale no WhatsApp</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section-about">
+      <div class="container split">
+        <div class="split-text">
+          <p class="section-kicker" data-field="aboutKicker">Sobre</p>
+          <h2 data-field="aboutTitle">Sobre</h2>
+          <p class="lead-muted" data-field="aboutLead"></p>
+          <p data-field="aboutText"></p>
+        </div>
+        <figure class="split-media" data-image="about" hidden>
+          <img alt="" width="1400" height="934" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section id="servicos" class="section section-services">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker" data-field="servicesKicker">Serviços</p>
+          <h2 data-field="servicesTitle">Serviços</h2>
+          <p class="lead-muted" data-field="servicesIntro"></p>
+        </div>
+        <div class="services-layout">
+          <ul class="service-grid" data-services></ul>
+          <figure class="services-media" data-image="services" hidden>
+            <img alt="" width="1400" height="934" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="localizacao" class="section section-location">
+      <div class="container split split-map">
+        <div class="map-frame">
+          <iframe
+            data-map
+            title="Mapa da região"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Autoescola%20Athena%2C%20Mooca%2C%20S%C3%A3o%20Paulo%20-%20SP&amp;output=embed"></iframe>
+        </div>
+        <div class="split-text location-card">
+          <p class="section-kicker" data-field="locationKicker">Região</p>
+          <h2 data-field="locationTitle">Onde fica</h2>
+          <p data-field="locationText"></p>
+          <p class="region-line" data-field="region"></p>
+          <dl class="hours">
+            <dt data-field="hoursLabel">Horário</dt>
+            <dd data-field="hours">Horário combinado pelo WhatsApp</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section-contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="section-kicker" data-field="contactKicker">Contato</p>
+          <h2 data-field="contactTitle">Contato</h2>
+          <p data-field="contactLead"></p>
+          <div class="contact-channels" data-channels>
+        <ul class="channel-list">
+          <li><a href="tel:+5511991859161">(11) 99185-9161</a></li>
+          <li><a href="https://wa.me/5511991859161" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        </ul>
+      </div>
+        </div>
+        <form class="contact-form" data-contact-form action="#contato" method="get" aria-label="Mensagem para o WhatsApp">
+          <label>
+            <span>Nome</span>
+            <input name="nome" type="text" autocomplete="name" required maxlength="80">
+          </label>
+          <label>
+            <span>Telefone</span>
+            <input name="telefone" type="tel" autocomplete="tel" inputmode="tel" maxlength="20">
+          </label>
+          <label>
+            <span>Mensagem</span>
+            <textarea name="mensagem" rows="4" required maxlength="400"></textarea>
+          </label>
+          <button class="btn btn-primary btn-lg" type="submit" data-field="formButton">Abrir no WhatsApp</button>
+          <p class="form-note">A mensagem abre no WhatsApp, pronta para você enviar.</p>
+          <p class="form-error" data-form-error hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong data-field="name"></strong>
+        <p data-field="region"></p>
+      </div>
+      <p class="footer-note" data-field="footerNote">© Autoescola Athena · Prévia demonstrativa — página modelo.</p>
+    </div>
+  </footer>
+
+  <div class="quick-contact" data-quick><a href="tel:+5511991859161">Ligar</a><a href="https://wa.me/5511991859161" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+
+  <noscript>
+    <p class="noscript">Esta prévia precisa do JavaScript ativado para montar os textos. Telefone e mapa, quando preenchidos no HTML, continuam utilizáveis.</p>
+  </noscript>
+
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
