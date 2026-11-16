@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="">
+  <title>Prévia demonstrativa</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="preview-banner" data-field="banner">Prévia demonstrativa</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 36" width="36" height="36" aria-hidden="true">
+            <rect width="36" height="36" rx="9" fill="currentColor"/>
+            <path fill="#fff" d="M18 7c-3 0-5.2 2.3-5.2 5.4 0 2.2.6 4.4 1 6.4.3 1.6-.2 3.8-1.2 5.4-.4.7.1 1.7 1 1.7.9 0 1.5-1 1.9-2.1.5-1.6 1.2-3.8 2.5-5.1 1.3 1.3 2 3.5 2.5 5.1.4 1.1 1 2.1 1.9 2.1.9 0 1.4-1 1-1.7-1-1.6-1.5-3.8-1.2-5.4.4-2 .1-4.2 1-6.4C23.2 9.3 21 7 18 7z"/>
+          </svg>
+        </span>
+        <span class="brand-name" data-field="shortName">Consultório</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <nav id="menu-principal" class="site-nav" aria-label="Seções da página">
+        <a href="#sobre">Sobre</a>
+        <a href="#atendimentos">Atendimentos</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn-primary btn-nav" data-cta data-field="ctaLabel" href="#contato">Agende sua avaliação</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-media" data-image="hero" hidden>
+        <img alt="">
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow" data-field="region"></p>
+        <h1 data-field="name"></h1>
+        <p class="lead" data-field="tagline"></p>
+        <p class="hero-text" data-field="heroText"></p>
+        <a class="btn btn-primary btn-lg" data-cta data-field="ctaLabel" href="#contato">Agende sua avaliação</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section-about">
+      <div class="container split">
+        <div class="split-text">
+          <p class="section-kicker">O consultório</p>
+          <h2 data-field="aboutTitle">Sobre</h2>
+          <p class="lead-muted" data-field="aboutLead"></p>
+          <p data-field="aboutText"></p>
+        </div>
+        <figure class="split-media" data-image="about" hidden>
+          <img alt="">
+        </figure>
+      </div>
+    </section>
+
+    <section id="atendimentos" class="section section-services">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Cuidado no seu ritmo</p>
+          <h2 data-field="servicesTitle">Atendimentos odontológicos</h2>
+          <p class="lead-muted" data-field="servicesIntro"></p>
+        </div>
+        <div class="services-layout">
+          <ul class="service-grid" data-services></ul>
+          <figure class="services-media" data-image="services" hidden>
+            <img alt="">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="localizacao" class="section section-location">
+      <div class="container split split-map">
+        <div class="map-frame">
+          <iframe
+            data-map
+            title="Mapa da região do consultório"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="about:blank"></iframe>
+        </div>
+        <div class="split-text location-card">
+          <p class="section-kicker">Região</p>
+          <h2 data-field="locationTitle">Onde estamos</h2>
+          <p data-field="locationText"></p>
+          <p class="region-line" data-field="region"></p>
+          <dl class="hours">
+            <dt data-field="hoursLabel">Horário</dt>
+            <dd data-field="hours">A confirmar</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section-contact">
+      <div class="container contact-box">
+        <p class="section-kicker">Fale conosco</p>
+        <h2 data-field="contactTitle">Contato</h2>
+        <p class="contact-placeholder" data-contact></p>
+        <a class="btn btn-primary btn-lg" data-cta data-field="ctaLabel" href="#contato">Agende sua avaliação</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong data-field="name"></strong>
+        <p data-field="region"></p>
+      </div>
+      <p class="footer-note" data-field="footerNote">Prévia demonstrativa. Página modelo, sem indexação em buscadores.</p>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">Esta prévia precisa do JavaScript ativado para carregar os dados do consultório.</p>
+  </noscript>
+
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
