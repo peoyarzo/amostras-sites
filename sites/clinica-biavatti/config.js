@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Clínica Biavatti",
   "shortName": "Clínica Biavatti",
   "region": "Jardim do Mar, São Bernardo do Campo",
-  "tagline": "Clínica de estética no Jardim do Mar.",
-  "heroText": "Atendimento em São Bernardo do Campo. Os telefones públicos estão em link.",
+  "tagline": "Estética no Jardim do Mar, com discrição.",
+  "heroText": "Harmonização facial, corporal e íntima, em São Bernardo.",
   "aboutKicker": "O espaço",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Clínica Biavatti fica no Jardim do Mar, em São Bernardo do Campo.",
-  "aboutText": "A conduta, se houver procedimento, é definida na avaliação. Esta página não publica valores.",
+  "aboutLead": "A Biavatti atende no Jardim do Mar quem busca cuidado de rosto, corpo ou uma conversa mais reservada.",
+  "aboutText": "A sala fecha, o papo é baixo e você escolhe por onde começar. Os telefones estão logo abaixo. Marca pelo que for mais cômodo.",
   "servicesKicker": "Cuidados",
-  "servicesTitle": "Cuidados",
-  "servicesIntro": "Cuidados estéticos explicados na consulta, não por anúncio.",
+  "servicesTitle": "Rosto, corpo e intimidade",
+  "servicesIntro": "Três frentes de atendimento, cada uma no seu ritmo.",
   "services": [
     {
-      "title": "Avaliação",
-      "description": "Conversa para ver se algum procedimento faz sentido no seu caso."
-    },
-    {
-      "title": "Pele",
-      "description": "Limpeza e rotinas indicadas na avaliação."
-    },
-    {
       "title": "Harmonização facial",
-      "description": "Orientação sobre procedimentos faciais. A indicação é individual."
+      "description": "Contorno e pele tratados a partir do que você vê no espelho."
+    },
+    {
+      "title": "Estética corporal",
+      "description": "Cuidados de corpo para as regiões que você quer trabalhar."
+    },
+    {
+      "title": "Estética íntima",
+      "description": "Atendimento reservado, no seu tempo, para esse cuidado específico."
+    },
+    {
+      "title": "Avaliação",
+      "description": "A primeira hora é para ouvir e só depois sugerir o procedimento."
     },
     {
       "title": "Retorno",
-      "description": "Espaço para tirar dúvidas depois do atendimento."
+      "description": "Revisão do que foi feito, com espaço para ajustar o plano."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Jardim do Mar, São Bernardo do Campo.",
+  "locationText": "Jardim do Mar, São Bernardo do Campo. A gente explica a chegada pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte em poucas linhas o que você quer conversar na avaliação. O botão abre o WhatsApp no seu celular, com o texto preenchido.",
+  "contactLead": "Conta rapidinho o que você precisa. A resposta vem pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Cuidados",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551143323449",
   "phoneDisplay": "(11) 4332-3449",
   "phones": [
@@ -67,7 +71,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Clínica Biavatti, Jardim do Mar, São Bernardo do Campo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
+  "footerNote": "© Clínica Biavatti · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "estetica",
   "radius": "18px",

@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Fisiofive Fisioterapia e Pilates / Osteopatia - Moema / São Paulo",
   "shortName": "Fisiofive",
   "region": "Moema, São Paulo",
-  "tagline": "Fisioterapia e pilates em Moema.",
-  "heroText": "Avaliação, pilates e osteopatia em Moema. Tudo parte da avaliação, sem promessa de resultado.",
+  "tagline": "Três caminhos em Moema: fisioterapia, pilates e osteopatia.",
+  "heroText": "Escolhe por onde começar. A avaliação diz se faz sentido.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Fisiofive fica em Moema, São Paulo.",
-  "aboutText": "Os celulares públicos estão na página. Horários e valores ficam para o contato.",
+  "aboutLead": "A Fisiofive fica em Moema e reúne fisioterapia, pilates e osteopatia no mesmo endereço.",
+  "aboutText": "Tem gente que chega pela dor e fica pelo pilates. Tem gente que já sabe que quer osteopatia. São dois celulares no contato. Manda mensagem e diz qual dos três te trouxe.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "Pilates e osteopatia constam no nome da clínica e dependem de avaliação.",
+  "servicesTitle": "Fisio, pilates e osteopatia",
+  "servicesIntro": "O que o nome da casa já entrega.",
   "services": [
     {
       "title": "Avaliação",
-      "description": "Antes de pilates ou osteopatia, uma avaliação define o caminho."
+      "description": "Antes de entrar em aula ou em sessão, a gente entende a demanda."
     },
     {
       "title": "Fisioterapia",
-      "description": "Sessões sem promessa de resultado."
+      "description": "Atendimento individual para a queixa que você trouxe."
     },
     {
       "title": "Pilates",
-      "description": "Aulas indicadas de forma individual."
+      "description": "Aula em aparelho, com correção e turma pequena."
     },
     {
       "title": "Osteopatia",
-      "description": "Atendimento que consta no nome da clínica, sempre após avaliação."
+      "description": "Abordagem manual, marcada à parte da aula."
+    },
+    {
+      "title": "Combinação",
+      "description": "Quando faz sentido, fisio e pilates conversam no mesmo plano."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Moema, São Paulo.",
+  "locationText": "Moema, São Paulo. Horário combinado pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte a queixa em uma frase e o período do dia. O botão abre o WhatsApp com a mensagem pronta.",
+  "contactLead": "Manda o que você busca: fisio, pilates ou osteopatia. A gente chama no WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511941352233",
   "phoneDisplay": "(11) 94135-2233",
   "phones": [
@@ -63,7 +67,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Fisiofive Fisioterapia e Pilates / Osteopatia - Moema / São Paulo, Moema, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Fisiofive · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "fisio",
   "radius": "12px",

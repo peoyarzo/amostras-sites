@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Auto Escola Viena",
   "shortName": "Auto Escola Viena",
   "region": "Centro, Osasco",
-  "tagline": "Autoescola no centro de Osasco.",
-  "heroText": "Aulas para habilitação no Centro de Osasco. Fale pelo telefone para saber turmas.",
+  "tagline": "Autoescola no centro de Osasco, com turma e prática.",
+  "heroText": "Teórica, volante e uma secretaria que responde.",
   "aboutKicker": "A escola",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Auto Escola Viena fica no Centro de Osasco.",
-  "aboutText": "O perfil público no Facebook e o telefone estão na página. Não há mensalidade publicada aqui.",
+  "aboutLead": "A Auto Escola Viena fica no Centro, no caminho de quem mora ou trabalha em Osasco.",
+  "aboutText": "Quer saber se ainda dá para entrar na turma desta semana? Manda mensagem. A prática é com hora. O Facebook mostra a escola; a matrícula se resolve falando com a gente.",
   "servicesKicker": "Aulas",
-  "servicesTitle": "Aulas",
-  "servicesIntro": "Aulas teóricas e práticas. Aprovação em exame não é prometida.",
+  "servicesTitle": "Aulas no Centro",
+  "servicesIntro": "O caminho da habilitação, em aulas.",
   "services": [
     {
-      "title": "Aulas teóricas",
-      "description": "Conteúdo da formação de condutores, em sala."
+      "title": "Aula teórica",
+      "description": "Conteúdo da formação, em sala, no Centro."
     },
     {
-      "title": "Aulas práticas",
-      "description": "Direção com hora marcada, no carro da autoescola."
+      "title": "Aula prática",
+      "description": "Direção com instrutor, no carro da autoescola."
     },
     {
       "title": "Categoria B",
-      "description": "Aulas de carro. Outras categorias, se houver, a secretaria confirma."
+      "description": "O caminho de carro. Outra categoria, a secretaria confirma."
     },
     {
       "title": "Matrícula",
-      "description": "Etapas e documentos explicados pela secretaria. Sem promessa de aprovação."
+      "description": "Documentos e a ordem das etapas, ditos na secretaria."
+    },
+    {
+      "title": "Horários",
+      "description": "Turma de manhã, tarde ou o encaixe que ainda estiver aberto."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de Osasco.",
+  "locationText": "Centro de Osasco. A secretaria te passa o ponto pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga seu nome e se a dúvida é sobre aula teórica, prática ou matrícula. O botão abre o WhatsApp.",
+  "contactLead": "Quer saber turma e horário? Manda um oi. Retornamos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Aulas",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com a secretaria",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511987341817",
   "phoneDisplay": "(11) 98734-1817",
   "phones": [
@@ -61,7 +65,7 @@ window.SITE = {
   ],
   "mapQuery": "Auto Escola Viena, Centro, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores e turmas informados pela secretaria.",
+  "footerNote": "© Auto Escola Viena · Prévia demonstrativa — página modelo.",
   "layout": "split",
   "font": "cursos",
   "radius": "10px",

@@ -3,48 +3,52 @@ window.SITE = {
   "name": "C & N Mooca Centro Automotivo Ltd",
   "shortName": "C & N Mooca",
   "region": "Alto da Mooca, São Paulo",
-  "tagline": "Centro automotivo no Alto da Mooca.",
-  "heroText": "Oficina no Alto da Mooca. Telefone em link para pedir um horário ou um orçamento.",
+  "tagline": "Mecânica de bairro no Alto da Mooca.",
+  "heroText": "Motor, revisão de viagem e a manutenção que o carro da família pede.",
   "aboutKicker": "A oficina",
   "aboutTitle": "Sobre",
-  "aboutLead": "A C & N Mooca fica no Alto da Mooca, em São Paulo.",
-  "aboutText": "Revisão, freios e diagnóstico entram na conversa. O preço não está nesta página.",
+  "aboutLead": "A C & N fica no Alto da Mooca, para quem não quer deixar o carro do outro lado da cidade.",
+  "aboutText": "Liga no fixo, descreve o problema e traz. A oficina te recebe, olha e explica. Se for viagem, pede a revisão com alguns dias de folga.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços",
-  "servicesIntro": "O orçamento segue a avaliação do veículo.",
+  "servicesTitle": "Oficina no Alto da Mooca",
+  "servicesIntro": "Serviço de centro automotivo, com cara de oficina conhecida.",
   "services": [
     {
-      "title": "Diagnóstico",
-      "description": "Olhada no que você relatou antes de abrir qualquer serviço."
+      "title": "Motor",
+      "description": "Falhando, fumando ou bebendo óleo: a gente abre o diagnóstico."
     },
     {
-      "title": "Revisão",
-      "description": "Fluidos, filtros e itens de rotina, conforme o carro."
+      "title": "Revisão de viagem",
+      "description": "Fluidos, pneus, freio e luzes antes da estrada."
     },
     {
-      "title": "Freios e suspensão",
-      "description": "Verificação quando há barulho, vibração ou desgaste."
+      "title": "Óleo e filtros",
+      "description": "Troca no prazo, com o carro pronto no combinado."
     },
     {
-      "title": "Orçamento",
-      "description": "O valor é passado depois da avaliação do veículo."
+      "title": "Suspensão",
+      "description": "Rua esburacada cobra. A gente vê o que quebrou."
+    },
+    {
+      "title": "Elétrica básica",
+      "description": "Partida, bateria e farol que apagou."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Alto da Mooca, São Paulo.",
+  "locationText": "Alto da Mooca, São Paulo. O telefone confirma a vaga.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Informe o modelo do carro e o que ele está apresentando. O botão abre o WhatsApp para você pedir o orçamento.",
+  "contactLead": "Quer um orçamento? Escreve o que o carro precisa. Respondemos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551126018596",
   "phoneDisplay": "(11) 2601-8596",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "C & N Mooca Centro Automotivo Ltd, Alto da Mooca, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento somente depois de avaliar o veículo.",
+  "footerNote": "© C & N Mooca · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "oficina",
   "radius": "4px",

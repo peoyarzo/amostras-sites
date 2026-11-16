@@ -10,12 +10,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 97521-3736",
     social: "@clinicaclopi",
-    tagline: "Clínica odontológica no Cerqueira César.",
-    hero: "Avaliação, prevenção e atendimento clínico, com hora marcada pelo telefone ou pelo WhatsApp.",
-    aboutLead: "A Clopi fica no Cerqueira César, em São Paulo.",
-    about: "A primeira visita é uma avaliação. O que for indicado vem depois dessa conversa. Preços não aparecem nesta página.",
-    intro: "Procedimentos comuns de consultório. A indicação depende do exame.",
-    location: "A clínica fica na região do Cerqueira César. A rua é passada na hora de agendar."
+    servicesTitle: "Cuidado com o sorriso",
+    tagline: "Consulta com calma no Cerqueira César.",
+    hero: "Avaliação, limpeza e alinhadores transparentes, com hora marcada e retorno pelo WhatsApp.",
+    aboutLead: "No Cerqueira César, a Clopi recebe você para olhar o sorriso com tempo.",
+    about: "A visita começa por uma conversa: o que incomoda, o que você gostaria de mudar e o que cabe na sua rotina. Dali a gente segue para o cuidado que faz sentido.",
+    intro: "Do check-up ao alinhador, o plano sai da conversa com você.",
+    location: "Estamos no Cerqueira César, em São Paulo. Pelo WhatsApp a gente combina o horário e explica como chegar.",
+    contact: "Conta o que você precisa e a gente responde pelo WhatsApp.",
+    services: [
+      ["Avaliação", "Uma consulta para ouvir você e ver o que o sorriso pede agora."],
+      ["Limpeza", "Profilaxia para deixar a boca fresca e a gengiva mais confortável."],
+      ["Restaurações", "Resina para devolver a forma do dente que quebrou ou cedeu."],
+      ["Alinhadores transparentes", "Aparelho discreto, pensado para o dia a dia de quem trabalha e estuda."],
+      ["Clareamento", "Um clareamento conduzido no consultório, no tom combinado com você."]
+    ]
   },
   {
     slug: "mundi-clinic",
@@ -27,12 +36,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 91550-0088 / +5511915500088",
     social: "@mundiclinic",
-    tagline: "Odontologia na Vila Mariana.",
-    hero: "Consultório na Vila Mariana para avaliação e cuidados de rotina, com retorno pelo WhatsApp.",
-    aboutLead: "A Mundi Clinic fica na Vila Mariana, em São Paulo.",
-    about: "Dá para ligar ou chamar no WhatsApp. O formulário só abre o aplicativo no seu celular, com a mensagem que você escreveu.",
-    intro: "A lista é de atendimentos genéricos. Nada é iniciado sem avaliação.",
-    location: "Região da Vila Mariana. O ponto de encontro fica para a marcação."
+    servicesTitle: "Implantes e alinhadores",
+    tagline: "Odontologia de bairro na Vila Mariana.",
+    hero: "Implantes, alinhadores e a limpeza de rotina, pertinho de casa.",
+    aboutLead: "A Mundi Clinic fica na Vila Mariana para quem quer resolver o dente sem atravessar a cidade.",
+    about: "Você chega, senta e conta o que está pegando. Implante, alinhador ou só uma revisão: a gente organiza o caminho e te avisa os horários pelo WhatsApp.",
+    intro: "Tratamentos que a clínica faz no dia a dia, explicados em português claro.",
+    location: "Vila Mariana, São Paulo. Chama no WhatsApp que mandamos a referência.",
+    contact: "Manda o dia e o período. A gente confirma pelo WhatsApp.",
+    services: [
+      ["Consulta", "Tempo para examinar e te mostrar, no espelho, o que a gente viu."],
+      ["Implantes", "Reposição de dente com planejamento feito junto com você."],
+      ["Alinhadores", "Para quem prefere um aparelho discreto no trabalho."],
+      ["Prevenção", "Limpeza e orientação para espaçar os retornos."],
+      ["Manutenção", "Revisão do que já foi feito, para o tratamento seguir em ordem."]
+    ]
   },
   {
     slug: "tiger-moema",
@@ -44,12 +62,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 99189-6466 / +5511978390467",
     social: "@tigerodonto",
-    tagline: "Consultório odontológico em Moema.",
-    hero: "Atendimento em Moema. Os telefones públicos estão em link, para quem quer marcar uma avaliação.",
-    aboutLead: "A Tiger Odontologia recebe pacientes em Moema.",
-    about: "Há mais de um número público. Use o que for mais fácil. Tratamento, se houver, só é discutido na avaliação.",
-    intro: "Cuidados de consultório, explicados antes de começar.",
-    location: "Moema, São Paulo. Esta prévia não traz número de rua."
+    servicesTitle: "Consultório em Moema",
+    tagline: "Horário marcado em Moema, com resposta rápida.",
+    hero: "Check-up, restauração e aquele dente que começou a doer no meio da semana.",
+    aboutLead: "A Tiger Odontologia atende em Moema com agenda fácil de encaixar.",
+    about: "São dois celulares públicos. Liga ou manda mensagem, diz o que está incomodando e a gente acha um horário. A cadeira é para resolver, não para te deixar esperando sem notícia.",
+    intro: "Atendimento de consultório, do controle de rotina à urgência do dia.",
+    location: "Moema, São Paulo. A gente te passa o caminho pelo WhatsApp.",
+    contact: "Quer uma avaliação em Moema? Escreve aqui que retornamos pelo WhatsApp.",
+    services: [
+      ["Check-up", "Uma olhada completa para você sair sabendo como está cada dente."],
+      ["Restauração", "Fechamos a cavidade e devolvemos o conforto na mastigação."],
+      ["Sensibilidade", "Quando o gelado incomoda, a gente investiga a causa na hora."],
+      ["Gengiva", "Cuidado com o sangramento e com a higiene do dia a dia."],
+      ["Urgência", "Dor ou quebra: chama que tentamos te encaixar na agenda de Moema."]
+    ]
   },
   {
     slug: "cia-do-sorriso",
@@ -61,12 +88,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 3683-8753 / +5511988424459",
     social: "@ciadosorrisosp",
-    tagline: "Clínica odontológica no centro de Osasco.",
-    hero: "Avaliação e cuidados de rotina no Centro. Ligue no fixo ou chame no WhatsApp.",
-    aboutLead: "A Cia do Sorriso fica no Centro de Osasco.",
-    about: "O telefone fixo e o celular estão na página, os dois clicáveis. Valores são informados na clínica, não aqui.",
-    intro: "Atendimentos de rotina e avaliação. Sem tabela de preço nesta página.",
-    location: "Centro de Osasco. A rua sai no agendamento."
+    servicesTitle: "No centro de Osasco",
+    tagline: "Clínica no Centro, fácil de chegar no meio do expediente.",
+    hero: "Consulta, limpeza e restauração com telefone fixo e WhatsApp.",
+    aboutLead: "A Cia do Sorriso está no Centro de Osasco, no caminho de quem trabalha por ali.",
+    about: "Dá para sair do serviço, fazer a limpeza e voltar. Se preferir, chama no WhatsApp antes e a gente separa o horário. Família inteira pode marcar no mesmo período.",
+    intro: "Rotina odontológica para quem mora ou trabalha no Centro.",
+    location: "Centro de Osasco. Manda um oi que a gente explica o melhor acesso.",
+    contact: "Chama a gente pelo WhatsApp com seu nome e o melhor horário.",
+    services: [
+      ["Consulta", "Exame e conversa, sem te empurrar tratamento que você não pediu."],
+      ["Limpeza", "Remove o que a escova não alcança e deixa a boca mais leve."],
+      ["Restauração", "Conserto do dente cariado ou lascado, em resina."],
+      ["Extração", "Quando o dente não tem jeito, a retirada é feita com cuidado."],
+      ["Retorno", "A gente acompanha a cicatrização e tira dúvida pelo WhatsApp."]
+    ]
   },
   {
     slug: "clinica-trombini",
@@ -78,12 +114,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 94151-6030 / +5511917652491 / +5511922126004",
     social: "@clinicadradenisetrombini",
-    tagline: "Clínica odontológica no centro de Osasco.",
-    hero: "Três telefones públicos para falar com a clínica e marcar uma avaliação.",
-    aboutLead: "A clínica fica no Centro de Osasco.",
-    about: "Os números abaixo são os de contato publicados. A página não lista equipe nem registro profissional.",
-    intro: "A avaliação vem antes de qualquer procedimento.",
-    location: "Centro de Osasco. O endereço completo fica para o contato."
+    servicesTitle: "Implante, canal e alinhador",
+    tagline: "Três telefones para falar com a clínica no Centro de Osasco.",
+    hero: "Implantes, alinhadores e canal, com alguém do outro lado da linha.",
+    aboutLead: "A clínica fica no Centro de Osasco e atende do canal ao implante.",
+    about: "Se o dente dói, se falta um, ou se você quer alinhar sem aparelho fixo, começa por aqui. Escolhe o número que for mais fácil e conta o caso. A gente organiza a sequência do tratamento.",
+    intro: "Os cuidados que mais chegam na clínica, um a um.",
+    location: "Centro de Osasco. Pelo WhatsApp a gente manda a referência e o horário.",
+    contact: "Diz como prefere ser atendido. A resposta sai pelo WhatsApp.",
+    services: [
+      ["Canal", "Cuidado do dente inflamado, com cada etapa explicada antes de começar."],
+      ["Implantes", "Planejamento para repor o dente que saiu, no seu tempo."],
+      ["Alinhadores", "Opção transparente para alinhar sem o metal à mostra."],
+      ["Consulta", "A primeira visita serve para separar o que é urgente do que pode esperar."],
+      ["Controle", "Retornos curtos para ver se está tudo no lugar."]
+    ]
   },
   {
     slug: "neide-estetica",
@@ -95,12 +140,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 96447-3907",
     social: "@neideestetica / @neideesteticaosasco (fonte: imprensa local)",
-    tagline: "Estética e harmonização facial em Ayrosa, Osasco.",
-    hero: "Avaliação para cuidados faciais. Preços e promessas de resultado não entram nesta página.",
-    aboutLead: "A Neide Estética atende em Ayrosa, Osasco.",
-    about: "Há dois perfis públicos no Instagram. Para marcar, use o telefone ou o formulário, que abre o WhatsApp com o seu texto.",
-    intro: "Procedimentos só são comentados depois da avaliação. Sem fotos de pacientes.",
-    location: "Ayrosa, Osasco. A rua é informada no agendamento."
+    servicesTitle: "Rosto, lábio e corpo",
+    tagline: "Harmonização e cuidados de pele em Ayrosa.",
+    hero: "Uma conversa franca sobre rosto, lábios e gordura localizada, em Osasco.",
+    aboutLead: "Na Neide Estética, em Ayrosa, você é recebida pelo nome e sem fila de corredor.",
+    about: "A gente olha o seu rosto com você, fala do que dá para fazer e do que é melhor deixar quieto. Há dois perfis no Instagram, se quiser ver o clima do espaço antes de vir.",
+    intro: "Cuidados que o estúdio faz, sempre a partir do que você pede.",
+    location: "Ayrosa, Osasco. Chama no WhatsApp que a gente explica como chegar.",
+    contact: "Conta o cuidado que você busca. A gente te chama no WhatsApp.",
+    services: [
+      ["Harmonização facial", "Leitura do rosto e um plano de cuidados combinado com você."],
+      ["Preenchimento labial", "Volume conversado, no desenho que você reconhece no espelho."],
+      ["Gordura localizada", "Protocolo de corpo para as áreas que mais te incomodam."],
+      ["Limpeza de pele", "Pele limpa, macia e pronta para o que você usar no dia seguinte."],
+      ["Retorno", "Uma visita curta para ver como a pele reagiu e ajustar o próximo passo."]
+    ]
   },
   {
     slug: "ac-clinic-mooca",
@@ -112,12 +166,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 98784-4448",
     social: "@ac.esteticasaude",
-    tagline: "Estética na Mooca.",
-    hero: "Clínica de estética na Mooca. A conversa começa por uma avaliação.",
-    aboutLead: "A AC Clinic fica na Mooca, em São Paulo.",
-    about: "O celular e o Instagram são os canais públicos. Esta página não mostra valor nem resultado de procedimento.",
-    intro: "Cuidados faciais e de pele, sempre com indicação individual.",
-    location: "Mooca, São Paulo."
+    servicesTitle: "Estética na Mooca",
+    tagline: "Clínica de estética avançada no meio da Mooca.",
+    hero: "Harmonização e pele, com hora marcada e resposta no WhatsApp.",
+    aboutLead: "A AC Clinic atende na Mooca quem quer cuidar do rosto sem ir para o outro lado da cidade.",
+    about: "Você senta, conta o que te incomoda no espelho e a gente propõe um caminho. Nada de pacote surpresa: o que for feito é o que vocês combinaram.",
+    intro: "Do primeiro papo à manutenção da pele.",
+    location: "Mooca, São Paulo. A referência vai pelo WhatsApp.",
+    contact: "Escreve seu nome e o que quer conversar. Respondemos pelo WhatsApp.",
+    services: [
+      ["Avaliação do rosto", "A gente observa proporção, pele e o que você gostaria de suavizar."],
+      ["Harmonização", "Procedimentos faciais escolhidos junto, um de cada vez."],
+      ["Pele", "Rotina para textura, viço e aquela mancha que não sai com creme."],
+      ["Limpeza", "Extração e hidratação para a pele respirar de novo."],
+      ["Manutenção", "Visitas espaçadas para o cuidado não se perder no mês."]
+    ]
   },
   {
     slug: "aleksandra-estetica",
@@ -129,12 +192,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 98483-1332",
     social: "@dra.aleksandracarla",
-    tagline: "Harmonização facial e estética na Mooca.",
-    hero: "Espaço na Mooca para avaliação de procedimentos faciais.",
-    aboutLead: "O consultório fica na Mooca, em São Paulo.",
-    about: "O nome fala em harmonização facial e estética. Qualquer indicação depende de avaliação. Não há preço nesta página.",
-    intro: "A orientação é individual. Nada aqui substitui a consulta.",
-    location: "Mooca, São Paulo. Endereço completo só no contato."
+    servicesTitle: "Harmonização na Mooca",
+    tagline: "Estética facial com escuta, na Mooca.",
+    hero: "Harmonização e estética avançada, num consultório fácil de achar.",
+    aboutLead: "O consultório fica na Mooca e o atendimento é de uma pessoa só olhando para você.",
+    about: "Chega com foto, dúvida ou só uma vontade. A gente separa o que combina com o seu rosto e marca o retorno com folga, para você não sair correndo.",
+    intro: "Cuidados faciais feitos com calma, do planejamento à revisão.",
+    location: "Mooca, São Paulo. Manda mensagem que indicamos o caminho.",
+    contact: "Manda uma mensagem curta. A gente retorna pelo WhatsApp para marcar.",
+    services: [
+      ["Planejamento facial", "Um desenho do que mudar e do que preservar no seu rosto."],
+      ["Harmonização", "Procedimentos feitos em etapas, para você acompanhar cada uma."],
+      ["Estética avançada", "Técnicas para pele e contorno, escolhidas na avaliação."],
+      ["Pele sensível", "Conduta mais mansa para quem irrita fácil com produto."],
+      ["Revisão", "Olhamos o rosto de novo e decidimos juntos se segue ou para."]
+    ]
   },
   {
     slug: "ikb-clinic",
@@ -146,12 +218,21 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 91121-5537",
     social: "@drakarinebraga",
-    tagline: "Instituto de estética no Jardim, em Santo André.",
-    hero: "Avaliação e orientação sobre cuidados faciais, no bairro Jardim.",
-    aboutLead: "O IKB Clinic fica no Jardim, em Santo André.",
-    about: "O telefone e o Instagram estão na página. O formulário não envia dados: ele abre o WhatsApp para você concluir.",
-    intro: "Sem promoção e sem promessa de resultado.",
-    location: "Jardim, Santo André."
+    servicesTitle: "Instituto no Jardim",
+    tagline: "Estética facial no Jardim, em Santo André.",
+    hero: "Avaliação demorada de propósito: a gente quer entender o que você busca.",
+    aboutLead: "O IKB Clinic fica no Jardim, pertinho de quem mora em Santo André.",
+    about: "Instituto com cara de consultório. Você fala, a gente anota, e só então sugere o cuidado. O Instagram mostra o espaço; o horário sai pelo WhatsApp.",
+    intro: "Um roteiro simples, da primeira visita à manutenção.",
+    location: "Jardim, Santo André. Pelo WhatsApp a gente manda a referência.",
+    contact: "Quer agendar uma avaliação? Fala com a gente pelo WhatsApp.",
+    services: [
+      ["Primeira visita", "Conversa e exame do rosto, sem pressa de fechar nada."],
+      ["Harmonização facial", "Ajustes de contorno no que você apontou como prioridade."],
+      ["Qualidade da pele", "Textura, poros e luminosidade tratados na medida da sua pele."],
+      ["Protocolo sob medida", "A sequência de sessões cabe na sua semana, não o contrário."],
+      ["Acompanhamento", "Mensagem aberta para dúvida depois que você sai da cadeira."]
+    ]
   },
   {
     slug: "clinica-biavatti",
@@ -163,12 +244,21 @@ export const leads = [
     cidade: "São Bernardo do Campo",
     phones: "(11) 4332-3449 / +554130221005 / +554130221025",
     social: "@clinicabiavatti",
-    tagline: "Clínica de estética no Jardim do Mar.",
-    hero: "Atendimento em São Bernardo do Campo. Os telefones públicos estão em link.",
-    aboutLead: "A Clínica Biavatti fica no Jardim do Mar, em São Bernardo do Campo.",
-    about: "A conduta, se houver procedimento, é definida na avaliação. Esta página não publica valores.",
-    intro: "Cuidados estéticos explicados na consulta, não por anúncio.",
-    location: "Jardim do Mar, São Bernardo do Campo."
+    servicesTitle: "Rosto, corpo e intimidade",
+    tagline: "Estética no Jardim do Mar, com discrição.",
+    hero: "Harmonização facial, corporal e íntima, em São Bernardo.",
+    aboutLead: "A Biavatti atende no Jardim do Mar quem busca cuidado de rosto, corpo ou uma conversa mais reservada.",
+    about: "A sala fecha, o papo é baixo e você escolhe por onde começar. Os telefones estão logo abaixo. Marca pelo que for mais cômodo.",
+    intro: "Três frentes de atendimento, cada uma no seu ritmo.",
+    location: "Jardim do Mar, São Bernardo do Campo. A gente explica a chegada pelo WhatsApp.",
+    contact: "Conta rapidinho o que você precisa. A resposta vem pelo WhatsApp.",
+    services: [
+      ["Harmonização facial", "Contorno e pele tratados a partir do que você vê no espelho."],
+      ["Estética corporal", "Cuidados de corpo para as regiões que você quer trabalhar."],
+      ["Estética íntima", "Atendimento reservado, no seu tempo, para esse cuidado específico."],
+      ["Avaliação", "A primeira hora é para ouvir e só depois sugerir o procedimento."],
+      ["Retorno", "Revisão do que foi feito, com espaço para ajustar o plano."]
+    ]
   },
   {
     slug: "vet-santo-andre",
@@ -180,12 +270,22 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 94019-3990",
     social: "@veterinariasantoandre",
-    tagline: "Clínica veterinária no Jardim, em Santo André.",
-    hero: "Consulta, banho e tosa, e um telefone para ligar sem copiar o número.",
-    aboutLead: "A Clínica Veterinária Santo André fica no bairro Jardim.",
-    about: "O celular está em link. Não há tabela de preço nesta página e o atendimento não promete resultado.",
-    intro: "Serviços de clínica e de banho e tosa. A conduta sai da consulta.",
-    location: "Jardim, Santo André. A rua é confirmada no telefone."
+    servicesTitle: "Clínica e banho",
+    tagline: "Veterinário no Jardim, com internação 24 horas.",
+    hero: "Consulta, vacina, banho e uma internação que não fecha de madrugada.",
+    aboutLead: "A Clínica Veterinária Santo André fica no Jardim, do lado de quem precisa sair rápido com o animal.",
+    about: "Traz o cachorro, o gato ou a dúvida. A equipe olha, explica o que viu e, se precisar ficar internado, a casa não apaga a luz. Banho e tosa entram na mesma conversa.",
+    intro: "Do banho à internação, no mesmo endereço.",
+    location: "Jardim, Santo André. Chama que a gente manda a referência.",
+    contact: "Diz o nome do animal e o que está acontecendo. A gente responde pelo WhatsApp.",
+    hours: "Internação 24 horas",
+    services: [
+      ["Consulta", "Exame clínico com explicação em voz alta, para o tutor entender."],
+      ["Vacinas", "Carteira em dia, com o reforço marcado antes de você ir embora."],
+      ["Banho e tosa", "Higiene com horário marcado, sem deixar o animal largado na espera."],
+      ["Internação", "Acompanhamento de quem precisa ficar, de dia e de madrugada."],
+      ["Orientação", "Comida, remédio e o que observar em casa, dito com clareza."]
+    ]
   },
   {
     slug: "patinhas-de-assis",
@@ -197,13 +297,22 @@ export const leads = [
     cidade: "São Bernardo do Campo",
     phones: "(11) 91771-7030 / +5511917717030",
     social: "@patinhasdeassis.hovet",
-    tagline: "Hospital veterinário no Centro de São Bernardo.",
-    hero: "O nome da unidade indica atendimento 24 horas. Confirme pelo telefone antes de sair com o animal.",
-    aboutLead: "O Patinhas de Assis fica no Centro de São Bernardo do Campo.",
-    about: "Consulta e orientação na hora. Sem promessa de resultado e sem preço nesta página.",
-    intro: "O que o animal precisa é definido na avaliação, não por esta prévia.",
-    location: "Centro de São Bernardo do Campo.",
-    hours: "Informado como 24 horas. Confirme pelo telefone."
+    servicesTitle: "Hospital 24 horas",
+    tagline: "Hospital veterinário aberto a noite inteira, no Centro.",
+    hero: "Cirurgia, internação e consulta, com alguém para atender de madrugada.",
+    aboutLead: "O Patinhas de Assis fica no Centro de São Bernardo e não fecha a porta à noite.",
+    about: "Se o animal piorou depois do jantar, liga. A equipe recebe, estabiliza e te explica o que vai acontecer nas próximas horas. De dia, o hospital também faz consulta e cirurgia marcada.",
+    intro: "Estrutura de hospital, não só de consultório.",
+    location: "Centro de São Bernardo do Campo. No WhatsApp a gente confirma se pode vir na hora.",
+    contact: "Precisa de horário ou de uma orientação agora? Chama pelo WhatsApp.",
+    hours: "Atendimento 24 horas",
+    services: [
+      ["Pronto atendimento", "Porta aberta de dia e de noite para o que não pode esperar."],
+      ["Consulta", "Avaliação clínica com tempo para o tutor perguntar."],
+      ["Cirurgia", "Procedimentos marcados, com o preparo explicado antes."],
+      ["Internação", "O animal fica acompanhado, e você recebe notícia do estado."],
+      ["Exames", "O que a consulta pedir, feito na sequência, sem te mandar para outro bairro."]
+    ]
   },
   {
     slug: "lado-a-lado-vet",
@@ -215,12 +324,22 @@ export const leads = [
     cidade: "São Bernardo do Campo",
     phones: "(11) 2374-8463",
     social: "",
-    tagline: "Hospital veterinário na Paulicéia.",
-    hero: "Atendimento veterinário em São Bernardo, com telefone para ligar direto.",
-    aboutLead: "O Hospital Veterinário Lado A Lado Animal fica na Paulicéia.",
-    about: "Banho, tosa e consulta entram na conversa pelo telefone. O formulário abre o WhatsApp com o que você escreveu.",
-    intro: "Serviços genéricos de hospital veterinário e de banho e tosa.",
-    location: "Paulicéia, São Bernardo do Campo."
+    servicesTitle: "Hospital na Paulicéia",
+    tagline: "Cirurgia, imagem e internação na Paulicéia.",
+    hero: "Raio-x, ultrassom, cirurgia e um pet shop para o que faltar em casa.",
+    aboutLead: "O Lado A Lado Animal é hospital veterinário na Paulicéia, com atendimento 24 horas.",
+    about: "Dá para consultar, examinar por imagem e, se o caso pedir, operar e internar no mesmo lugar. O telefone está logo abaixo para você ligar antes de sair com a caixa de transporte.",
+    intro: "O que um hospital de bairro precisa ter para não te jogar de um lado para o outro.",
+    location: "Paulicéia, São Bernardo do Campo. Liga ou chama que indicamos a entrada.",
+    contact: "Conta a espécie e o motivo. Retornamos pelo WhatsApp.",
+    hours: "Atendimento 24 horas",
+    services: [
+      ["Consulta", "Clínico para o sintoma que apareceu hoje."],
+      ["Raio-x e ultrassom", "Imagem na hora de fechar o diagnóstico."],
+      ["Cirurgia", "Do procedimento marcado à recuperação no hospital."],
+      ["Internação", "Vaga para quem precisa de soro, observação ou noite acompanhada."],
+      ["Pet shop", "Banho, tosa e o item de rotina que acabou em casa."]
+    ]
   },
   {
     slug: "sr-gato",
@@ -232,12 +351,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 3086-0737",
     social: "",
-    tagline: "Clínica veterinária em Pinheiros.",
-    hero: "Consulta e cuidados de rotina em Pinheiros. O telefone está em link.",
-    aboutLead: "A Clínica Veterinária Sr. Gato fica em Pinheiros, São Paulo.",
-    about: "O nome fala com tutores de gato. Na hora de marcar, confirme se o atendimento cabe para o seu animal.",
-    intro: "Consulta, orientação e banho e tosa, conforme a clínica confirmar.",
-    location: "Pinheiros, São Paulo."
+    servicesTitle: "Clínica para gatos",
+    tagline: "Em Pinheiros, um consultório que entende de gato.",
+    hero: "Consulta felina, vacina e banho, com menos estresse na espera.",
+    aboutLead: "O Sr. Gato fica em Pinheiros e o nome já diz com quem a casa conversa melhor.",
+    about: "Gato estressa fácil em sala cheia de cachorro. Aqui a recepção considera isso. Liga, conta a idade e o que mudou no comportamento, e a gente separa um horário mais quieto.",
+    intro: "Cuidados pensados para felinos e para quem mora com eles.",
+    location: "Pinheiros, São Paulo. Pelo WhatsApp a gente manda o ponto.",
+    contact: "Manda um oi com o que o seu gato precisa. A gente responde pelo WhatsApp.",
+    services: [
+      ["Consulta felina", "Exame com manejo calmo, do jeito que gato aceita melhor."],
+      ["Vacinas", "Protocolo em dia, anotado para o próximo reforço."],
+      ["Banho", "Higiene para o gato que não se vira sozinho ou chegou de resgate."],
+      ["Rotina", "Caixa, comida, pelo e o que observar entre uma consulta e outra."],
+      ["Retorno", "Revisão curta quando o quadro pede um segundo olhar."]
+    ]
   },
   {
     slug: "hovet-dom-pedro",
@@ -249,12 +377,22 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 4453-8160",
     social: "",
-    tagline: "Hospital veterinário na Vila Vitória.",
-    hero: "Hospital veterinário em Santo André, com o telefone na primeira tela.",
-    aboutLead: "O Hospital Veterinário Dom Pedro fica na Vila Vitória, em Santo André.",
-    about: "Use o telefone para consulta, banho e tosa ou para saber o que informar antes de ir.",
-    intro: "A página não substitui a orientação da equipe e não promete desfecho.",
-    location: "Vila Vitória, Santo André."
+    servicesTitle: "Hospital e pet shop",
+    tagline: "Hospital veterinário 24 horas na Vila Vitória.",
+    hero: "Consulta, internação e pet shop, com telefone na primeira dobra.",
+    aboutLead: "O Dom Pedro fica na Vila Vitória e funciona como hospital, não como balcão de ração.",
+    about: "Você liga, diz o que o animal está sentindo e a gente te fala se vem agora ou se marca. De madrugada a porta segue aberta. De dia, dá para resolver banho, consulta e o que faltou na despensa.",
+    intro: "Hospital com pet shop ao lado, para a ida render.",
+    location: "Vila Vitória, Santo André. Chama que orientamos a chegada.",
+    contact: "Fala com a gente pelo WhatsApp para encaixar a consulta.",
+    hours: "Atendimento 24 horas",
+    services: [
+      ["Pronto atendimento", "Plantão para o susto da madrugada e o mal-estar da tarde."],
+      ["Consulta", "Clínico com explicação do que a gente encontrou."],
+      ["Internação", "O animal fica em observação e você é avisado da evolução."],
+      ["Banho e tosa", "Higiene marcada, sem misturar com a fila da urgência."],
+      ["Pet shop", "Ração, acessório e o que acaba sempre na pior hora."]
+    ]
   },
   {
     slug: "elaine-navas",
@@ -266,12 +404,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 99319-2067 / +551199319206 / +5511993192067",
     social: "@elainenavasadv",
-    tagline: "Escritório de advocacia no Tatuapé.",
-    hero: "Orientação jurídica no Tatuapé. A conversa é informativa e não antecipa o resultado do caso.",
-    aboutLead: "Elaine Navas — Advocacia atende na região do Tatuapé, em São Paulo.",
-    about: "Dá para ligar ou escrever pelo WhatsApp. O escritório explica o que cabe a partir dos fatos e dos documentos.",
-    intro: "Sem promessa de êxito e sem honorários nesta página.",
-    location: "Tatuapé, São Paulo."
+    servicesTitle: "Trabalho, previdência e família",
+    tagline: "Advocacia no Tatuapé, com explicação em linguagem direta.",
+    hero: "Questões de trabalho, previdência e família, com hora para sentar e falar.",
+    aboutLead: "O escritório de Elaine Navas fica no Tatuapé e atende quem precisa organizar um problema, não quem busca frase feita.",
+    about: "Você traz o relato e os papéis que já tem. A gente separa o que é trabalhista, previdenciário ou de família e diz, com clareza, qual caminho existe. A conversa é reservada e marcada.",
+    intro: "Três áreas em que o escritório trabalha no dia a dia.",
+    location: "Tatuapé, São Paulo. O ponto de encontro sai pelo WhatsApp.",
+    contact: "Conta o assunto em poucas linhas. A gente retorna pelo WhatsApp.",
+    services: [
+      ["Direito do trabalho", "Verbas, rescisão e o que ficou pendente na saída do emprego."],
+      ["Previdenciário", "Aposentadoria e benefícios, com a papelada organizada."],
+      ["Família", "Acordos e conflitos familiares tratados com discrição."],
+      ["Conversa inicial", "Uma hora para você contar o caso e saber se o escritório segue com ele."],
+      ["Andamento", "Quando há processo, você sabe a quem perguntar o próximo passo."]
+    ]
   },
   {
     slug: "edimar-ruiz",
@@ -283,12 +430,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 2102-8889 / +5511932191179",
     social: "@edimar.ruizadv",
-    tagline: "Advocacia no Tatuapé.",
-    hero: "Unidade Tatuapé. Telefone fixo e celular, os dois com link.",
-    aboutLead: "O escritório Edimar Ruiz atende no Tatuapé.",
-    about: "Cada caso depende da análise dos fatos. Esta página não trata de resultado nem de valor.",
-    intro: "O atendimento começa por uma conversa e pela leitura dos documentos.",
-    location: "Tatuapé, São Paulo. Esta é a unidade do bairro."
+    servicesTitle: "Unidade Tatuapé",
+    tagline: "Escritório no Tatuapé, com telefone fixo e celular.",
+    hero: "Uma unidade de bairro para quem quer falar com advogado sem ir ao centro.",
+    aboutLead: "A unidade Tatuapé do escritório Edimar Ruiz recebe o cliente perto de casa.",
+    about: "Liga no fixo ou no celular, diz o tema em uma frase e marca. Na sala, a gente lê o que você trouxe e devolve um caminho possível, em palavras comuns.",
+    intro: "Como a conversa acontece, do primeiro contato ao acompanhamento.",
+    location: "Tatuapé, São Paulo. Esta é a unidade do bairro.",
+    contact: "Escreve seu nome e o tema. O escritório responde pelo WhatsApp.",
+    services: [
+      ["Primeira reunião", "Você conta o que aconteceu. A gente separa fato de detalhe."],
+      ["Leitura de documentos", "Contrato, notificação ou prints: a gente aponta o que falta."],
+      ["Orientação", "As opções na mesa, ditas de um jeito que dá para repetir em casa."],
+      ["Estratégia", "O que fazer agora e o que pode esperar a semana que vem."],
+      ["Acompanhamento", "Um nome e um telefone para perguntar como o caso está."]
+    ]
   },
   {
     slug: "gentili-advogados",
@@ -300,12 +456,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 5542-0090",
     social: "",
-    tagline: "Escritório de advocacia em Moema.",
-    hero: "Um telefone claro para quem precisa de orientação jurídica em Moema.",
-    aboutLead: "Gentili Advogados & Associados fica em Moema, São Paulo.",
-    about: "Na primeira conversa, o escritório ouve o caso e diz se pode acompanhar. A linguagem daqui é só informativa.",
-    intro: "Sem captação por promessa e sem tabela de honorários.",
-    location: "Moema, São Paulo."
+    servicesTitle: "Escritório em Moema",
+    tagline: "Advogados em Moema, com telefone que atende.",
+    hero: "Orientação jurídica em Moema, marcada e sem sala de espera infinita.",
+    aboutLead: "A Gentili Advogados fica em Moema para quem precisa de uma conversa objetiva.",
+    about: "Você liga, marca e chega com o essencial. O escritório ouve, diz se pode cuidar do caso e explica o próximo movimento. O resto fica para a reunião, não para o corredor.",
+    intro: "Um jeito direto de ser recebido.",
+    location: "Moema, São Paulo. A referência da sala vai no telefone.",
+    contact: "Manda uma mensagem objetiva. Retornamos pelo WhatsApp para marcar uma conversa.",
+    services: [
+      ["Atendimento marcado", "Horário combinado, para a reunião começar na hora."],
+      ["Análise do caso", "Leitura do relato e dos papéis antes de qualquer passo."],
+      ["Orientação clara", "O que dá para fazer, dito sem jargão."],
+      ["Documentos", "Lista do que reunir, para você não voltar pela metade."],
+      ["Retorno", "Quando o assunto segue, você tem com quem falar no escritório."]
+    ]
   },
   {
     slug: "barbosa-cruz",
@@ -317,12 +482,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 96320-9335",
     social: "@lbadvogado",
-    tagline: "Advocacia em Santana.",
-    hero: "Escritório em Santana, com WhatsApp e telefone para agendar uma conversa.",
-    aboutLead: "Barbosa & Cruz Advogados fica em Santana, São Paulo.",
-    about: "O atendimento explica caminhos. Não antecipa decisão e não publica honorários.",
-    intro: "Você conta o assunto em linhas gerais. Os detalhes ficam para a consulta.",
-    location: "Santana, São Paulo."
+    servicesTitle: "Família, cível e previdência",
+    tagline: "Escritório em Santana para assunto de família, cível e INSS.",
+    hero: "Três frentes de trabalho e um WhatsApp para marcar a conversa.",
+    aboutLead: "Barbosa & Cruz fica em Santana e atende família, cível e previdenciário.",
+    about: "Mora na zona norte e não quer descer até o centro para explicar um problema: o escritório está aqui. Traz o que você tem em mãos. A gente organiza e te diz o que vem depois.",
+    intro: "As áreas em que o escritório costuma receber clientes.",
+    location: "Santana, São Paulo. Pelo WhatsApp a gente combina a sala e o horário.",
+    contact: "Diz do que se trata. A gente chama no WhatsApp para marcar.",
+    services: [
+      ["Família", "Divórcio, guarda e acordos tratados com reserva."],
+      ["Cível", "Contratos, cobrança e conflitos do dia a dia."],
+      ["Previdenciário", "Pedidos junto ao INSS, com a documentação revista antes."],
+      ["Consulta", "Uma conversa inicial para ver se o caso é conosco."],
+      ["Acompanhamento", "Notícia do andamento, quando existe processo."]
+    ]
   },
   {
     slug: "oliveira-campanini",
@@ -334,12 +508,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 3729-3255 / +551137293255",
     social: "@oliveiracampanini",
-    tagline: "Escritório de advocacia em Santana.",
-    hero: "Contato direto com o escritório em Santana, por telefone.",
-    aboutLead: "Oliveira Campanini Advogados Associados fica em Santana.",
-    about: "A orientação parte do relato e dos documentos. Esta página não fala de prazo de processo nem de honorários.",
-    intro: "Atendimento informativo. O desfecho não é prometido.",
-    location: "Santana, São Paulo."
+    servicesTitle: "Complexo jurídico em Santana",
+    tagline: "Um escritório grande, com atendimento que ainda atende o telefone.",
+    hero: "Orientação em Santana, com time para o caso não ficar parado numa gaveta.",
+    aboutLead: "Oliveira Campanini fica em Santana e recebe do assunto simples ao que pede mais gente olhando.",
+    about: "Liga no número do escritório, diz o tema e a recepção te direciona. Na reunião, você fala com quem vai cuidar do caso e sai sabendo o que separar em casa.",
+    intro: "Como o atendimento se organiza aqui.",
+    location: "Santana, São Paulo. A portaria e a sala são confirmadas no telefone.",
+    contact: "Quer uma orientação inicial? Escreve aqui e falamos pelo WhatsApp.",
+    services: [
+      ["Recepção do caso", "Alguém anota o tema e te coloca com a área certa."],
+      ["Reunião", "Conversa marcada, com os documentos que fizerem diferença."],
+      ["Estudo", "Leitura do material antes de te devolver um caminho."],
+      ["Peças e pedidos", "O que for protocolar sai com você informado."],
+      ["Contato direto", "Telefone do escritório para perguntar o andamento."]
+    ]
   },
   {
     slug: "contnow",
@@ -351,12 +534,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 96267-6781 / +5511962676781",
     social: "",
-    tagline: "Contabilidade no Umuarama, em Osasco.",
-    hero: "Rotina contábil, fiscal e departamento pessoal. O retorno é pelo telefone ou pelo WhatsApp.",
-    aboutLead: "A Contnow fica no Umuarama, em Osasco.",
-    about: "Dá para pedir um contato e combinar o envio de documentos. Não há mensalidade nem promessa de economia de imposto nesta página.",
-    intro: "Serviços de escritório contábil. O escopo é fechado na conversa.",
-    location: "Umuarama, Osasco."
+    servicesTitle: "Contabilidade no Umuarama",
+    tagline: "Societário, folha, imposto e rotina, no Umuarama.",
+    hero: "Abertura, departamento pessoal e o fiscal em dia, com resposta no WhatsApp.",
+    aboutLead: "A Contnow fica no Umuarama e pega a empresa do contrato social à guia do mês.",
+    about: "Manda o que está apertando: abrir, regularizar, folha ou imposto de renda. A gente diz o que precisa receber de você e devolve a rotina organizada. O celular está aí embaixo.",
+    intro: "As frentes em que o escritório trabalha.",
+    location: "Umuarama, Osasco. A referência vai pelo WhatsApp.",
+    contact: "Conta o porte da empresa e o que você precisa. Respondemos pelo WhatsApp.",
+    services: [
+      ["Abertura e societário", "Contrato, alteração e a papelada de constituir a empresa."],
+      ["Departamento pessoal", "Admissão, folha e as obrigações de quem tem equipe."],
+      ["Fiscal", "Guias e declarações no calendário, sem susto de última hora."],
+      ["Contábil", "Livros e balanço em ordem para banco, sócio e você mesmo."],
+      ["Imposto de renda", "Organização da declaração de quem é dono do negócio."]
+    ]
   },
   {
     slug: "etica-osasco",
@@ -368,12 +560,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 3688-3000",
     social: "",
-    tagline: "Escritório de contabilidade no centro de Osasco.",
-    hero: "Atendimento contábil no Centro. Ligue para falar com o escritório.",
-    aboutLead: "A Contabilidade Ética fica no Centro de Osasco.",
-    about: "O telefone público está em link. Rotina, folha e obrigações têm o escopo combinado no contato.",
-    intro: "Sem pacote com preço publicado e sem promessa de resultado fiscal.",
-    location: "Centro de Osasco."
+    servicesTitle: "Escritório no Centro",
+    tagline: "Contabilidade no Centro de Osasco, com telefone fixo.",
+    hero: "Rotina, folha e abertura, para quem prefere falar com gente.",
+    aboutLead: "A Contabilidade Ética está no Centro e atende empresa que quer um escritório de verdade, não uma caixa de e-mail muda.",
+    about: "Liga, conta se é MEI crescendo, loja ou prestador de serviço. A gente encaixa a rotina, a folha e os impostos no tamanho do seu movimento.",
+    intro: "O básico bem feito, que é o que segura a empresa no mês.",
+    location: "Centro de Osasco. Perto de quem já circula pelo calçadão.",
+    contact: "Manda seu nome e se é abertura, folha ou rotina. A gente retorna pelo WhatsApp.",
+    services: [
+      ["Rotina mensal", "Lançamentos e obrigações que não podem virar bola de neve."],
+      ["Folha", "Pagamento, férias e admissão sem planilha caseira."],
+      ["Impostos", "O que vence no mês, avisado antes do dia."],
+      ["Abertura", "Do zero até o CNPJ funcionar de verdade."],
+      ["Dúvida do dia", "Uma pergunta objetiva, respondida por quem cuida da sua conta."]
+    ]
   },
   {
     slug: "moema-contabilidade",
@@ -385,12 +586,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 94637-2721 / +5511946372721",
     social: "@moemacontabilidade",
-    tagline: "Contabilidade na Vila Gertrudes.",
-    hero: "Unidade Berrini, na Vila Gertrudes. Telefone e WhatsApp para pedir uma conversa.",
-    aboutLead: "A Moema Contabilidade fica na Vila Gertrudes, em São Paulo.",
-    about: "A página explica o tipo de serviço e o contato. Valores de mensalidade não são publicados aqui.",
-    intro: "Contábil, fiscal e departamento pessoal, conforme a empresa.",
-    location: "Vila Gertrudes, São Paulo."
+    servicesTitle: "Unidade Berrini",
+    tagline: "Contabilidade na Vila Gertrudes, ao lado da Berrini.",
+    hero: "Escritório de bairro para empresa que trabalha na região da Berrini.",
+    aboutLead: "A unidade Berrini da Moema Contabilidade fica na Vila Gertrudes.",
+    about: "Você não precisa cruzar a cidade para entregar um documento ou tirar uma dúvida de sócio. Chama no WhatsApp, combina e, se fizer falta, aparece. A rotina fiscal e a folha seguem no mês.",
+    intro: "Serviço de escritório, com gente acessível na região.",
+    location: "Vila Gertrudes, São Paulo. A unidade é a da Berrini.",
+    contact: "Escreve o que a empresa precisa agora. A resposta sai pelo WhatsApp.",
+    services: [
+      ["Rotina contábil", "O mês fechado, com número que você consegue ler."],
+      ["Fiscal", "Apuração e entrega no prazo, com aviso quando falta documento."],
+      ["Folha e pró-labore", "Quem trabalha e quem é sócio, cada um no seu lançamento."],
+      ["Abertura e alteração", "CNPJ novo ou contrato que precisa mudar."],
+      ["Conversa com o contador", "Um canal curto para a pergunta que não pode esperar o fechamento."]
+    ]
   },
   {
     slug: "acadia-contabil",
@@ -402,12 +612,21 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 4475-2312 / +5511988590686",
     social: "",
-    tagline: "Assessoria contábil em Santo André.",
-    hero: "Escritório no Parque Erasmo Assunção. Ligue ou chame no WhatsApp.",
-    aboutLead: "A Acadia Contabilidade fica no Parque Erasmo Assunção, em Santo André.",
-    about: "Abertura, mudança de contador e rotina entram na conversa. O preço depende do porte da empresa.",
-    intro: "O que entra no contrato é definido com o escritório.",
-    location: "Parque Erasmo Assunção, Santo André."
+    servicesTitle: "Abertura e troca de contador",
+    tagline: "Assessoria contábil no Parque Erasmo Assunção.",
+    hero: "Abrir empresa ou migrar de escritório, em Santo André.",
+    aboutLead: "A Acadia fica no Parque Erasmo Assunção e pega tanto quem está começando quanto quem já cansou do contador atual.",
+    about: "Na migração, a gente pede o que falta e assume o mês sem te deixar no vácuo. Na abertura, explica cada etapa antes de você assinar. Tem fixo e WhatsApp.",
+    intro: "Dois movimentos que o escritório faz o tempo todo.",
+    location: "Parque Erasmo Assunção, Santo André. A referência sai no WhatsApp.",
+    contact: "Quer abrir um CNPJ ou trocar de contador? Chama pelo WhatsApp.",
+    services: [
+      ["Abertura", "Enquadramento e documentos para a empresa nascer certa."],
+      ["Migração", "A passagem do escritório antigo, com o histórico pedido e conferido."],
+      ["Rotina", "Fiscal, contábil e o calendário do mês."],
+      ["Folha", "Se houver equipe, a admissão e o pagamento entram no pacote da conversa."],
+      ["Orientação", "A dúvida de sócio respondida antes de virar problema."]
+    ]
   },
   {
     slug: "ht-contabil",
@@ -419,12 +638,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 94552-4018 / +5511945524018",
     social: "@htcontabil",
-    tagline: "Contabilidade no Tatuapé.",
-    hero: "Escritório no Tatuapé para rotinas contábeis e fiscais, com WhatsApp e telefone.",
-    aboutLead: "A HT Contábil fica no Tatuapé, em São Paulo.",
-    about: "O contato está na página. O serviço é combinado caso a caso, sem promessa de resultado fiscal.",
-    intro: "Organização de documentos, obrigações e folha.",
-    location: "Tatuapé, São Paulo."
+    servicesTitle: "Contabilidade no Tatuapé",
+    tagline: "Escritório digital de bairro: você manda o documento, a gente organiza.",
+    hero: "Rotina contábil no Tatuapé, com WhatsApp no lugar da pasta de papel.",
+    aboutLead: "A HT Contábil fica no Tatuapé e toca a contabilidade de um jeito direto.",
+    about: "Foto do boleto, PDF da nota, áudio com a dúvida: manda. O escritório lança, cobra o que faltou e te devolve o mês em ordem. Se quiser sentar, o bairro é o Tatuapé.",
+    intro: "Contabilidade que cabe no celular e num escritório de verdade.",
+    location: "Tatuapé, São Paulo. Atendimento combinado pelo WhatsApp.",
+    contact: "Manda uma mensagem curta. A gente combina o próximo passo pelo WhatsApp.",
+    services: [
+      ["Rotina digital", "Documentos pelo WhatsApp, lançamento no escritório."],
+      ["Fiscal", "Impostos do mês com a lista do que ainda falta enviar."],
+      ["Folha", "Admissão e pagamento de quem trabalha com você."],
+      ["Abertura", "Empresa nova, com as etapas ditas uma por uma."],
+      ["Fechamento", "Números do período para você decidir com o sócio."]
+    ]
   },
   {
     slug: "moema-physio",
@@ -436,12 +664,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 5093-3968",
     social: "@moemaphysioclinic, @osascophysioclinic",
-    tagline: "Fisioterapia em Moema.",
-    hero: "Avaliação fisioterapêutica em Moema. A conduta é definida depois, sem promessa de resultado.",
-    aboutLead: "A Moema Physio Clinic fica em Moema, São Paulo.",
-    about: "O telefone está em link e há dois perfis públicos no Instagram. Não há preço nem promessa de melhora nesta página.",
-    intro: "A avaliação vem antes das sessões.",
-    location: "Moema, São Paulo."
+    servicesTitle: "Fisioterapia em Moema",
+    tagline: "Coluna e movimento, com avaliação antes da sessão.",
+    hero: "Fisioterapia em Moema para quem sente a coluna ou quer se mover com menos incômodo.",
+    aboutLead: "A Moema Physio Clinic fica em Moema e recebe a queixa com calma, antes de montar as sessões.",
+    about: "Você conta onde dói, desde quando, e o que já tentou. A avaliação define o caminho. Há telefone e dois perfis no Instagram, o de Moema e o de Osasco.",
+    intro: "Cuidado de clínica, com foco em coluna e movimento.",
+    location: "Moema, São Paulo. O horário sai pelo telefone ou pelo WhatsApp.",
+    contact: "Conta a queixa e o período do dia. A gente responde pelo WhatsApp.",
+    services: [
+      ["Avaliação", "A primeira visita é para entender a queixa e o seu dia."],
+      ["Coluna", "Sessões voltadas para cervical, lombar e o que está sobrecarregado."],
+      ["Fisioterapia", "Conduta montada para o seu caso, sessão a sessão."],
+      ["Movimento", "Exercício explicado para você repetir em casa com segurança."],
+      ["Revisão", "A gente olha de novo se o plano ainda faz sentido."]
+    ]
   },
   {
     slug: "reabilitando",
@@ -453,12 +690,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 3443-0857",
     social: "@reabilitando_fisioterapia",
-    tagline: "Fisioterapia em Indianópolis.",
-    hero: "Avaliação e atendimento em Indianópolis, com telefone para marcar.",
-    aboutLead: "A Reabilitando fica em Indianópolis, São Paulo.",
-    about: "O plano de sessões, se houver, sai da avaliação. Sem promessa de resultado e sem tabela de preço.",
-    intro: "Fisioterapia com conduta individual.",
-    location: "Indianópolis, São Paulo."
+    servicesTitle: "Fisioterapia em Indianópolis",
+    tagline: "Reabilitação com explicação, em Indianópolis.",
+    hero: "Sessões para voltar ao movimento, perto de Moema e do metrô da região.",
+    aboutLead: "A Reabilitando fica em Indianópolis e trata a reabilitação como conversa, não como esteira.",
+    about: "A gente quer saber o que você precisa voltar a fazer: subir escada, trabalhar sentado, correr no fim de semana. A avaliação desenha as sessões. O telefone marca.",
+    intro: "Fisioterapia para a vida que você quer retomar.",
+    location: "Indianópolis, São Paulo. Chama que mandamos a referência.",
+    contact: "Quer marcar uma avaliação? Escreve aqui que confirmamos pelo WhatsApp.",
+    services: [
+      ["Avaliação", "História da lesão, do trabalho e do que você sente hoje."],
+      ["Sessões", "Atendimento individual, no ritmo que o corpo aguenta."],
+      ["Reabilitação", "Exercício para ganhar função de volta, com correção na hora."],
+      ["Orientação", "O que evitar na semana e o que já pode fazer."],
+      ["Alta combinada", "Você sai sabendo quando voltar, se precisar."]
+    ]
   },
   {
     slug: "b-active",
@@ -470,12 +716,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 5093-2789",
     social: "@redebactive",
-    tagline: "Fisioterapia em Indianópolis.",
-    hero: "Clínica de fisioterapia em Indianópolis, com telefone em link.",
-    aboutLead: "A B-Active fica em Indianópolis, São Paulo.",
-    about: "Para marcar uma avaliação, ligue ou use o formulário. Ele abre o WhatsApp com a sua mensagem e não envia nada sozinho.",
-    intro: "Sessões só depois da avaliação. Sem promessa de resultado.",
-    location: "Indianópolis, São Paulo."
+    servicesTitle: "Clínica em Indianópolis",
+    tagline: "Fisioterapia com hora marcada em Indianópolis.",
+    hero: "Avaliação e sessão, sem depender de chat escondido para achar a clínica.",
+    aboutLead: "A B-Active desta unidade fica em Indianópolis.",
+    about: "Liga, diz o que está limitando o seu dia e marca a avaliação. Nas sessões, o fisioterapeuta te explica o exercício antes de te deixar repetindo sozinho.",
+    intro: "Um fluxo curto: avaliar, tratar, revisar.",
+    location: "Indianópolis, São Paulo. A chegada é combinada pelo telefone.",
+    contact: "Diz seu nome e o melhor turno. Retornamos pelo WhatsApp.",
+    services: [
+      ["Avaliação física", "Testes simples para ver onde o movimento trava."],
+      ["Sessão", "Conduta individual, com tempo de começar e de terminar."],
+      ["Exercício terapêutico", "Movimento corrigido, não série copiada da internet."],
+      ["Dor do dia a dia", "Coluna, ombro, joelho: a queixa que te trouxe até aqui."],
+      ["Acompanhamento", "A cada bloco de sessões, a gente revê se segue ou muda."]
+    ]
   },
   {
     slug: "fisiofive",
@@ -487,12 +742,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 94135-2233 / +5511941352233 / +5511977975048",
     social: "@fisiofive",
-    tagline: "Fisioterapia e pilates em Moema.",
-    hero: "Avaliação, pilates e osteopatia em Moema. Tudo parte da avaliação, sem promessa de resultado.",
-    aboutLead: "A Fisiofive fica em Moema, São Paulo.",
-    about: "Os celulares públicos estão na página. Horários e valores ficam para o contato.",
-    intro: "Pilates e osteopatia constam no nome da clínica e dependem de avaliação.",
-    location: "Moema, São Paulo."
+    servicesTitle: "Fisio, pilates e osteopatia",
+    tagline: "Três caminhos em Moema: fisioterapia, pilates e osteopatia.",
+    hero: "Escolhe por onde começar. A avaliação diz se faz sentido.",
+    aboutLead: "A Fisiofive fica em Moema e reúne fisioterapia, pilates e osteopatia no mesmo endereço.",
+    about: "Tem gente que chega pela dor e fica pelo pilates. Tem gente que já sabe que quer osteopatia. São dois celulares no contato. Manda mensagem e diz qual dos três te trouxe.",
+    intro: "O que o nome da casa já entrega.",
+    location: "Moema, São Paulo. Horário combinado pelo WhatsApp.",
+    contact: "Manda o que você busca: fisio, pilates ou osteopatia. A gente chama no WhatsApp.",
+    services: [
+      ["Avaliação", "Antes de entrar em aula ou em sessão, a gente entende a demanda."],
+      ["Fisioterapia", "Atendimento individual para a queixa que você trouxe."],
+      ["Pilates", "Aula em aparelho, com correção e turma pequena."],
+      ["Osteopatia", "Abordagem manual, marcada à parte da aula."],
+      ["Combinação", "Quando faz sentido, fisio e pilates conversam no mesmo plano."]
+    ]
   },
   {
     slug: "invicta-pilates",
@@ -504,12 +768,21 @@ export const leads = [
     cidade: "São Bernardo do Campo",
     phones: "(11) 94703-8756",
     social: "",
+    servicesTitle: "Aulas no Centro",
     tagline: "Estúdio de pilates no centro de São Bernardo.",
-    hero: "Aulas de pilates no Centro. Chame no WhatsApp para saber horários.",
-    aboutLead: "O Studio Invicta Pilates fica no Centro de São Bernardo do Campo.",
-    about: "A mensagem pode sair pelo formulário: ele abre o WhatsApp com o texto pronto. Não há preço nem promessa de resultado nesta página.",
-    intro: "Aulas ajustadas à pessoa. O estúdio confirma grade e vaga.",
-    location: "Centro de São Bernardo do Campo."
+    hero: "Aula em aparelho, horário combinado e uma primeira vez para você sentir o ritmo.",
+    aboutLead: "O Studio Invicta fica no Centro, fácil para quem trabalha em São Bernardo.",
+    about: "Não é academia de esteira. É aula de pilates, com hora e com correção. Manda mensagem, diz manhã ou noite, e a gente vê a turma que ainda tem lugar.",
+    intro: "O estúdio em quatro pontos.",
+    location: "Centro de São Bernardo do Campo. A referência vai no WhatsApp.",
+    contact: "Quer saber os horários de aula? Fala com a gente pelo WhatsApp.",
+    services: [
+      ["Primeira aula", "Você conhece o aparelho e o jeito da casa antes de fechar a grade."],
+      ["Pilates em aparelho", "Reformer e acessórios, com olhar em cima do movimento."],
+      ["Solo", "Quando a turma ou o objetivo pedem o exercício no chão."],
+      ["Horários", "Manhã e outros turnos, confirmados pelo WhatsApp."],
+      ["Adaptação", "A carga muda com você, não o contrário."]
+    ]
   },
   {
     slug: "camila-fontes",
@@ -521,12 +794,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 98411-9794",
     social: "",
-    tagline: "Consultório de nutrição na Vila Cláudia.",
-    hero: "Consulta de nutrição na Vila Cláudia. A orientação é individual e não promete resultado.",
-    aboutLead: "O consultório de Camila Fontes fica na Vila Cláudia, em São Paulo.",
-    about: "O telefone está em link. Não há cardápio, preço ou foto de paciente nesta página.",
-    intro: "A orientação alimentar é definida na consulta.",
-    location: "Vila Cláudia, São Paulo."
+    servicesTitle: "Nutrição na Vila Cláudia",
+    tagline: "Consulta de nutrição pertinho, com plano que cabe na semana.",
+    hero: "Comida de verdade, rotina real e uma consulta na Vila Cláudia.",
+    aboutLead: "O consultório de Camila Fontes fica na Vila Cláudia, para quem quer organizar a alimentação sem cardápio de revista.",
+    about: "Na consulta, a gente olha horário de trabalho, fome, mercado e o que você já gosta de comer. O plano sai disso. O telefone marca o retorno.",
+    intro: "Nutrição de consultório, pé no chão.",
+    location: "Vila Cláudia, São Paulo. Chama que a gente manda a referência.",
+    contact: "Conta se quer marcar uma consulta. A gente responde pelo WhatsApp.",
+    services: [
+      ["Consulta", "História alimentar, rotina e o que você espera dessa mudança."],
+      ["Plano alimentar", "Sugestões que cabem na sua semana, não num dia perfeito."],
+      ["Compras e preparo", "O que ter em casa para o plano não morrer na terça."],
+      ["Retorno", "Ajuste do que funcionou e do que você não conseguiu seguir."],
+      ["Dúvida entre consultas", "Uma pergunta objetiva pelo WhatsApp, quando surgir."]
+    ]
   },
   {
     slug: "desenvolvendo-personalidade",
@@ -538,12 +820,21 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 2598-1096 / +551125981096 / +5511974123951",
     social: "@desenvolvendo_personalidade",
-    tagline: "Atendimento em psicologia na Vila Santa Teresa.",
-    hero: "Conversas para pessoas e empresas, como o nome do espaço indica. Sem promessa de cura.",
-    aboutLead: "A Desenvolvendo Personalidade fica na Vila Santa Teresa, em Santo André.",
-    about: "O telefone fixo e o celular estão em link. O atendimento não publica preço e não promete resultado.",
-    intro: "O formato, individual ou para empresas, é combinado na primeira conversa.",
-    location: "Vila Santa Teresa, Santo André."
+    servicesTitle: "Pessoas e empresas",
+    tagline: "Psicologia na Vila Santa Teresa, para gente e para equipe.",
+    hero: "Atendimento individual e encontro com empresa, no mesmo endereço.",
+    aboutLead: "A Desenvolvendo Personalidade fica na Vila Santa Teresa e o nome já abre as duas portas: a pessoal e a do trabalho.",
+    about: "Você pode vir falar da sua vida ou trazer uma demanda da empresa. O formato muda, o cuidado de escutar não. Tem telefone fixo e celular.",
+    intro: "Saúde e educação, no ritmo de cada pedido.",
+    location: "Vila Santa Teresa, Santo André. A sala é combinada pelo WhatsApp.",
+    contact: "Escreve seu nome e se o atendimento é para você ou para a empresa. Retornamos pelo WhatsApp.",
+    services: [
+      ["Atendimento individual", "Conversas para organizar o que você está vivendo."],
+      ["Empresas", "Encontros com equipe, quando a demanda nasce no trabalho."],
+      ["Educação", "Espaço para quem busca entender um comportamento e mudar o hábito."],
+      ["Primeira conversa", "Serve para ver o formato e se faz sentido seguir."],
+      ["Horários", "Fixo ou celular: a gente acha um encaixe na semana."]
+    ]
   },
   {
     slug: "psipin",
@@ -555,12 +846,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 3297-6115 / +5511984920031 / +5511984920050",
     social: "@psi_pin",
-    tagline: "Psicologia em Pinheiros.",
-    hero: "Consultório em Pinheiros para quem quer marcar uma primeira conversa.",
-    aboutLead: "A Psicologia Pinheiros — PsiPin fica em Pinheiros, São Paulo.",
-    about: "Há telefone e WhatsApp. A página explica o contato e o tipo de atendimento, sem promessa de cura e sem honorários.",
-    intro: "A primeira conversa serve para entender a demanda.",
-    location: "Pinheiros, São Paulo."
+    servicesTitle: "Psicologia em Pinheiros",
+    tagline: "Consultório em Pinheiros para uma primeira conversa sem pressa.",
+    hero: "Psicoterapia com hora marcada, no meio de Pinheiros.",
+    aboutLead: "A PsiPin fica em Pinheiros e recebe quem quer um espaço semanal para falar.",
+    about: "A primeira conversa serve para você sentir se o jeito da casa combina. Se combinar, a gente acerta o dia. Tem telefone fixo e WhatsApp.",
+    intro: "Atendimento psicológico, simples de marcar.",
+    location: "Pinheiros, São Paulo. A referência da sala vai na mensagem.",
+    contact: "Quer uma primeira conversa? Manda um oi. A gente chama no WhatsApp.",
+    services: [
+      ["Primeira conversa", "Um encontro para você conhecer o consultório e contar o motivo."],
+      ["Psicoterapia", "Sessões no ritmo combinado, com o mesmo cuidado de escuta."],
+      ["Demanda do dia", "Trabalho, relação, luto, a pergunta que não cabe no almoço."],
+      ["Horário fixo", "Um dia da semana que passa a ser seu, enquanto fizer sentido."],
+      ["Remarcação", "Imprevisto acontece. Avisa pelo WhatsApp que a gente reorganiza."]
+    ]
   },
   {
     slug: "wesley-menezes",
@@ -572,12 +872,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 95372-2675",
     social: "@drwesleymenezes",
-    tagline: "Consultório de nutrição no centro de Osasco.",
-    hero: "Consulta de nutrição no Centro. Chame no WhatsApp ou ligue para marcar.",
-    aboutLead: "O consultório fica no Centro de Osasco.",
-    about: "A orientação alimentar sai da consulta. Esta página não mostra preço nem resultado.",
-    intro: "Sem cardápio genérico e sem promessa de mudança corporal.",
-    location: "Centro de Osasco."
+    servicesTitle: "Nutrição esportiva",
+    tagline: "Consulta de nutrição esportiva no centro de Osasco.",
+    hero: "Comida alinhada ao treino, sem cardápio impossível de seguir.",
+    aboutLead: "O consultório fica no Centro de Osasco e atende quem treina e quer comer de um jeito que sustente o esforço.",
+    about: "Traz o horário da academia, o que você come correndo e o que não abre mão. A orientação sai da sua rotina, não de uma tabela genérica. O Instagram mostra o trabalho; a consulta marca pelo WhatsApp.",
+    intro: "Nutrição para quem se movimenta.",
+    location: "Centro de Osasco. Fácil de passar antes ou depois do treino.",
+    contact: "Diz em uma frase o que você busca na alimentação. Respondemos pelo WhatsApp.",
+    services: [
+      ["Consulta esportiva", "Treino, sono e prato olhados juntos."],
+      ["Rotina alimentar", "Refeições que cabem no trabalho e na academia."],
+      ["Pré e pós-treino", "O que comer nessas janelas, com o que você já tem em casa."],
+      ["Ajuste", "Quando a carga muda, o plano muda junto."],
+      ["Retorno", "Uma revisão honesta do que você conseguiu manter."]
+    ]
   },
   {
     slug: "elizabeth-barbosa",
@@ -589,12 +898,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 99630-0954 / +5511996300954",
     social: "@psi.elizabeth.barbosa.79",
-    tagline: "Consultório de psicologia no Tatuapé.",
-    hero: "Atendimento psicológico no Tatuapé, com WhatsApp e telefone.",
-    aboutLead: "O consultório de Elizabeth Barbosa fica no Tatuapé, em São Paulo.",
-    about: "O formulário abre o WhatsApp no seu celular. Não há promessa de cura nem preço nesta página.",
-    intro: "Sessões no ritmo combinado. O conteúdo fica para o consultório.",
-    location: "Tatuapé, São Paulo."
+    servicesTitle: "Consultório no Tatuapé",
+    tagline: "Psicologia no Tatuapé, com WhatsApp para marcar.",
+    hero: "Um consultório de bairro para conversar com regularidade.",
+    aboutLead: "O consultório de Elizabeth Barbosa fica no Tatuapé, para quem quer atendimento perto de casa.",
+    about: "Você não precisa explicar tudo na primeira mensagem. Manda o nome e o período. Na sessão, o tempo é seu. O celular da psicóloga está aqui para remarcar quando a semana apertar.",
+    intro: "Atendimento psicológico, com começo simples.",
+    location: "Tatuapé, São Paulo. A sala é indicada na hora de marcar.",
+    contact: "Conta o melhor horário para você. A gente confirma pelo WhatsApp.",
+    services: [
+      ["Acolhida", "A primeira sessão é para você chegar e dizer por que veio."],
+      ["Psicoterapia", "Encontros seguidos, no dia que ficar combinado."],
+      ["Questões do cotidiano", "Família, trabalho, ansiedade de segunda-feira."],
+      ["Sigilo", "O que é dito na sala fica na sala."],
+      ["Remarcação", "Avisa pelo WhatsApp. A gente acha outro horário."]
+    ]
   },
   {
     slug: "taniguti-scuderia",
@@ -606,12 +924,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 94775-9613",
     social: "",
-    tagline: "Centro automotivo no Umuarama, em Osasco.",
-    hero: "Diagnóstico e revisão no Umuarama. O orçamento sai depois de ver o carro.",
-    aboutLead: "A Taniguti Scuderia fica no Umuarama, em Osasco.",
-    about: "O celular está em link para ligar e para o WhatsApp. Não há tabela de preço nesta página.",
-    intro: "O serviço começa pelo que você relata e pela olhada no veículo.",
-    location: "Umuarama, Osasco."
+    servicesTitle: "Centro automotivo multimarcas",
+    tagline: "Oficina no Umuarama para o carro do dia a dia.",
+    hero: "Diagnóstico, revisão e freio, com orçamento depois de ver o veículo.",
+    aboutLead: "A Taniguti Scuderia fica no Umuarama e mexe com carro de várias marcas.",
+    about: "Traz o popular ou o que você considera especial. A gente ouve o barulho, olha embaixo e te diz o que encontrou antes de abrir serviço. O celular marca a entrada.",
+    intro: "Serviço de centro automotivo, explicado na linguagem de quem dirige.",
+    location: "Umuarama, Osasco. Manda o modelo que a gente reserva a vaga.",
+    contact: "Diz o modelo do carro e o que ele aprontou. A gente responde pelo WhatsApp.",
+    services: [
+      ["Diagnóstico", "A gente reproduz o sintoma antes de trocar peça no chute."],
+      ["Revisão", "Óleo, filtros e o que a quilometragem está pedindo."],
+      ["Freios", "Pastilha, disco e aquele chiado que começou na descida."],
+      ["Suspensão", "Batida seca e volante puxando: olhamos o conjunto."],
+      ["Multimarcas", "Entra o carro que você tem. A conversa é sobre ele, não sobre a bandeira."]
+    ]
   },
   {
     slug: "mecanica-amaral",
@@ -623,12 +950,21 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 97113-2136",
     social: "",
-    tagline: "Oficina no Parque Erasmo Assunção.",
-    hero: "Auto mecânica em Santo André. Ligue para contar o problema e pedir um orçamento.",
+    servicesTitle: "Mecânica de bairro",
+    tagline: "Oficina no Parque Erasmo Assunção, com telefone que chama.",
+    hero: "Óleo, freio, suspensão e o scanner quando a luz do painel acende.",
     aboutLead: "A Auto Mecânica Amaral fica no Parque Erasmo Assunção, em Santo André.",
-    about: "O telefone está em link. O valor do serviço depende do diagnóstico.",
-    intro: "Revisão, freios e suspensão, conforme o carro precisar.",
-    location: "Parque Erasmo Assunção, Santo André."
+    about: "Oficina de rua, daquelas em que você fala com quem põe a mão no motor. Liga, conta o sintoma e traz o carro. A gente te mostra a peça antes de seguir.",
+    intro: "O que mais entra na oficina nesta região.",
+    location: "Parque Erasmo Assunção, Santo André. A vaga é combinada pelo WhatsApp.",
+    contact: "Conta o barulho, o vazamento ou a revisão que você quer. Retornamos pelo WhatsApp.",
+    services: [
+      ["Troca de óleo", "Filtro junto, com o carro no horário que você deixou."],
+      ["Freios", "Pedal baixo ou chiado: a gente mede e te mostra o desgaste."],
+      ["Suspensão", "Amortecedor, bucha e o alinhamento que o pneu está pedindo."],
+      ["Parte elétrica", "Bateria, alternador e a luz que não apaga no painel."],
+      ["Revisão geral", "Um pente-fino antes de viagem ou da venda do carro."]
+    ]
   },
   {
     slug: "magnathas",
@@ -640,12 +976,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 94785-4774",
     social: "@magnathas.co",
-    tagline: "Centro automotivo na Bela Vista, em Osasco.",
-    hero: "Manutenção na Bela Vista, com orçamento depois da avaliação do veículo.",
-    aboutLead: "A Magnatha's fica na Bela Vista, em Osasco.",
-    about: "O Instagram e o telefone são os canais públicos. O formulário abre o WhatsApp com a sua mensagem.",
-    intro: "Sem preço fechado antes de ver o carro.",
-    location: "Bela Vista, Osasco."
+    servicesTitle: "Na Bela Vista",
+    tagline: "Centro automotivo na Bela Vista, com orçamento depois da olhada.",
+    hero: "Revisão, arrefecimento e suspensão, em Osasco.",
+    aboutLead: "A Magnatha's fica na Bela Vista e atende o carro que você usa para trabalhar.",
+    about: "Manda uma foto do painel ou do vazamento. Se precisar ver de perto, a gente marca a entrada. O Instagram mostra a oficina; o serviço começa quando o carro está no elevador.",
+    intro: "Manutenção que evita o carro parar na Marginal.",
+    location: "Bela Vista, Osasco. Chama que indicamos a entrada da oficina.",
+    contact: "Manda o ano do carro e o serviço. A gente te chama no WhatsApp.",
+    services: [
+      ["Revisão", "Itens de desgaste trocados com você sabendo o motivo."],
+      ["Arrefecimento", "Aquecimento, ventoinha e o vazamento embaixo do carro."],
+      ["Suspensão e direção", "Volante torto, pneu comendo de um lado só."],
+      ["Freios", "Pastilha no osso ou fluido vencido: a gente não deixa passar."],
+      ["Orçamento", "Você vê o que será feito e decide o que entra agora."]
+    ]
   },
   {
     slug: "cn-mooca",
@@ -657,12 +1002,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 2601-8596",
     social: "",
-    tagline: "Centro automotivo no Alto da Mooca.",
-    hero: "Oficina no Alto da Mooca. Telefone em link para pedir um horário ou um orçamento.",
-    aboutLead: "A C & N Mooca fica no Alto da Mooca, em São Paulo.",
-    about: "Revisão, freios e diagnóstico entram na conversa. O preço não está nesta página.",
-    intro: "O orçamento segue a avaliação do veículo.",
-    location: "Alto da Mooca, São Paulo."
+    servicesTitle: "Oficina no Alto da Mooca",
+    tagline: "Mecânica de bairro no Alto da Mooca.",
+    hero: "Motor, revisão de viagem e a manutenção que o carro da família pede.",
+    aboutLead: "A C & N fica no Alto da Mooca, para quem não quer deixar o carro do outro lado da cidade.",
+    about: "Liga no fixo, descreve o problema e traz. A oficina te recebe, olha e explica. Se for viagem, pede a revisão com alguns dias de folga.",
+    intro: "Serviço de centro automotivo, com cara de oficina conhecida.",
+    location: "Alto da Mooca, São Paulo. O telefone confirma a vaga.",
+    contact: "Quer um orçamento? Escreve o que o carro precisa. Respondemos pelo WhatsApp.",
+    services: [
+      ["Motor", "Falhando, fumando ou bebendo óleo: a gente abre o diagnóstico."],
+      ["Revisão de viagem", "Fluidos, pneus, freio e luzes antes da estrada."],
+      ["Óleo e filtros", "Troca no prazo, com o carro pronto no combinado."],
+      ["Suspensão", "Rua esburacada cobra. A gente vê o que quebrou."],
+      ["Elétrica básica", "Partida, bateria e farol que apagou."]
+    ]
   },
   {
     slug: "autohub",
@@ -674,12 +1028,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 5555-4005 / +551155554005",
     social: "@autohubservice",
-    tagline: "Centro automotivo em Indianópolis.",
-    hero: "Revisão e diagnóstico em Indianópolis. O orçamento sai depois de ver o carro.",
-    aboutLead: "A Autohub Service fica em Indianópolis, São Paulo.",
-    about: "O telefone está em link. Esta página não publica oferta nem parcela.",
-    intro: "Serviços de centro automotivo, com valor informado depois do diagnóstico.",
-    location: "Indianópolis, São Paulo."
+    servicesTitle: "Pneus e revisão",
+    tagline: "Pneus, alinhamento e revisão em Indianópolis.",
+    hero: "O carro puxa, o pneu canta ou a revisão venceu: traz na Indianópolis.",
+    aboutLead: "A Autohub Service fica em Indianópolis e cuida de pneu e da manutenção que gira em volta dele.",
+    about: "Alinhamento, balanceamento e a revisão que você foi adiando. Liga, diz a medida do pneu ou o que o volante está fazendo, e a gente te fala se encaixa hoje.",
+    intro: "Serviço de centro automotivo com foco em roda, pneu e revisão.",
+    location: "Indianópolis, São Paulo. A vaga é marcada pelo telefone.",
+    contact: "Fala o que está pegando no pneu ou na revisão. A gente retorna pelo WhatsApp.",
+    services: [
+      ["Pneus", "Troca e leitura do desgaste, para você não comprar no escuro."],
+      ["Alinhamento", "Volante reto e pneu durando o que deve durar."],
+      ["Balanceamento", "Acerta roda e pneu para o volante parar de vibrar na estrada."],
+      ["Revisão", "Fluidos, filtros e freios no mesmo pit stop."],
+      ["Rodízio", "Os pneus mudam de lugar antes de um acabar antes do outro."]
+    ]
   },
   {
     slug: "rosana-pintor",
@@ -691,12 +1054,21 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 2866-6460",
     social: "",
-    tagline: "Arquitetura e interiores no Jardim, em Santo André.",
-    hero: "Projetos e interiores em Santo André. A conversa inicial não tem preço fechado.",
-    aboutLead: "O escritório Rosana Pintor fica no bairro Jardim, em Santo André.",
-    about: "Dá para ligar e contar o tipo de espaço. O orçamento depende do pedido. Não há prazo prometido nesta página.",
-    intro: "Estudo, projeto e, se combinado, acompanhamento.",
-    location: "Jardim, Santo André."
+    servicesTitle: "Arquitetura e interiores",
+    tagline: "Projeto de casa e apartamento no Jardim, em Santo André.",
+    hero: "Interiores com detalhe, do primeiro croqui à obra.",
+    aboutLead: "O escritório de Rosana Pintor fica no Jardim e desenha arquitetura e interiores.",
+    about: "Você chega com a planta, uma foto do apartamento ou só a vontade de mudar a sala. A gente escuta como a casa é usada e devolve um estudo. Obra, se entrar no combinado, a gente acompanha.",
+    intro: "Do estudo ao detalhe que se vê todo dia.",
+    location: "Jardim, Santo André. A conversa pode começar pelo telefone.",
+    contact: "Conta o tipo de imóvel e o que você quer mudar. A gente responde pelo WhatsApp.",
+    services: [
+      ["Projeto residencial", "Casa ou apartamento pensados para quem vai morar ali."],
+      ["Interiores", "Marcenaria, luz e o layout que desenrola a circulação."],
+      ["Reforma", "O que derrubar, o que ficar e a ordem da obra."],
+      ["Detalhamento", "Desenho para o marceneiro e para o empreiteiro executarem."],
+      ["Acompanhamento", "Visita à obra quando isso faz parte do combinado."]
+    ]
   },
   {
     slug: "aurum-arquitetura",
@@ -708,12 +1080,21 @@ export const leads = [
     cidade: "São Bernardo do Campo",
     phones: "(11) 93712-0017",
     social: "",
+    servicesTitle: "Projeto no Centro",
     tagline: "Arquitetura e interiores no centro de São Bernardo.",
-    hero: "Escritório no Centro para projetos e interiores. Peça uma conversa pelo celular.",
-    aboutLead: "A Aurum Arquitetura e Interiores fica no Centro de São Bernardo do Campo.",
-    about: "O celular está em link para ligação e WhatsApp. O escopo do projeto é combinado na conversa.",
-    intro: "Sem valor de projeto nesta página.",
-    location: "Centro de São Bernardo do Campo."
+    hero: "Estudo, projeto e uma conversa inicial sem enrolação.",
+    aboutLead: "A Aurum fica no Centro e atende quem quer desenhar o espaço antes de chamar a obra.",
+    about: "Manda uma foto do imóvel e uma frase sobre o que não funciona. A gente marca uma conversa, apresenta o estudo e, se você topar, segue para o projeto. O celular é o canal.",
+    intro: "Um percurso curto, do primeiro papo ao desenho.",
+    location: "Centro de São Bernardo do Campo. Dá para combinar a reunião pelo WhatsApp.",
+    contact: "Manda uma frase sobre o projeto. Retornamos pelo WhatsApp para marcar uma conversa.",
+    services: [
+      ["Conversa inicial", "Uso do espaço, prazo que você tem em mente e referências."],
+      ["Estudo", "Layout e ideias antes de detalhar cada parafuso."],
+      ["Projeto", "Plantas e especificações do que for contratado."],
+      ["Interiores", "Acabamento, mobiliário e a luz do fim da tarde."],
+      ["Obra", "Acompanhamento se você quiser o escritório na frente da execução."]
+    ]
   },
   {
     slug: "erica-salguero",
@@ -725,12 +1106,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 2093-8658 / +5511968517261",
     social: "@ericasalgueroarquitetura",
-    tagline: "Arquitetura no Tatuapé.",
-    hero: "Projetos no Tatuapé, com telefone e WhatsApp.",
-    aboutLead: "O escritório Érica Salguero Arquitetura fica no Tatuapé, em São Paulo.",
-    about: "A primeira conversa serve para entender o imóvel e o uso. Valores e prazos ficam para o orçamento.",
-    intro: "Arquitetura e interiores, no tamanho do pedido.",
-    location: "Tatuapé, São Paulo."
+    servicesTitle: "Arquitetura e decoração",
+    tagline: "Projeto e decoração no Tatuapé.",
+    hero: "Apartamento, casa e o cômodo que nunca ficou do jeito que você queria.",
+    aboutLead: "O escritório de Érica Salguero fica no Tatuapé e mistura arquitetura com decoração.",
+    about: "Tem cliente que quer a planta inteira e cliente que quer a sala. Os dois cabem. Liga ou manda mensagem, manda foto e a gente marca para ver o imóvel ou as referências.",
+    intro: "Do desenho grande ao objeto que entra na estante.",
+    location: "Tatuapé, São Paulo. Reunião combinada pelo WhatsApp.",
+    contact: "Quer falar de decoração ou de obra? Escreve aqui. A gente chama no WhatsApp.",
+    services: [
+      ["Arquitetura", "Reforma e layout para o imóvel funcionar melhor."],
+      ["Decoração", "Cor, tecido e móvel escolhidos com o que você já tem."],
+      ["Ambiente único", "Só a cozinha, só o quarto: dá para começar por um cômodo."],
+      ["Acompanhamento de compra", "Lista do que comprar e do que não vale a pena."],
+      ["Obra", "Cronograma combinado com quem executa."]
+    ]
   },
   {
     slug: "unihands",
@@ -742,12 +1132,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 97886-9531 / +5511966012515",
     social: "@unihands_",
-    tagline: "Reparos e reformas em Indianópolis.",
-    hero: "Visita e orçamento para reparos e reformas na região de Indianópolis.",
-    aboutLead: "A UNIHANDS fica em Indianópolis, São Paulo.",
-    about: "Os celulares públicos estão em link. O preço sai depois da visita. A página não promete prazo de obra.",
-    intro: "O serviço é o que for fechado no orçamento, nada além.",
-    location: "Indianópolis, São Paulo."
+    servicesTitle: "Reparos e reformas",
+    tagline: "Reparo e reforma residencial em Indianópolis.",
+    hero: "Vazamento, pintura e a reforma que você foi adiando no apartamento.",
+    aboutLead: "A UNIHANDS fica em Indianópolis e entra em casa para resolver o que quebrou ou o que você quer refazer.",
+    about: "Manda um vídeo do problema. Se for pequeno, a gente agenda o reparo. Se for reforma, marca uma visita, mede e te devolve o que será feito, por etapa. Os dois celulares estão no contato.",
+    intro: "Do conserto de um dia à reforma do apartamento.",
+    location: "Indianópolis, São Paulo. A visita é marcada pelo WhatsApp.",
+    contact: "Diz se é reparo, pintura ou reforma. Respondemos pelo WhatsApp.",
+    services: [
+      ["Reparos", "Hidráulica, fechadura, tomada: o que parou no meio da semana."],
+      ["Pintura", "Parede, teto e o retoque antes de receber visita."],
+      ["Pequenas obras", "Bancada, nicho, o rasgo que precisa fechar direito."],
+      ["Reforma residencial", "Cômodo ou apartamento, com etapa combinada."],
+      ["Visita", "A gente vê o imóvel antes de te dizer como executar."]
+    ]
   },
   {
     slug: "giann-freire",
@@ -759,12 +1158,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 99170-9028",
     social: "@giannfreirearquitetura",
-    tagline: "Arquitetura em Pinheiros.",
-    hero: "Escritório em Pinheiros. Ligue ou chame no WhatsApp para falar de um projeto.",
-    aboutLead: "Giann Freire Arquitetura fica em Pinheiros, São Paulo.",
-    about: "A página traz o contato e o tipo de trabalho. O desenho e o valor dependem do que for pedido.",
-    intro: "Conversa, estudo e projeto. Obra só se estiver no combinado.",
-    location: "Pinheiros, São Paulo."
+    servicesTitle: "Escritório em Pinheiros",
+    tagline: "Arquitetura em Pinheiros, do estudo ao projeto.",
+    hero: "Um escritório para começar o projeto com uma conversa, não com um PDF frio.",
+    aboutLead: "Giann Freire Arquitetura fica em Pinheiros e desenha para quem vai usar o espaço.",
+    about: "Traz a metragem, as fotos e o que você não quer repetir do apartamento anterior. A gente devolve um estudo e, se seguir, o projeto. O WhatsApp marca a primeira conversa.",
+    intro: "Projeto de arquitetura, passo a passo.",
+    location: "Pinheiros, São Paulo. Dá para nos encontrar no bairro ou começar pela mensagem.",
+    contact: "Conta o tamanho da ideia. A gente combina a conversa pelo WhatsApp.",
+    services: [
+      ["Briefing", "Como você mora, o que guarda e o que odeia no imóvel atual."],
+      ["Estudo preliminar", "Primeiras plantas para você reagir antes do detalhe."],
+      ["Projeto", "Desenho do que será construído ou reformado."],
+      ["Interiores", "Materiais e mobiliário no mesmo raciocínio da planta."],
+      ["Compatibilização", "Conversa com a obra para o desenho acontecer no canteiro."]
+    ]
   },
   {
     slug: "autoescola-primitiva",
@@ -776,12 +1184,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 94332-2325",
     social: "",
+    servicesTitle: "Carro e moto",
     tagline: "Autoescola e motoescola no centro de Osasco.",
-    hero: "Aulas teóricas e práticas no Centro. Carro e moto, como diz o nome da escola.",
-    aboutLead: "A Auto Moto Escola Primitiva fica no Centro de Osasco.",
-    about: "O celular está em link. Etapas, documentos e valores a secretaria informa. Esta página não promete aprovação no exame.",
-    intro: "A secretaria confirma turma, categoria e documentos.",
-    location: "Centro de Osasco."
+    hero: "Aula teórica, carro e moto, com a secretaria no WhatsApp.",
+    aboutLead: "A Primitiva fica no Centro e o nome entrega as duas categorias: carro e moto.",
+    about: "Você chega sem saber por onde começa a habilitação. A secretaria explica a etapa, marca a aula teórica e encaixa a prática. Manda mensagem e diz qual das duas você quer.",
+    intro: "Formação de condutor, no Centro.",
+    location: "Centro de Osasco. Fácil de chegar para a aula no fim do dia.",
+    contact: "Diz se é carro, moto ou as duas. A gente responde pelo WhatsApp.",
+    services: [
+      ["Aula teórica", "Sala no Centro, com o conteúdo da formação de condutores."],
+      ["Prática de carro", "Hora marcada, no veículo da escola."],
+      ["Prática de moto", "Para quem vai seguir na categoria de duas rodas."],
+      ["Secretaria", "Documentos e etapas explicados com calma, um por um."],
+      ["Remarcação", "Perdeu a aula? Chama que a gente vê outro horário."]
+    ]
   },
   {
     slug: "autoescola-viena",
@@ -793,12 +1210,21 @@ export const leads = [
     cidade: "Osasco",
     phones: "(11) 98734-1817",
     social: "facebook.com/autoescolaviena",
-    tagline: "Autoescola no centro de Osasco.",
-    hero: "Aulas para habilitação no Centro de Osasco. Fale pelo telefone para saber turmas.",
-    aboutLead: "A Auto Escola Viena fica no Centro de Osasco.",
-    about: "O perfil público no Facebook e o telefone estão na página. Não há mensalidade publicada aqui.",
-    intro: "Aulas teóricas e práticas. Aprovação em exame não é prometida.",
-    location: "Centro de Osasco."
+    servicesTitle: "Aulas no Centro",
+    tagline: "Autoescola no centro de Osasco, com turma e prática.",
+    hero: "Teórica, volante e uma secretaria que responde.",
+    aboutLead: "A Auto Escola Viena fica no Centro, no caminho de quem mora ou trabalha em Osasco.",
+    about: "Quer saber se ainda dá para entrar na turma desta semana? Manda mensagem. A prática é com hora. O Facebook mostra a escola; a matrícula se resolve falando com a gente.",
+    intro: "O caminho da habilitação, em aulas.",
+    location: "Centro de Osasco. A secretaria te passa o ponto pelo WhatsApp.",
+    contact: "Quer saber turma e horário? Manda um oi. Retornamos pelo WhatsApp.",
+    services: [
+      ["Aula teórica", "Conteúdo da formação, em sala, no Centro."],
+      ["Aula prática", "Direção com instrutor, no carro da autoescola."],
+      ["Categoria B", "O caminho de carro. Outra categoria, a secretaria confirma."],
+      ["Matrícula", "Documentos e a ordem das etapas, ditos na secretaria."],
+      ["Horários", "Turma de manhã, tarde ou o encaixe que ainda estiver aberto."]
+    ]
   },
   {
     slug: "preferencial-mooca",
@@ -810,12 +1236,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 96305-5255",
     social: "",
-    tagline: "Autoescola na Mooca.",
-    hero: "Unidade da Mooca para aulas teóricas e práticas. Ligue ou chame no WhatsApp.",
-    aboutLead: "A Preferencial Autoescola fica na Mooca, em São Paulo.",
-    about: "A secretaria confirma horários e documentos. A página não promete aprovação e não lista preços.",
-    intro: "O processo de habilitação é explicado na secretaria, etapa por etapa.",
-    location: "Mooca, São Paulo."
+    servicesTitle: "Unidade Mooca",
+    tagline: "Autoescola na Mooca, da primeira aula à prática.",
+    hero: "Unidade de bairro para quem está tirando a habilitação sem cruzar a cidade.",
+    aboutLead: "A Preferencial da Mooca recebe o aluno perto de casa e do trabalho.",
+    about: "Você diz em que passo está: nem começou, já fez a teórica ou só falta prática. A secretaria encaixa. O WhatsApp é o jeito mais rápido de perguntar horário.",
+    intro: "Aulas para cada etapa da habilitação.",
+    location: "Mooca, São Paulo. Chama que a gente manda a referência da unidade.",
+    contact: "Conta em que etapa você está. A gente chama no WhatsApp.",
+    services: [
+      ["Início", "A secretaria te diz por onde a habilitação começa."],
+      ["Teórica", "Aulas em sala, no horário da turma."],
+      ["Prática", "Volante com hora marcada."],
+      ["Documentos", "A lista do que levar, antes de você perder a viagem."],
+      ["Dúvida de aluno", "Pergunta curta, resposta da unidade da Mooca."]
+    ]
   },
   {
     slug: "autoescola-athena",
@@ -827,12 +1262,21 @@ export const leads = [
     cidade: "São Paulo",
     phones: "(11) 99185-9161",
     social: "",
-    tagline: "Autoescola na Mooca.",
-    hero: "Aulas teóricas e práticas na Mooca, com telefone em link.",
-    aboutLead: "A Autoescola Athena fica na Mooca, em São Paulo.",
-    about: "Dá para ligar ou mandar uma mensagem pelo formulário, que abre o WhatsApp. Valores ficam com a secretaria.",
-    intro: "Sem promessa de aprovação e sem taxa publicada.",
-    location: "Mooca, São Paulo."
+    servicesTitle: "Aulas na Mooca",
+    tagline: "Autoescola na Mooca, inclusive para PcD.",
+    hero: "Teórica, prática e aula adaptada para quem precisa de veículo acessível.",
+    aboutLead: "A Athena fica na Mooca e recebe tanto o aluno da categoria B quanto quem precisa de CNH para PcD.",
+    about: "A aula prática de PcD é em veículo adaptado, com instrutor que explica cada comando. Para os demais, teórica e volante no ritmo da turma. Liga ou manda mensagem.",
+    intro: "Formação de condutores, com uma turma que muita escola não oferece.",
+    location: "Mooca, São Paulo. A secretaria confirma o endereço pelo WhatsApp.",
+    contact: "Escreve seu nome e a categoria. Respondemos pelo WhatsApp.",
+    services: [
+      ["Aula teórica", "Sala na Mooca, com o conteúdo da formação."],
+      ["Aula prática", "Direção no carro da escola, com hora."],
+      ["CNH para PcD", "Prática em veículo adaptado, no seu ritmo."],
+      ["Secretaria", "Etapas e papéis explicados antes da matrícula."],
+      ["Horários", "A gente te diz o que ainda tem vaga na semana."]
+    ]
   },
   {
     slug: "interlingua",
@@ -844,11 +1288,20 @@ export const leads = [
     cidade: "Santo André",
     phones: "(11) 4437-2277 / +5511984311160",
     social: "@interlinguaidiomas_br",
-    tagline: "Escola de idiomas no Jardim Bela Vista.",
-    hero: "Inglês e espanhol no Jardim Bela Vista, em Santo André. Peça horários pelo telefone.",
-    aboutLead: "A Interlingua Idiomas fica no Jardim Bela Vista, em Santo André.",
-    about: "O telefone fixo e o celular estão em link, junto com o Instagram. A escola não promete fluência em prazo fechado.",
-    intro: "Outros idiomas, se houver turma, a secretaria confirma.",
-    location: "Jardim Bela Vista, Santo André."
+    servicesTitle: "Inglês, espanhol e alemão",
+    tagline: "Escola de idiomas no Jardim Bela Vista, presencial e online.",
+    hero: "Inglês, espanhol e alemão, para criança e adulto, aqui ou de casa.",
+    aboutLead: "A Interlingua fica no Jardim Bela Vista e dá aula presencial e online.",
+    about: "Você diz o idioma e se estuda de manhã, à noite ou no sofá. A escola indica o nível e a turma. Tem telefone fixo, WhatsApp e Instagram para ver o clima da sala.",
+    intro: "Idiomas que a escola oferece, no bairro e pela tela.",
+    location: "Jardim Bela Vista, Santo André. A aula online dispensa o deslocamento; a presencial, a gente explica como chegar.",
+    contact: "Diz o idioma e o período. A gente confirma pelo WhatsApp.",
+    services: [
+      ["Inglês", "Turmas para quem está começando e para quem já conversa."],
+      ["Espanhol", "Aula no bairro, com horário que cabe na semana."],
+      ["Alemão", "Do zero ou retomada, em grupo pequeno."],
+      ["Online", "A mesma aula, de casa, quando o deslocamento não ajuda."],
+      ["Crianças e adultos", "Grupos separados, cada idade no seu ritmo."]
+    ]
   }
 ];

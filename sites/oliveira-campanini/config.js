@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Oliveira Campanini Advogados Associados - Complexo Jurídico",
   "shortName": "Oliveira Campanini",
   "region": "Santana, São Paulo",
-  "tagline": "Escritório de advocacia em Santana.",
-  "heroText": "Contato direto com o escritório em Santana, por telefone.",
+  "tagline": "Um escritório grande, com atendimento que ainda atende o telefone.",
+  "heroText": "Orientação em Santana, com time para o caso não ficar parado numa gaveta.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "Oliveira Campanini Advogados Associados fica em Santana.",
-  "aboutText": "A orientação parte do relato e dos documentos. Esta página não fala de prazo de processo nem de honorários.",
+  "aboutLead": "Oliveira Campanini fica em Santana e recebe do assunto simples ao que pede mais gente olhando.",
+  "aboutText": "Liga no número do escritório, diz o tema e a recepção te direciona. Na reunião, você fala com quem vai cuidar do caso e sai sabendo o que separar em casa.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Como é o atendimento",
-  "servicesIntro": "Atendimento informativo. O desfecho não é prometido.",
+  "servicesTitle": "Complexo jurídico em Santana",
+  "servicesIntro": "Como o atendimento se organiza aqui.",
   "services": [
     {
-      "title": "Conversa inicial",
-      "description": "Você relata a situação e o escritório diz se pode acompanhar."
+      "title": "Recepção do caso",
+      "description": "Alguém anota o tema e te coloca com a área certa."
     },
     {
-      "title": "Documentos",
-      "description": "Leitura do que você já tem, sem antecipar desfecho."
+      "title": "Reunião",
+      "description": "Conversa marcada, com os documentos que fizerem diferença."
     },
     {
-      "title": "Orientação",
-      "description": "Explicação das opções em linguagem direta."
+      "title": "Estudo",
+      "description": "Leitura do material antes de te devolver um caminho."
     },
     {
-      "title": "Andamento",
-      "description": "Quando existe processo, os próximos passos são combinados."
+      "title": "Peças e pedidos",
+      "description": "O que for protocolar sai com você informado."
+    },
+    {
+      "title": "Contato direto",
+      "description": "Telefone do escritório para perguntar o andamento."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Santana, São Paulo.",
+  "locationText": "Santana, São Paulo. A portaria e a sala são confirmadas no telefone.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Descreva o assunto em linhas gerais. O botão abre o WhatsApp para você enviar a mensagem ao escritório. Nada fica gravado aqui.",
+  "contactLead": "Quer uma orientação inicial? Escreve aqui e falamos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atuação",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com o escritório",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551137293255",
   "phoneDisplay": "(11) 3729-3255",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Oliveira Campanini Advogados Associados - Complexo Jurídico, Santana, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Conteúdo informativo, sem promessa de resultado.",
+  "footerNote": "© Oliveira Campanini · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "advocacia",
   "radius": "4px",

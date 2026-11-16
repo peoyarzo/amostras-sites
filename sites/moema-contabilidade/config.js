@@ -3,48 +3,52 @@ window.SITE = {
   "name": "MOEMA CONTABILIDADE unidade Berrini",
   "shortName": "Moema Contabilidade",
   "region": "Vila Gertrudes, São Paulo",
-  "tagline": "Contabilidade na Vila Gertrudes.",
-  "heroText": "Unidade Berrini, na Vila Gertrudes. Telefone e WhatsApp para pedir uma conversa.",
+  "tagline": "Contabilidade na Vila Gertrudes, ao lado da Berrini.",
+  "heroText": "Escritório de bairro para empresa que trabalha na região da Berrini.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Moema Contabilidade fica na Vila Gertrudes, em São Paulo.",
-  "aboutText": "A página explica o tipo de serviço e o contato. Valores de mensalidade não são publicados aqui.",
+  "aboutLead": "A unidade Berrini da Moema Contabilidade fica na Vila Gertrudes.",
+  "aboutText": "Você não precisa cruzar a cidade para entregar um documento ou tirar uma dúvida de sócio. Chama no WhatsApp, combina e, se fizer falta, aparece. A rotina fiscal e a folha seguem no mês.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços do escritório",
-  "servicesIntro": "Contábil, fiscal e departamento pessoal, conforme a empresa.",
+  "servicesTitle": "Unidade Berrini",
+  "servicesIntro": "Serviço de escritório, com gente acessível na região.",
   "services": [
     {
       "title": "Rotina contábil",
-      "description": "Organização de documentos e lançamentos."
+      "description": "O mês fechado, com número que você consegue ler."
     },
     {
-      "title": "Obrigações fiscais",
-      "description": "Apoio no calendário de impostos e declarações."
+      "title": "Fiscal",
+      "description": "Apuração e entrega no prazo, com aviso quando falta documento."
     },
     {
-      "title": "Departamento pessoal",
-      "description": "Folha e admissões, conforme a empresa pedir."
+      "title": "Folha e pró-labore",
+      "description": "Quem trabalha e quem é sócio, cada um no seu lançamento."
     },
     {
-      "title": "Abertura e alterações",
-      "description": "Orientação para abrir ou ajustar a empresa."
+      "title": "Abertura e alteração",
+      "description": "CNPJ novo ou contrato que precisa mudar."
+    },
+    {
+      "title": "Conversa com o contador",
+      "description": "Um canal curto para a pergunta que não pode esperar o fechamento."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Vila Gertrudes, São Paulo.",
+  "locationText": "Vila Gertrudes, São Paulo. A unidade é a da Berrini.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o tipo de empresa e o que você precisa. O botão abre o WhatsApp com o texto. O escritório responde por lá.",
+  "contactLead": "Escreve o que a empresa precisa agora. A resposta sai pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um contato",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511946372721",
   "phoneDisplay": "(11) 94637-2721",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "MOEMA CONTABILIDADE unidade Berrini, Vila Gertrudes, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores combinados direto com o escritório.",
+  "footerNote": "© Moema Contabilidade · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "contabil",
   "radius": "6px",

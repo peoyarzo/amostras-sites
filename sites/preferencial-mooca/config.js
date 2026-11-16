@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Preferencial Autoescola",
   "shortName": "Preferencial",
   "region": "Mooca, São Paulo",
-  "tagline": "Autoescola na Mooca.",
-  "heroText": "Unidade da Mooca para aulas teóricas e práticas. Ligue ou chame no WhatsApp.",
+  "tagline": "Autoescola na Mooca, da primeira aula à prática.",
+  "heroText": "Unidade de bairro para quem está tirando a habilitação sem cruzar a cidade.",
   "aboutKicker": "A escola",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Preferencial Autoescola fica na Mooca, em São Paulo.",
-  "aboutText": "A secretaria confirma horários e documentos. A página não promete aprovação e não lista preços.",
+  "aboutLead": "A Preferencial da Mooca recebe o aluno perto de casa e do trabalho.",
+  "aboutText": "Você diz em que passo está: nem começou, já fez a teórica ou só falta prática. A secretaria encaixa. O WhatsApp é o jeito mais rápido de perguntar horário.",
   "servicesKicker": "Aulas",
-  "servicesTitle": "Aulas",
-  "servicesIntro": "O processo de habilitação é explicado na secretaria, etapa por etapa.",
+  "servicesTitle": "Unidade Mooca",
+  "servicesIntro": "Aulas para cada etapa da habilitação.",
   "services": [
     {
-      "title": "Aulas teóricas",
-      "description": "Conteúdo da formação de condutores, em sala."
+      "title": "Início",
+      "description": "A secretaria te diz por onde a habilitação começa."
     },
     {
-      "title": "Aulas práticas",
-      "description": "Direção com hora marcada, no carro da autoescola."
+      "title": "Teórica",
+      "description": "Aulas em sala, no horário da turma."
     },
     {
-      "title": "Categoria B",
-      "description": "Aulas de carro. Outras categorias, se houver, a secretaria confirma."
+      "title": "Prática",
+      "description": "Volante com hora marcada."
     },
     {
-      "title": "Matrícula",
-      "description": "Etapas e documentos explicados pela secretaria. Sem promessa de aprovação."
+      "title": "Documentos",
+      "description": "A lista do que levar, antes de você perder a viagem."
+    },
+    {
+      "title": "Dúvida de aluno",
+      "description": "Pergunta curta, resposta da unidade da Mooca."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Mooca, São Paulo.",
+  "locationText": "Mooca, São Paulo. Chama que a gente manda a referência da unidade.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga seu nome e se a dúvida é sobre aula teórica, prática ou matrícula. O botão abre o WhatsApp.",
+  "contactLead": "Conta em que etapa você está. A gente chama no WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Aulas",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com a secretaria",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511963055255",
   "phoneDisplay": "(11) 96305-5255",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Preferencial Autoescola, Mooca, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores e turmas informados pela secretaria.",
+  "footerNote": "© Preferencial · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "cursos",
   "radius": "10px",

@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Clínica Veterinária Sr. Gato",
   "shortName": "Sr. Gato",
   "region": "Pinheiros, São Paulo",
-  "tagline": "Clínica veterinária em Pinheiros.",
-  "heroText": "Consulta e cuidados de rotina em Pinheiros. O telefone está em link.",
+  "tagline": "Em Pinheiros, um consultório que entende de gato.",
+  "heroText": "Consulta felina, vacina e banho, com menos estresse na espera.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Clínica Veterinária Sr. Gato fica em Pinheiros, São Paulo.",
-  "aboutText": "O nome fala com tutores de gato. Na hora de marcar, confirme se o atendimento cabe para o seu animal.",
+  "aboutLead": "O Sr. Gato fica em Pinheiros e o nome já diz com quem a casa conversa melhor.",
+  "aboutText": "Gato estressa fácil em sala cheia de cachorro. Aqui a recepção considera isso. Liga, conta a idade e o que mudou no comportamento, e a gente separa um horário mais quieto.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "Consulta, orientação e banho e tosa, conforme a clínica confirmar.",
+  "servicesTitle": "Clínica para gatos",
+  "servicesIntro": "Cuidados pensados para felinos e para quem mora com eles.",
   "services": [
     {
-      "title": "Consulta",
-      "description": "Avaliação clínica do animal, com orientação a quem cuida dele."
+      "title": "Consulta felina",
+      "description": "Exame com manejo calmo, do jeito que gato aceita melhor."
     },
     {
-      "title": "Banho e tosa",
-      "description": "Higiene e tosa com horário marcado."
+      "title": "Vacinas",
+      "description": "Protocolo em dia, anotado para o próximo reforço."
     },
     {
-      "title": "Exames",
-      "description": "Pedidos quando a consulta indicar."
+      "title": "Banho",
+      "description": "Higiene para o gato que não se vira sozinho ou chegou de resgate."
     },
     {
-      "title": "Contato direto",
-      "description": "Telefone para remarcar ou avisar que está a caminho."
+      "title": "Rotina",
+      "description": "Caixa, comida, pelo e o que observar entre uma consulta e outra."
+    },
+    {
+      "title": "Retorno",
+      "description": "Revisão curta quando o quadro pede um segundo olhar."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Pinheiros, São Paulo.",
+  "locationText": "Pinheiros, São Paulo. Pelo WhatsApp a gente manda o ponto.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o nome do animal e o motivo do contato. O botão abre o WhatsApp com a mensagem. Esta página não envia os dados.",
+  "contactLead": "Manda um oi com o que o seu gato precisa. A gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma consulta",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551130860737",
   "phoneDisplay": "(11) 3086-0737",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Clínica Veterinária Sr. Gato, Pinheiros, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Sr. Gato · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "vet",
   "radius": "14px",

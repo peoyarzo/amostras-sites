@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Acadia Contabilidade - Assessoria Contábil",
   "shortName": "Acadia",
   "region": "Parque Erasmo Assunção, Santo André",
-  "tagline": "Assessoria contábil em Santo André.",
-  "heroText": "Escritório no Parque Erasmo Assunção. Ligue ou chame no WhatsApp.",
+  "tagline": "Assessoria contábil no Parque Erasmo Assunção.",
+  "heroText": "Abrir empresa ou migrar de escritório, em Santo André.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Acadia Contabilidade fica no Parque Erasmo Assunção, em Santo André.",
-  "aboutText": "Abertura, mudança de contador e rotina entram na conversa. O preço depende do porte da empresa.",
+  "aboutLead": "A Acadia fica no Parque Erasmo Assunção e pega tanto quem está começando quanto quem já cansou do contador atual.",
+  "aboutText": "Na migração, a gente pede o que falta e assume o mês sem te deixar no vácuo. Na abertura, explica cada etapa antes de você assinar. Tem fixo e WhatsApp.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços do escritório",
-  "servicesIntro": "O que entra no contrato é definido com o escritório.",
+  "servicesTitle": "Abertura e troca de contador",
+  "servicesIntro": "Dois movimentos que o escritório faz o tempo todo.",
   "services": [
     {
-      "title": "Rotina contábil",
-      "description": "Organização de documentos e lançamentos."
+      "title": "Abertura",
+      "description": "Enquadramento e documentos para a empresa nascer certa."
     },
     {
-      "title": "Obrigações fiscais",
-      "description": "Apoio no calendário de impostos e declarações."
+      "title": "Migração",
+      "description": "A passagem do escritório antigo, com o histórico pedido e conferido."
     },
     {
-      "title": "Departamento pessoal",
-      "description": "Folha e admissões, conforme a empresa pedir."
+      "title": "Rotina",
+      "description": "Fiscal, contábil e o calendário do mês."
     },
     {
-      "title": "Abertura e alterações",
-      "description": "Orientação para abrir ou ajustar a empresa."
+      "title": "Folha",
+      "description": "Se houver equipe, a admissão e o pagamento entram no pacote da conversa."
+    },
+    {
+      "title": "Orientação",
+      "description": "A dúvida de sócio respondida antes de virar problema."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Parque Erasmo Assunção, Santo André.",
+  "locationText": "Parque Erasmo Assunção, Santo André. A referência sai no WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o tipo de empresa e o que você precisa. O botão abre o WhatsApp com o texto. O escritório responde por lá.",
+  "contactLead": "Quer abrir um CNPJ ou trocar de contador? Chama pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um contato",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511988590686",
   "phoneDisplay": "(11) 4475-2312",
   "phones": [
@@ -61,7 +65,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Acadia Contabilidade - Assessoria Contábil, Parque Erasmo Assunção, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores combinados direto com o escritório.",
+  "footerNote": "© Acadia · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "contabil",
   "radius": "6px",

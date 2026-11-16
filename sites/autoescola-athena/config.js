@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Autoescola Athena",
   "shortName": "Autoescola Athena",
   "region": "Mooca, São Paulo",
-  "tagline": "Autoescola na Mooca.",
-  "heroText": "Aulas teóricas e práticas na Mooca, com telefone em link.",
+  "tagline": "Autoescola na Mooca, inclusive para PcD.",
+  "heroText": "Teórica, prática e aula adaptada para quem precisa de veículo acessível.",
   "aboutKicker": "A escola",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Autoescola Athena fica na Mooca, em São Paulo.",
-  "aboutText": "Dá para ligar ou mandar uma mensagem pelo formulário, que abre o WhatsApp. Valores ficam com a secretaria.",
+  "aboutLead": "A Athena fica na Mooca e recebe tanto o aluno da categoria B quanto quem precisa de CNH para PcD.",
+  "aboutText": "A aula prática de PcD é em veículo adaptado, com instrutor que explica cada comando. Para os demais, teórica e volante no ritmo da turma. Liga ou manda mensagem.",
   "servicesKicker": "Aulas",
-  "servicesTitle": "Aulas",
-  "servicesIntro": "Sem promessa de aprovação e sem taxa publicada.",
+  "servicesTitle": "Aulas na Mooca",
+  "servicesIntro": "Formação de condutores, com uma turma que muita escola não oferece.",
   "services": [
     {
-      "title": "Aulas teóricas",
-      "description": "Conteúdo da formação de condutores, em sala."
+      "title": "Aula teórica",
+      "description": "Sala na Mooca, com o conteúdo da formação."
     },
     {
-      "title": "Aulas práticas",
-      "description": "Direção com hora marcada, no carro da autoescola."
+      "title": "Aula prática",
+      "description": "Direção no carro da escola, com hora."
     },
     {
-      "title": "Categoria B",
-      "description": "Aulas de carro. Outras categorias, se houver, a secretaria confirma."
+      "title": "CNH para PcD",
+      "description": "Prática em veículo adaptado, no seu ritmo."
     },
     {
-      "title": "Matrícula",
-      "description": "Etapas e documentos explicados pela secretaria. Sem promessa de aprovação."
+      "title": "Secretaria",
+      "description": "Etapas e papéis explicados antes da matrícula."
+    },
+    {
+      "title": "Horários",
+      "description": "A gente te diz o que ainda tem vaga na semana."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Mooca, São Paulo.",
+  "locationText": "Mooca, São Paulo. A secretaria confirma o endereço pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga seu nome e se a dúvida é sobre aula teórica, prática ou matrícula. O botão abre o WhatsApp.",
+  "contactLead": "Escreve seu nome e a categoria. Respondemos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Aulas",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com a secretaria",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511991859161",
   "phoneDisplay": "(11) 99185-9161",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Autoescola Athena, Mooca, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores e turmas informados pela secretaria.",
+  "footerNote": "© Autoescola Athena · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "cursos",
   "radius": "10px",

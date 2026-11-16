@@ -4,47 +4,51 @@ window.SITE = {
   "shortName": "Autoescola Primitiva",
   "region": "Centro, Osasco",
   "tagline": "Autoescola e motoescola no centro de Osasco.",
-  "heroText": "Aulas teóricas e práticas no Centro. Carro e moto, como diz o nome da escola.",
+  "heroText": "Aula teórica, carro e moto, com a secretaria no WhatsApp.",
   "aboutKicker": "A escola",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Auto Moto Escola Primitiva fica no Centro de Osasco.",
-  "aboutText": "O celular está em link. Etapas, documentos e valores a secretaria informa. Esta página não promete aprovação no exame.",
+  "aboutLead": "A Primitiva fica no Centro e o nome entrega as duas categorias: carro e moto.",
+  "aboutText": "Você chega sem saber por onde começa a habilitação. A secretaria explica a etapa, marca a aula teórica e encaixa a prática. Manda mensagem e diz qual das duas você quer.",
   "servicesKicker": "Aulas",
-  "servicesTitle": "Aulas",
-  "servicesIntro": "A secretaria confirma turma, categoria e documentos.",
+  "servicesTitle": "Carro e moto",
+  "servicesIntro": "Formação de condutor, no Centro.",
   "services": [
     {
-      "title": "Aulas teóricas",
-      "description": "Conteúdo da formação de condutores, em sala."
+      "title": "Aula teórica",
+      "description": "Sala no Centro, com o conteúdo da formação de condutores."
     },
     {
-      "title": "Aulas práticas",
-      "description": "Direção com hora marcada, no veículo da escola."
+      "title": "Prática de carro",
+      "description": "Hora marcada, no veículo da escola."
     },
     {
-      "title": "Categorias",
-      "description": "Carro e moto, como indica o nome da escola. A secretaria confirma a turma."
+      "title": "Prática de moto",
+      "description": "Para quem vai seguir na categoria de duas rodas."
     },
     {
-      "title": "Matrícula",
-      "description": "Etapas e documentos explicados pela secretaria. Sem promessa de aprovação."
+      "title": "Secretaria",
+      "description": "Documentos e etapas explicados com calma, um por um."
+    },
+    {
+      "title": "Remarcação",
+      "description": "Perdeu a aula? Chama que a gente vê outro horário."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de Osasco.",
+  "locationText": "Centro de Osasco. Fácil de chegar para a aula no fim do dia.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga seu nome e se a dúvida é sobre carro, moto ou matrícula. O botão abre o WhatsApp.",
+  "contactLead": "Diz se é carro, moto ou as duas. A gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Aulas",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com a secretaria",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511943322325",
   "phoneDisplay": "(11) 94332-2325",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Auto Moto Escola Primitiva, Centro, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores e turmas informados pela secretaria.",
+  "footerNote": "© Autoescola Primitiva · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "cursos",
   "radius": "10px",

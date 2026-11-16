@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Clínica Dra. Denise Trombini",
   "shortName": "Clínica Trombini",
   "region": "Centro, Osasco",
-  "tagline": "Clínica odontológica no centro de Osasco.",
-  "heroText": "Três telefones públicos para falar com a clínica e marcar uma avaliação.",
+  "tagline": "Três telefones para falar com a clínica no Centro de Osasco.",
+  "heroText": "Implantes, alinhadores e canal, com alguém do outro lado da linha.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A clínica fica no Centro de Osasco.",
-  "aboutText": "Os números abaixo são os de contato publicados. A página não lista equipe nem registro profissional.",
+  "aboutLead": "A clínica fica no Centro de Osasco e atende do canal ao implante.",
+  "aboutText": "Se o dente dói, se falta um, ou se você quer alinhar sem aparelho fixo, começa por aqui. Escolhe o número que for mais fácil e conta o caso. A gente organiza a sequência do tratamento.",
   "servicesKicker": "Atendimentos",
-  "servicesTitle": "Atendimentos",
-  "servicesIntro": "A avaliação vem antes de qualquer procedimento.",
+  "servicesTitle": "Implante, canal e alinhador",
+  "servicesIntro": "Os cuidados que mais chegam na clínica, um a um.",
   "services": [
     {
-      "title": "Avaliação",
-      "description": "Consulta para entender o que você precisa antes de qualquer procedimento."
+      "title": "Canal",
+      "description": "Cuidado do dente inflamado, com cada etapa explicada antes de começar."
     },
     {
-      "title": "Prevenção",
-      "description": "Limpeza e orientação de higiene, quando fizer parte do plano."
+      "title": "Implantes",
+      "description": "Planejamento para repor o dente que saiu, no seu tempo."
     },
     {
-      "title": "Restaurações",
-      "description": "Reparos indicados somente depois da avaliação."
+      "title": "Alinhadores",
+      "description": "Opção transparente para alinhar sem o metal à mostra."
     },
     {
-      "title": "Dúvidas",
-      "description": "Explicação do que pode ser feito, sem promessa de resultado."
+      "title": "Consulta",
+      "description": "A primeira visita serve para separar o que é urgente do que pode esperar."
+    },
+    {
+      "title": "Controle",
+      "description": "Retornos curtos para ver se está tudo no lugar."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de Osasco. O endereço completo fica para o contato.",
+  "locationText": "Centro de Osasco. Pelo WhatsApp a gente manda a referência e o horário.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Para marcar uma avaliação, deixe seu nome e um período do dia. O botão abre o WhatsApp com a mensagem pronta. Nada é enviado por aqui.",
+  "contactLead": "Diz como prefere ser atendido. A resposta sai pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimentos",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511941516030",
   "phoneDisplay": "(11) 94151-6030",
   "phones": [
@@ -67,7 +71,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Clínica Dra. Denise Trombini, Centro, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
+  "footerNote": "© Clínica Trombini · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "odonto",
   "radius": "14px",

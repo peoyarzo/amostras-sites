@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Neide Estética | Harmonização Facial, Preenchimento Labial e Gordura Localizada em Osasco",
   "shortName": "Neide Estética",
   "region": "Ayrosa, Osasco",
-  "tagline": "Estética e harmonização facial em Ayrosa, Osasco.",
-  "heroText": "Avaliação para cuidados faciais. Preços e promessas de resultado não entram nesta página.",
+  "tagline": "Harmonização e cuidados de pele em Ayrosa.",
+  "heroText": "Uma conversa franca sobre rosto, lábios e gordura localizada, em Osasco.",
   "aboutKicker": "O espaço",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Neide Estética atende em Ayrosa, Osasco.",
-  "aboutText": "Há dois perfis públicos no Instagram. Para marcar, use o telefone ou o formulário, que abre o WhatsApp com o seu texto.",
+  "aboutLead": "Na Neide Estética, em Ayrosa, você é recebida pelo nome e sem fila de corredor.",
+  "aboutText": "A gente olha o seu rosto com você, fala do que dá para fazer e do que é melhor deixar quieto. Há dois perfis no Instagram, se quiser ver o clima do espaço antes de vir.",
   "servicesKicker": "Cuidados",
-  "servicesTitle": "Cuidados",
-  "servicesIntro": "Procedimentos só são comentados depois da avaliação. Sem fotos de pacientes.",
+  "servicesTitle": "Rosto, lábio e corpo",
+  "servicesIntro": "Cuidados que o estúdio faz, sempre a partir do que você pede.",
   "services": [
     {
-      "title": "Avaliação",
-      "description": "Conversa para ver se algum procedimento faz sentido no seu caso."
-    },
-    {
-      "title": "Pele",
-      "description": "Limpeza e rotinas indicadas na avaliação."
-    },
-    {
       "title": "Harmonização facial",
-      "description": "Orientação sobre procedimentos faciais. A indicação é individual."
+      "description": "Leitura do rosto e um plano de cuidados combinado com você."
+    },
+    {
+      "title": "Preenchimento labial",
+      "description": "Volume conversado, no desenho que você reconhece no espelho."
+    },
+    {
+      "title": "Gordura localizada",
+      "description": "Protocolo de corpo para as áreas que mais te incomodam."
+    },
+    {
+      "title": "Limpeza de pele",
+      "description": "Pele limpa, macia e pronta para o que você usar no dia seguinte."
     },
     {
       "title": "Retorno",
-      "description": "Espaço para tirar dúvidas depois do atendimento."
+      "description": "Uma visita curta para ver como a pele reagiu e ajustar o próximo passo."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Ayrosa, Osasco. A rua é informada no agendamento.",
+  "locationText": "Ayrosa, Osasco. Chama no WhatsApp que a gente explica como chegar.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte em poucas linhas o que você quer conversar na avaliação. O botão abre o WhatsApp no seu celular, com o texto preenchido.",
+  "contactLead": "Conta o cuidado que você busca. A gente te chama no WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Cuidados",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511964473907",
   "phoneDisplay": "(11) 96447-3907",
   "phones": [
@@ -60,7 +64,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Neide Estética | Harmonização Facial, Preenchimento Labial e Gordura Localizada em Osasco, Ayrosa, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
+  "footerNote": "© Neide Estética · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "estetica",
   "radius": "18px",

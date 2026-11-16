@@ -3,48 +3,52 @@ window.SITE = {
   "name": "HT Contábil - Contabilidade no Tatuapé",
   "shortName": "HT Contábil",
   "region": "Tatuapé, São Paulo",
-  "tagline": "Contabilidade no Tatuapé.",
-  "heroText": "Escritório no Tatuapé para rotinas contábeis e fiscais, com WhatsApp e telefone.",
+  "tagline": "Escritório digital de bairro: você manda o documento, a gente organiza.",
+  "heroText": "Rotina contábil no Tatuapé, com WhatsApp no lugar da pasta de papel.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A HT Contábil fica no Tatuapé, em São Paulo.",
-  "aboutText": "O contato está na página. O serviço é combinado caso a caso, sem promessa de resultado fiscal.",
+  "aboutLead": "A HT Contábil fica no Tatuapé e toca a contabilidade de um jeito direto.",
+  "aboutText": "Foto do boleto, PDF da nota, áudio com a dúvida: manda. O escritório lança, cobra o que faltou e te devolve o mês em ordem. Se quiser sentar, o bairro é o Tatuapé.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços do escritório",
-  "servicesIntro": "Organização de documentos, obrigações e folha.",
+  "servicesTitle": "Contabilidade no Tatuapé",
+  "servicesIntro": "Contabilidade que cabe no celular e num escritório de verdade.",
   "services": [
     {
-      "title": "Rotina contábil",
-      "description": "Organização de documentos e lançamentos."
+      "title": "Rotina digital",
+      "description": "Documentos pelo WhatsApp, lançamento no escritório."
     },
     {
-      "title": "Obrigações fiscais",
-      "description": "Apoio no calendário de impostos e declarações."
+      "title": "Fiscal",
+      "description": "Impostos do mês com a lista do que ainda falta enviar."
     },
     {
-      "title": "Departamento pessoal",
-      "description": "Folha e admissões, conforme a empresa pedir."
+      "title": "Folha",
+      "description": "Admissão e pagamento de quem trabalha com você."
     },
     {
-      "title": "Abertura e alterações",
-      "description": "Orientação para abrir ou ajustar a empresa."
+      "title": "Abertura",
+      "description": "Empresa nova, com as etapas ditas uma por uma."
+    },
+    {
+      "title": "Fechamento",
+      "description": "Números do período para você decidir com o sócio."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Tatuapé, São Paulo.",
+  "locationText": "Tatuapé, São Paulo. Atendimento combinado pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o tipo de empresa e o que você precisa. O botão abre o WhatsApp com o texto. O escritório responde por lá.",
+  "contactLead": "Manda uma mensagem curta. A gente combina o próximo passo pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um contato",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511945524018",
   "phoneDisplay": "(11) 94552-4018",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "HT Contábil - Contabilidade no Tatuapé, Tatuapé, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores combinados direto com o escritório.",
+  "footerNote": "© HT Contábil · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "contabil",
   "radius": "6px",

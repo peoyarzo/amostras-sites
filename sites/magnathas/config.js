@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Magnatha's Centro Automotivo",
   "shortName": "Magnatha's",
   "region": "Bela Vista, Osasco",
-  "tagline": "Centro automotivo na Bela Vista, em Osasco.",
-  "heroText": "Manutenção na Bela Vista, com orçamento depois da avaliação do veículo.",
+  "tagline": "Centro automotivo na Bela Vista, com orçamento depois da olhada.",
+  "heroText": "Revisão, arrefecimento e suspensão, em Osasco.",
   "aboutKicker": "A oficina",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Magnatha's fica na Bela Vista, em Osasco.",
-  "aboutText": "O Instagram e o telefone são os canais públicos. O formulário abre o WhatsApp com a sua mensagem.",
+  "aboutLead": "A Magnatha's fica na Bela Vista e atende o carro que você usa para trabalhar.",
+  "aboutText": "Manda uma foto do painel ou do vazamento. Se precisar ver de perto, a gente marca a entrada. O Instagram mostra a oficina; o serviço começa quando o carro está no elevador.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços",
-  "servicesIntro": "Sem preço fechado antes de ver o carro.",
+  "servicesTitle": "Na Bela Vista",
+  "servicesIntro": "Manutenção que evita o carro parar na Marginal.",
   "services": [
     {
-      "title": "Diagnóstico",
-      "description": "Olhada no que você relatou antes de abrir qualquer serviço."
-    },
-    {
       "title": "Revisão",
-      "description": "Fluidos, filtros e itens de rotina, conforme o carro."
+      "description": "Itens de desgaste trocados com você sabendo o motivo."
     },
     {
-      "title": "Freios e suspensão",
-      "description": "Verificação quando há barulho, vibração ou desgaste."
+      "title": "Arrefecimento",
+      "description": "Aquecimento, ventoinha e o vazamento embaixo do carro."
+    },
+    {
+      "title": "Suspensão e direção",
+      "description": "Volante torto, pneu comendo de um lado só."
+    },
+    {
+      "title": "Freios",
+      "description": "Pastilha no osso ou fluido vencido: a gente não deixa passar."
     },
     {
       "title": "Orçamento",
-      "description": "O valor é passado depois da avaliação do veículo."
+      "description": "Você vê o que será feito e decide o que entra agora."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Bela Vista, Osasco.",
+  "locationText": "Bela Vista, Osasco. Chama que indicamos a entrada da oficina.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Informe o modelo do carro e o que ele está apresentando. O botão abre o WhatsApp para você pedir o orçamento.",
+  "contactLead": "Manda o ano do carro e o serviço. A gente te chama no WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511947854774",
   "phoneDisplay": "(11) 94785-4774",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Magnatha's Centro Automotivo, Bela Vista, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento somente depois de avaliar o veículo.",
+  "footerNote": "© Magnatha's · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "oficina",
   "radius": "4px",

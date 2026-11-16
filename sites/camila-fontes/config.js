@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Camila Fontes",
   "shortName": "Camila Fontes",
   "region": "Vila Claudia, São Paulo",
-  "tagline": "Consultório de nutrição na Vila Cláudia.",
-  "heroText": "Consulta de nutrição na Vila Cláudia. A orientação é individual e não promete resultado.",
+  "tagline": "Consulta de nutrição pertinho, com plano que cabe na semana.",
+  "heroText": "Comida de verdade, rotina real e uma consulta na Vila Cláudia.",
   "aboutKicker": "O consultório",
   "aboutTitle": "Sobre",
-  "aboutLead": "O consultório de Camila Fontes fica na Vila Cláudia, em São Paulo.",
-  "aboutText": "O telefone está em link. Não há cardápio, preço ou foto de paciente nesta página.",
+  "aboutLead": "O consultório de Camila Fontes fica na Vila Cláudia, para quem quer organizar a alimentação sem cardápio de revista.",
+  "aboutText": "Na consulta, a gente olha horário de trabalho, fome, mercado e o que você já gosta de comer. O plano sai disso. O telefone marca o retorno.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Consulta de nutrição",
-  "servicesIntro": "A orientação alimentar é definida na consulta.",
+  "servicesTitle": "Nutrição na Vila Cláudia",
+  "servicesIntro": "Nutrição de consultório, pé no chão.",
   "services": [
     {
       "title": "Consulta",
-      "description": "Conversa sobre rotina alimentar e histórico."
+      "description": "História alimentar, rotina e o que você espera dessa mudança."
     },
     {
-      "title": "Orientação",
-      "description": "Sugestões individuais, definidas na consulta. Sem promessa de resultado."
+      "title": "Plano alimentar",
+      "description": "Sugestões que cabem na sua semana, não num dia perfeito."
+    },
+    {
+      "title": "Compras e preparo",
+      "description": "O que ter em casa para o plano não morrer na terça."
     },
     {
       "title": "Retorno",
-      "description": "Revisão do que foi combinado."
+      "description": "Ajuste do que funcionou e do que você não conseguiu seguir."
     },
     {
-      "title": "Marcação",
-      "description": "Horários pelo telefone ou pelo WhatsApp."
+      "title": "Dúvida entre consultas",
+      "description": "Uma pergunta objetiva pelo WhatsApp, quando surgir."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Vila Cláudia, São Paulo.",
+  "locationText": "Vila Cláudia, São Paulo. Chama que a gente manda a referência.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga seu nome e se quer marcar uma consulta. O botão abre o WhatsApp com a mensagem. Detalhes de saúde ficam para a consulta.",
+  "contactLead": "Conta se quer marcar uma consulta. A gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma consulta",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511984119794",
   "phoneDisplay": "(11) 98411-9794",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Camila Fontes, Vila Claudia, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de cura ou de resultado.",
+  "footerNote": "© Camila Fontes · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "saude",
   "radius": "16px",

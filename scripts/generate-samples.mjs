@@ -27,19 +27,6 @@ const NICHE_LABEL = {
 
 const NICHE_ORDER = Object.keys(NICHE_LABEL);
 
-const FOOTER = {
-  odonto: "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
-  estetica: "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
-  vet: "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
-  advocacia: "Prévia demonstrativa. Página modelo, sem indexação. Conteúdo informativo, sem promessa de resultado.",
-  contabil: "Prévia demonstrativa. Página modelo, sem indexação. Valores combinados direto com o escritório.",
-  fisio: "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
-  saude: "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de cura ou de resultado.",
-  oficina: "Prévia demonstrativa. Página modelo, sem indexação. Orçamento somente depois de avaliar o veículo.",
-  arq: "Prévia demonstrativa. Página modelo, sem indexação. Orçamento conforme o pedido, sem prazo prometido.",
-  cursos: "Prévia demonstrativa. Página modelo, sem indexação. Valores e turmas informados pela secretaria."
-};
-
 const CTA = {
   odonto: "Agende uma avaliação",
   estetica: "Agende uma avaliação",
@@ -60,22 +47,22 @@ const CTA = {
 };
 
 const CONTACT_LEAD = {
-  odonto: "Para marcar uma avaliação, deixe seu nome e um período do dia. O botão abre o WhatsApp com a mensagem pronta. Nada é enviado por aqui.",
-  estetica: "Conte em poucas linhas o que você quer conversar na avaliação. O botão abre o WhatsApp no seu celular, com o texto preenchido.",
-  vet: "Diga o nome do animal e o motivo do contato. O botão abre o WhatsApp com a mensagem. Esta página não envia os dados.",
-  advocacia: "Descreva o assunto em linhas gerais. O botão abre o WhatsApp para você enviar a mensagem ao escritório. Nada fica gravado aqui.",
-  contabil: "Diga o tipo de empresa e o que você precisa. O botão abre o WhatsApp com o texto. O escritório responde por lá.",
-  fisio: "Conte a queixa em uma frase e o período do dia. O botão abre o WhatsApp com a mensagem pronta.",
-  fisiofive: "Conte a queixa em uma frase e o período do dia. O botão abre o WhatsApp com a mensagem pronta.",
-  pilates: "Diga seu nome e o período em que pode fazer aula. O botão abre o WhatsApp com o texto. Esta página não envia nada.",
-  psico: "Se quiser, diga só o nome e que deseja uma primeira conversa. O botão abre o WhatsApp. Relatos longos ficam para o consultório.",
-  nutri: "Diga seu nome e se quer marcar uma consulta. O botão abre o WhatsApp com a mensagem. Detalhes de saúde ficam para a consulta.",
-  oficina: "Informe o modelo do carro e o que ele está apresentando. O botão abre o WhatsApp para você pedir o orçamento.",
-  arq: "Conte o tipo de imóvel e o que você quer fazer. O botão abre o WhatsApp com a mensagem, para você pedir um orçamento.",
-  reforma: "Diga o tipo de reparo e o bairro do imóvel. O botão abre o WhatsApp com o texto. O orçamento sai depois da visita.",
-  autoescola: "Diga seu nome e se a dúvida é sobre aula teórica, prática ou matrícula. O botão abre o WhatsApp.",
-  "autoescola-moto": "Diga seu nome e se a dúvida é sobre carro, moto ou matrícula. O botão abre o WhatsApp.",
-  idiomas: "Diga o idioma e o período do dia. O botão abre o WhatsApp com a mensagem para a secretaria."
+  odonto: "Conte o que você precisa e a gente responde pelo WhatsApp.",
+  estetica: "Conta o cuidado que você busca. A gente te chama no WhatsApp.",
+  vet: "Diz o nome do animal e o que está acontecendo. A gente responde pelo WhatsApp.",
+  advocacia: "Conta o assunto em poucas linhas. O escritório retorna pelo WhatsApp.",
+  contabil: "Conta o que a empresa precisa. A gente responde pelo WhatsApp.",
+  fisio: "Conta a queixa e o período do dia. A gente responde pelo WhatsApp.",
+  fisiofive: "Conta a queixa e o período do dia. A gente responde pelo WhatsApp.",
+  pilates: "Quer saber os horários de aula? Fala com a gente pelo WhatsApp.",
+  psico: "Quer marcar uma primeira conversa? Escreve aqui que a gente chama no WhatsApp.",
+  nutri: "Conta se quer marcar uma consulta. A gente responde pelo WhatsApp.",
+  oficina: "Diz o modelo do carro e o que ele aprontou. A gente responde pelo WhatsApp.",
+  arq: "Conta o tipo de imóvel e o que você quer mudar. A gente responde pelo WhatsApp.",
+  reforma: "Diz se é reparo ou reforma. A gente responde pelo WhatsApp.",
+  autoescola: "Quer saber turma e horário? A gente responde pelo WhatsApp.",
+  "autoescola-moto": "Diz se é carro, moto ou as duas. A gente responde pelo WhatsApp.",
+  idiomas: "Diz o idioma e o período. A gente confirma pelo WhatsApp."
 };
 
 const CHROME = {
@@ -365,15 +352,12 @@ function esc(value) {
 }
 
 function servicesFor(lead) {
-  const pack = PACKS[lead.sub] || PACKS[lead.niche];
-  const items = pack.map(([title, description]) => ({ title, description }));
-  if (lead.slug === "desenvolvendo-personalidade") {
-    items[2] = {
-      title: "Pessoas e empresas",
-      description: "O nome do espaço inclui atendimento pessoal e corporativo. O formato é combinado na conversa."
-    };
-  }
-  return items;
+  const source = Array.isArray(lead.services) && lead.services.length
+    ? lead.services
+    : (PACKS[lead.sub] || PACKS[lead.niche]);
+  return source.map((item) => (
+    Array.isArray(item) ? { title: item[0], description: item[1] } : item
+  ));
 }
 
 function imageSetKey(lead) {
@@ -409,6 +393,7 @@ function buildSite(lead, indexInNiche) {
   } else if (lead.sub === "psico") {
     serviceTitle = "Atendimento psicológico";
   }
+  if (lead.servicesTitle) serviceTitle = lead.servicesTitle;
   return {
     config: {
       name: lead.nome,
@@ -428,17 +413,17 @@ function buildSite(lead, indexInNiche) {
       locationTitle: "Onde fica",
       locationText: lead.location,
       hoursLabel: "Horário",
-      hours: lead.hours || "Sob consulta",
+      hours: lead.hours || "Horário combinado pelo WhatsApp",
       contactKicker: chrome[3],
       contactTitle: "Contato",
-      contactLead: CONTACT_LEAD[lead.sub] || CONTACT_LEAD[lead.niche],
+      contactLead: lead.contact || CONTACT_LEAD[lead.sub] || CONTACT_LEAD[lead.niche],
       navAbout: chrome[4],
       navServices,
       navLocation: chrome[6],
       navContact: chrome[7],
       ctaLabel: CTA[lead.sub] || CTA[lead.niche],
       ctaLink: "#contato",
-      formButton: "Abrir no WhatsApp",
+      formButton: "Falar no WhatsApp",
       whatsapp,
       phoneDisplay: phones[0].display,
       phones: phones.map(({ display, tel }) => ({ display, tel })),
@@ -446,7 +431,7 @@ function buildSite(lead, indexInNiche) {
       facebook: social.facebook,
       mapQuery: `${lead.nome}, ${lead.bairro}, ${lead.cidade} - SP`,
       banner: "Prévia demonstrativa",
-      footerNote: FOOTER[lead.niche],
+      footerNote: `© ${lead.shortName} · Prévia demonstrativa — página modelo.`,
       layout: layoutName,
       font: lead.niche,
       radius: RADIUS[lead.niche],
@@ -527,6 +512,14 @@ function patchHtml(html, lead, built) {
   );
   const mapSrc = "https://www.google.com/maps?q=" + encodeURIComponent(built.config.mapQuery) + "&output=embed";
   html = html.replace('src="about:blank"', `src="${mapSrc.replace(/&/g, "&amp;")}"`);
+  html = html.replace(
+    '<dd data-field="hours">Horário combinado pelo WhatsApp</dd>',
+    `<dd data-field="hours">${esc(built.config.hours)}</dd>`
+  );
+  html = html.replace(
+    '<p class="footer-note" data-field="footerNote">Prévia demonstrativa — página modelo.</p>',
+    `<p class="footer-note" data-field="footerNote">${esc(built.config.footerNote)}</p>`
+  );
   return html;
 }
 
@@ -577,7 +570,7 @@ ${items}
     <h1>50 prévias demonstrativas</h1>
     <p class="intro">Uma página por estabelecimento, agrupadas por nicho. São amostras, não os sites oficiais. Entram só dados públicos: nome, bairro, telefone, Instagram e serviços genéricos do nicho.</p>
 ${sections}
-    <footer>Prévia demonstrativa. Páginas com noindex. Nada aqui é enviado a um servidor.</footer>
+    <footer>Prévia demonstrativa — página modelo.</footer>
   </main>
 </body>
 </html>

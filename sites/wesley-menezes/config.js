@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Dr. Wesley Menezes",
   "shortName": "Wesley Menezes",
   "region": "Centro, Osasco",
-  "tagline": "Consultório de nutrição no centro de Osasco.",
-  "heroText": "Consulta de nutrição no Centro. Chame no WhatsApp ou ligue para marcar.",
+  "tagline": "Consulta de nutrição esportiva no centro de Osasco.",
+  "heroText": "Comida alinhada ao treino, sem cardápio impossível de seguir.",
   "aboutKicker": "O consultório",
   "aboutTitle": "Sobre",
-  "aboutLead": "O consultório fica no Centro de Osasco.",
-  "aboutText": "A orientação alimentar sai da consulta. Esta página não mostra preço nem resultado.",
+  "aboutLead": "O consultório fica no Centro de Osasco e atende quem treina e quer comer de um jeito que sustente o esforço.",
+  "aboutText": "Traz o horário da academia, o que você come correndo e o que não abre mão. A orientação sai da sua rotina, não de uma tabela genérica. O Instagram mostra o trabalho; a consulta marca pelo WhatsApp.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Consulta de nutrição",
-  "servicesIntro": "Sem cardápio genérico e sem promessa de mudança corporal.",
+  "servicesTitle": "Nutrição esportiva",
+  "servicesIntro": "Nutrição para quem se movimenta.",
   "services": [
     {
-      "title": "Consulta",
-      "description": "Conversa sobre rotina alimentar e histórico."
+      "title": "Consulta esportiva",
+      "description": "Treino, sono e prato olhados juntos."
     },
     {
-      "title": "Orientação",
-      "description": "Sugestões individuais, definidas na consulta. Sem promessa de resultado."
+      "title": "Rotina alimentar",
+      "description": "Refeições que cabem no trabalho e na academia."
+    },
+    {
+      "title": "Pré e pós-treino",
+      "description": "O que comer nessas janelas, com o que você já tem em casa."
+    },
+    {
+      "title": "Ajuste",
+      "description": "Quando a carga muda, o plano muda junto."
     },
     {
       "title": "Retorno",
-      "description": "Revisão do que foi combinado."
-    },
-    {
-      "title": "Marcação",
-      "description": "Horários pelo telefone ou pelo WhatsApp."
+      "description": "Uma revisão honesta do que você conseguiu manter."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de Osasco.",
+  "locationText": "Centro de Osasco. Fácil de passar antes ou depois do treino.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga seu nome e se quer marcar uma consulta. O botão abre o WhatsApp com a mensagem. Detalhes de saúde ficam para a consulta.",
+  "contactLead": "Diz em uma frase o que você busca na alimentação. Respondemos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma consulta",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511953722675",
   "phoneDisplay": "(11) 95372-2675",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Dr. Wesley Menezes, Centro, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de cura ou de resultado.",
+  "footerNote": "© Wesley Menezes · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "saude",
   "radius": "16px",

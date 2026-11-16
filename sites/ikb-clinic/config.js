@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Instituto Dra Karine Braga - IKB CLINIC",
   "shortName": "IKB Clinic",
   "region": "Jardim, Santo André",
-  "tagline": "Instituto de estética no Jardim, em Santo André.",
-  "heroText": "Avaliação e orientação sobre cuidados faciais, no bairro Jardim.",
+  "tagline": "Estética facial no Jardim, em Santo André.",
+  "heroText": "Avaliação demorada de propósito: a gente quer entender o que você busca.",
   "aboutKicker": "O espaço",
   "aboutTitle": "Sobre",
-  "aboutLead": "O IKB Clinic fica no Jardim, em Santo André.",
-  "aboutText": "O telefone e o Instagram estão na página. O formulário não envia dados: ele abre o WhatsApp para você concluir.",
+  "aboutLead": "O IKB Clinic fica no Jardim, pertinho de quem mora em Santo André.",
+  "aboutText": "Instituto com cara de consultório. Você fala, a gente anota, e só então sugere o cuidado. O Instagram mostra o espaço; o horário sai pelo WhatsApp.",
   "servicesKicker": "Cuidados",
-  "servicesTitle": "Cuidados",
-  "servicesIntro": "Sem promoção e sem promessa de resultado.",
+  "servicesTitle": "Instituto no Jardim",
+  "servicesIntro": "Um roteiro simples, da primeira visita à manutenção.",
   "services": [
     {
-      "title": "Avaliação",
-      "description": "Conversa para ver se algum procedimento faz sentido no seu caso."
-    },
-    {
-      "title": "Pele",
-      "description": "Limpeza e rotinas indicadas na avaliação."
+      "title": "Primeira visita",
+      "description": "Conversa e exame do rosto, sem pressa de fechar nada."
     },
     {
       "title": "Harmonização facial",
-      "description": "Orientação sobre procedimentos faciais. A indicação é individual."
+      "description": "Ajustes de contorno no que você apontou como prioridade."
     },
     {
-      "title": "Retorno",
-      "description": "Espaço para tirar dúvidas depois do atendimento."
+      "title": "Qualidade da pele",
+      "description": "Textura, poros e luminosidade tratados na medida da sua pele."
+    },
+    {
+      "title": "Protocolo sob medida",
+      "description": "A sequência de sessões cabe na sua semana, não o contrário."
+    },
+    {
+      "title": "Acompanhamento",
+      "description": "Mensagem aberta para dúvida depois que você sai da cadeira."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Jardim, Santo André.",
+  "locationText": "Jardim, Santo André. Pelo WhatsApp a gente manda a referência.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte em poucas linhas o que você quer conversar na avaliação. O botão abre o WhatsApp no seu celular, com o texto preenchido.",
+  "contactLead": "Quer agendar uma avaliação? Fala com a gente pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Cuidados",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511911215537",
   "phoneDisplay": "(11) 91121-5537",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Instituto Dra Karine Braga - IKB CLINIC, Jardim, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
+  "footerNote": "© IKB Clinic · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "estetica",
   "radius": "18px",

@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Elaine Navas - Advocacia",
   "shortName": "Elaine Navas",
   "region": "Tatuapé, São Paulo",
-  "tagline": "Escritório de advocacia no Tatuapé.",
-  "heroText": "Orientação jurídica no Tatuapé. A conversa é informativa e não antecipa o resultado do caso.",
+  "tagline": "Advocacia no Tatuapé, com explicação em linguagem direta.",
+  "heroText": "Questões de trabalho, previdência e família, com hora para sentar e falar.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "Elaine Navas — Advocacia atende na região do Tatuapé, em São Paulo.",
-  "aboutText": "Dá para ligar ou escrever pelo WhatsApp. O escritório explica o que cabe a partir dos fatos e dos documentos.",
+  "aboutLead": "O escritório de Elaine Navas fica no Tatuapé e atende quem precisa organizar um problema, não quem busca frase feita.",
+  "aboutText": "Você traz o relato e os papéis que já tem. A gente separa o que é trabalhista, previdenciário ou de família e diz, com clareza, qual caminho existe. A conversa é reservada e marcada.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Como é o atendimento",
-  "servicesIntro": "Sem promessa de êxito e sem honorários nesta página.",
+  "servicesTitle": "Trabalho, previdência e família",
+  "servicesIntro": "Três áreas em que o escritório trabalha no dia a dia.",
   "services": [
     {
+      "title": "Direito do trabalho",
+      "description": "Verbas, rescisão e o que ficou pendente na saída do emprego."
+    },
+    {
+      "title": "Previdenciário",
+      "description": "Aposentadoria e benefícios, com a papelada organizada."
+    },
+    {
+      "title": "Família",
+      "description": "Acordos e conflitos familiares tratados com discrição."
+    },
+    {
       "title": "Conversa inicial",
-      "description": "Você relata a situação e o escritório diz se pode acompanhar."
-    },
-    {
-      "title": "Documentos",
-      "description": "Leitura do que você já tem, sem antecipar desfecho."
-    },
-    {
-      "title": "Orientação",
-      "description": "Explicação das opções em linguagem direta."
+      "description": "Uma hora para você contar o caso e saber se o escritório segue com ele."
     },
     {
       "title": "Andamento",
-      "description": "Quando existe processo, os próximos passos são combinados."
+      "description": "Quando há processo, você sabe a quem perguntar o próximo passo."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Tatuapé, São Paulo.",
+  "locationText": "Tatuapé, São Paulo. O ponto de encontro sai pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Descreva o assunto em linhas gerais. O botão abre o WhatsApp para você enviar a mensagem ao escritório. Nada fica gravado aqui.",
+  "contactLead": "Conta o assunto em poucas linhas. A gente retorna pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atuação",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com o escritório",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511993192067",
   "phoneDisplay": "(11) 99319-2067",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Elaine Navas - Advocacia, Tatuapé, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Conteúdo informativo, sem promessa de resultado.",
+  "footerNote": "© Elaine Navas · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "advocacia",
   "radius": "4px",

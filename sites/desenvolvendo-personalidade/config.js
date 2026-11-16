@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Desenvolvendo Personalidade | Saúde, Educação e Inovação - Pessoal e Corporativo",
   "shortName": "Desenvolvendo",
   "region": "Vila Santa Teresa, Santo André",
-  "tagline": "Atendimento em psicologia na Vila Santa Teresa.",
-  "heroText": "Conversas para pessoas e empresas, como o nome do espaço indica. Sem promessa de cura.",
+  "tagline": "Psicologia na Vila Santa Teresa, para gente e para equipe.",
+  "heroText": "Atendimento individual e encontro com empresa, no mesmo endereço.",
   "aboutKicker": "O consultório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Desenvolvendo Personalidade fica na Vila Santa Teresa, em Santo André.",
-  "aboutText": "O telefone fixo e o celular estão em link. O atendimento não publica preço e não promete resultado.",
+  "aboutLead": "A Desenvolvendo Personalidade fica na Vila Santa Teresa e o nome já abre as duas portas: a pessoal e a do trabalho.",
+  "aboutText": "Você pode vir falar da sua vida ou trazer uma demanda da empresa. O formato muda, o cuidado de escutar não. Tem telefone fixo e celular.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento psicológico",
-  "servicesIntro": "O formato, individual ou para empresas, é combinado na primeira conversa.",
+  "servicesTitle": "Pessoas e empresas",
+  "servicesIntro": "Saúde e educação, no ritmo de cada pedido.",
   "services": [
     {
+      "title": "Atendimento individual",
+      "description": "Conversas para organizar o que você está vivendo."
+    },
+    {
+      "title": "Empresas",
+      "description": "Encontros com equipe, quando a demanda nasce no trabalho."
+    },
+    {
+      "title": "Educação",
+      "description": "Espaço para quem busca entender um comportamento e mudar o hábito."
+    },
+    {
       "title": "Primeira conversa",
-      "description": "Um encontro para entender o que você busca."
-    },
-    {
-      "title": "Psicoterapia",
-      "description": "Sessões no ritmo combinado. Não há promessa de cura."
-    },
-    {
-      "title": "Pessoas e empresas",
-      "description": "O nome do espaço inclui atendimento pessoal e corporativo. O formato é combinado na conversa."
+      "description": "Serve para ver o formato e se faz sentido seguir."
     },
     {
       "title": "Horários",
-      "description": "Marcação pelo telefone ou pelo WhatsApp."
+      "description": "Fixo ou celular: a gente acha um encaixe na semana."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Vila Santa Teresa, Santo André.",
+  "locationText": "Vila Santa Teresa, Santo André. A sala é combinada pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Se quiser, diga só o nome e que deseja uma primeira conversa. O botão abre o WhatsApp. Relatos longos ficam para o consultório.",
+  "contactLead": "Escreve seu nome e se o atendimento é para você ou para a empresa. Retornamos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma conversa",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511974123951",
   "phoneDisplay": "(11) 2598-1096",
   "phones": [
@@ -63,7 +67,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Desenvolvendo Personalidade | Saúde, Educação e Inovação - Pessoal e Corporativo, Vila Santa Teresa, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de cura ou de resultado.",
+  "footerNote": "© Desenvolvendo · Prévia demonstrativa — página modelo.",
   "layout": "split",
   "font": "saude",
   "radius": "16px",

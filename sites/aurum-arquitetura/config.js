@@ -4,47 +4,51 @@ window.SITE = {
   "shortName": "Aurum",
   "region": "Centro, São Bernardo do Campo",
   "tagline": "Arquitetura e interiores no centro de São Bernardo.",
-  "heroText": "Escritório no Centro para projetos e interiores. Peça uma conversa pelo celular.",
+  "heroText": "Estudo, projeto e uma conversa inicial sem enrolação.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Aurum Arquitetura e Interiores fica no Centro de São Bernardo do Campo.",
-  "aboutText": "O celular está em link para ligação e WhatsApp. O escopo do projeto é combinado na conversa.",
+  "aboutLead": "A Aurum fica no Centro e atende quem quer desenhar o espaço antes de chamar a obra.",
+  "aboutText": "Manda uma foto do imóvel e uma frase sobre o que não funciona. A gente marca uma conversa, apresenta o estudo e, se você topar, segue para o projeto. O celular é o canal.",
   "servicesKicker": "Trabalho",
-  "servicesTitle": "Projetos",
-  "servicesIntro": "Sem valor de projeto nesta página.",
+  "servicesTitle": "Projeto no Centro",
+  "servicesIntro": "Um percurso curto, do primeiro papo ao desenho.",
   "services": [
     {
       "title": "Conversa inicial",
-      "description": "Entendimento do espaço e do que você quer mudar."
+      "description": "Uso do espaço, prazo que você tem em mente e referências."
     },
     {
       "title": "Estudo",
-      "description": "Layout e referências, antes do projeto executivo."
+      "description": "Layout e ideias antes de detalhar cada parafuso."
     },
     {
       "title": "Projeto",
-      "description": "Desenhos do que for contratado."
+      "description": "Plantas e especificações do que for contratado."
+    },
+    {
+      "title": "Interiores",
+      "description": "Acabamento, mobiliário e a luz do fim da tarde."
     },
     {
       "title": "Obra",
-      "description": "Acompanhamento apenas se isso entrar no combinado."
+      "description": "Acompanhamento se você quiser o escritório na frente da execução."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de São Bernardo do Campo.",
+  "locationText": "Centro de São Bernardo do Campo. Dá para combinar a reunião pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte o tipo de imóvel e o que você quer fazer. O botão abre o WhatsApp com a mensagem, para você pedir um orçamento.",
+  "contactLead": "Manda uma frase sobre o projeto. Retornamos pelo WhatsApp para marcar uma conversa.",
   "navAbout": "Sobre",
   "navServices": "Projetos",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511937120017",
   "phoneDisplay": "(11) 93712-0017",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Aurum Arquitetura e Interiores, Centro, São Bernardo do Campo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento conforme o pedido, sem prazo prometido.",
+  "footerNote": "© Aurum · Prévia demonstrativa — página modelo.",
   "layout": "split",
   "font": "arq",
   "radius": "2px",

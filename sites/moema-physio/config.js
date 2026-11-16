@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Moema Physio Clinic - Fisioterapia Especializada, ITC Vertebral e Instituto TRATA",
   "shortName": "Moema Physio",
   "region": "Moema, São Paulo",
-  "tagline": "Fisioterapia em Moema.",
-  "heroText": "Avaliação fisioterapêutica em Moema. A conduta é definida depois, sem promessa de resultado.",
+  "tagline": "Coluna e movimento, com avaliação antes da sessão.",
+  "heroText": "Fisioterapia em Moema para quem sente a coluna ou quer se mover com menos incômodo.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Moema Physio Clinic fica em Moema, São Paulo.",
-  "aboutText": "O telefone está em link e há dois perfis públicos no Instagram. Não há preço nem promessa de melhora nesta página.",
+  "aboutLead": "A Moema Physio Clinic fica em Moema e recebe a queixa com calma, antes de montar as sessões.",
+  "aboutText": "Você conta onde dói, desde quando, e o que já tentou. A avaliação define o caminho. Há telefone e dois perfis no Instagram, o de Moema e o de Osasco.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "A avaliação vem antes das sessões.",
+  "servicesTitle": "Fisioterapia em Moema",
+  "servicesIntro": "Cuidado de clínica, com foco em coluna e movimento.",
   "services": [
     {
       "title": "Avaliação",
-      "description": "Primeira conversa para entender a queixa. A conduta vem depois."
+      "description": "A primeira visita é para entender a queixa e o seu dia."
     },
     {
-      "title": "Sessões",
-      "description": "Atendimento definido na avaliação, sem promessa de resultado."
+      "title": "Coluna",
+      "description": "Sessões voltadas para cervical, lombar e o que está sobrecarregado."
     },
     {
-      "title": "Orientação",
-      "description": "Exercícios explicados para o dia a dia, quando indicados."
+      "title": "Fisioterapia",
+      "description": "Conduta montada para o seu caso, sessão a sessão."
     },
     {
-      "title": "Remarcação",
-      "description": "Horários pelo telefone."
+      "title": "Movimento",
+      "description": "Exercício explicado para você repetir em casa com segurança."
+    },
+    {
+      "title": "Revisão",
+      "description": "A gente olha de novo se o plano ainda faz sentido."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Moema, São Paulo.",
+  "locationText": "Moema, São Paulo. O horário sai pelo telefone ou pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte a queixa em uma frase e o período do dia. O botão abre o WhatsApp com a mensagem pronta.",
+  "contactLead": "Conta a queixa e o período do dia. A gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551150933968",
   "phoneDisplay": "(11) 5093-3968",
   "phones": [
@@ -60,7 +64,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Moema Physio Clinic - Fisioterapia Especializada, ITC Vertebral e Instituto TRATA, Moema, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Moema Physio · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "fisio",
   "radius": "12px",

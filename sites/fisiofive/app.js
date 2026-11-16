@@ -236,7 +236,7 @@
       if (!number) {
         if (error) {
           error.hidden = false;
-          error.textContent = "Ainda não há um número de WhatsApp nesta prévia.";
+          error.textContent = "Este contato ainda não tem WhatsApp configurado.";
         }
         return;
       }

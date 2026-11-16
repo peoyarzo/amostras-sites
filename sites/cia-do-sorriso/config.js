@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Cia do Sorriso",
   "shortName": "Cia do Sorriso",
   "region": "Centro, Osasco",
-  "tagline": "Clínica odontológica no centro de Osasco.",
-  "heroText": "Avaliação e cuidados de rotina no Centro. Ligue no fixo ou chame no WhatsApp.",
+  "tagline": "Clínica no Centro, fácil de chegar no meio do expediente.",
+  "heroText": "Consulta, limpeza e restauração com telefone fixo e WhatsApp.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Cia do Sorriso fica no Centro de Osasco.",
-  "aboutText": "O telefone fixo e o celular estão na página, os dois clicáveis. Valores são informados na clínica, não aqui.",
+  "aboutLead": "A Cia do Sorriso está no Centro de Osasco, no caminho de quem trabalha por ali.",
+  "aboutText": "Dá para sair do serviço, fazer a limpeza e voltar. Se preferir, chama no WhatsApp antes e a gente separa o horário. Família inteira pode marcar no mesmo período.",
   "servicesKicker": "Atendimentos",
-  "servicesTitle": "Atendimentos",
-  "servicesIntro": "Atendimentos de rotina e avaliação. Sem tabela de preço nesta página.",
+  "servicesTitle": "No centro de Osasco",
+  "servicesIntro": "Rotina odontológica para quem mora ou trabalha no Centro.",
   "services": [
     {
-      "title": "Avaliação",
-      "description": "Consulta para entender o que você precisa antes de qualquer procedimento."
+      "title": "Consulta",
+      "description": "Exame e conversa, sem te empurrar tratamento que você não pediu."
     },
     {
-      "title": "Prevenção",
-      "description": "Limpeza e orientação de higiene, quando fizer parte do plano."
+      "title": "Limpeza",
+      "description": "Remove o que a escova não alcança e deixa a boca mais leve."
     },
     {
-      "title": "Restaurações",
-      "description": "Reparos indicados somente depois da avaliação."
+      "title": "Restauração",
+      "description": "Conserto do dente cariado ou lascado, em resina."
     },
     {
-      "title": "Dúvidas",
-      "description": "Explicação do que pode ser feito, sem promessa de resultado."
+      "title": "Extração",
+      "description": "Quando o dente não tem jeito, a retirada é feita com cuidado."
+    },
+    {
+      "title": "Retorno",
+      "description": "A gente acompanha a cicatrização e tira dúvida pelo WhatsApp."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de Osasco. A rua sai no agendamento.",
+  "locationText": "Centro de Osasco. Manda um oi que a gente explica o melhor acesso.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Para marcar uma avaliação, deixe seu nome e um período do dia. O botão abre o WhatsApp com a mensagem pronta. Nada é enviado por aqui.",
+  "contactLead": "Chama a gente pelo WhatsApp com seu nome e o melhor horário.",
   "navAbout": "Sobre",
   "navServices": "Atendimentos",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511988424459",
   "phoneDisplay": "(11) 3683-8753",
   "phones": [
@@ -63,7 +67,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Cia do Sorriso, Centro, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
+  "footerNote": "© Cia do Sorriso · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "odonto",
   "radius": "14px",

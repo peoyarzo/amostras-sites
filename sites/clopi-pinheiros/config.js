@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Clopi - Clínica Odontológica Pinheiros",
   "shortName": "Clopi",
   "region": "Cerqueira César, São Paulo",
-  "tagline": "Clínica odontológica no Cerqueira César.",
-  "heroText": "Avaliação, prevenção e atendimento clínico, com hora marcada pelo telefone ou pelo WhatsApp.",
+  "tagline": "Consulta com calma no Cerqueira César.",
+  "heroText": "Avaliação, limpeza e alinhadores transparentes, com hora marcada e retorno pelo WhatsApp.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Clopi fica no Cerqueira César, em São Paulo.",
-  "aboutText": "A primeira visita é uma avaliação. O que for indicado vem depois dessa conversa. Preços não aparecem nesta página.",
+  "aboutLead": "No Cerqueira César, a Clopi recebe você para olhar o sorriso com tempo.",
+  "aboutText": "A visita começa por uma conversa: o que incomoda, o que você gostaria de mudar e o que cabe na sua rotina. Dali a gente segue para o cuidado que faz sentido.",
   "servicesKicker": "Atendimentos",
-  "servicesTitle": "Atendimentos",
-  "servicesIntro": "Procedimentos comuns de consultório. A indicação depende do exame.",
+  "servicesTitle": "Cuidado com o sorriso",
+  "servicesIntro": "Do check-up ao alinhador, o plano sai da conversa com você.",
   "services": [
     {
       "title": "Avaliação",
-      "description": "Consulta para entender o que você precisa antes de qualquer procedimento."
+      "description": "Uma consulta para ouvir você e ver o que o sorriso pede agora."
     },
     {
-      "title": "Prevenção",
-      "description": "Limpeza e orientação de higiene, quando fizer parte do plano."
+      "title": "Limpeza",
+      "description": "Profilaxia para deixar a boca fresca e a gengiva mais confortável."
     },
     {
       "title": "Restaurações",
-      "description": "Reparos indicados somente depois da avaliação."
+      "description": "Resina para devolver a forma do dente que quebrou ou cedeu."
     },
     {
-      "title": "Dúvidas",
-      "description": "Explicação do que pode ser feito, sem promessa de resultado."
+      "title": "Alinhadores transparentes",
+      "description": "Aparelho discreto, pensado para o dia a dia de quem trabalha e estuda."
+    },
+    {
+      "title": "Clareamento",
+      "description": "Um clareamento conduzido no consultório, no tom combinado com você."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "A clínica fica na região do Cerqueira César. A rua é passada na hora de agendar.",
+  "locationText": "Estamos no Cerqueira César, em São Paulo. Pelo WhatsApp a gente combina o horário e explica como chegar.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Para marcar uma avaliação, deixe seu nome e um período do dia. O botão abre o WhatsApp com a mensagem pronta. Nada é enviado por aqui.",
+  "contactLead": "Conta o que você precisa e a gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimentos",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511975213736",
   "phoneDisplay": "(11) 97521-3736",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Clopi - Clínica Odontológica Pinheiros, Cerqueira César, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços, promoções ou promessa de resultado.",
+  "footerNote": "© Clopi · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "odonto",
   "radius": "14px",

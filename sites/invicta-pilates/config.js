@@ -4,47 +4,51 @@ window.SITE = {
   "shortName": "Invicta Pilates",
   "region": "Centro, São Bernardo do Campo",
   "tagline": "Estúdio de pilates no centro de São Bernardo.",
-  "heroText": "Aulas de pilates no Centro. Chame no WhatsApp para saber horários.",
+  "heroText": "Aula em aparelho, horário combinado e uma primeira vez para você sentir o ritmo.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "O Studio Invicta Pilates fica no Centro de São Bernardo do Campo.",
-  "aboutText": "A mensagem pode sair pelo formulário: ele abre o WhatsApp com o texto pronto. Não há preço nem promessa de resultado nesta página.",
+  "aboutLead": "O Studio Invicta fica no Centro, fácil para quem trabalha em São Bernardo.",
+  "aboutText": "Não é academia de esteira. É aula de pilates, com hora e com correção. Manda mensagem, diz manhã ou noite, e a gente vê a turma que ainda tem lugar.",
   "servicesKicker": "Aulas",
-  "servicesTitle": "Aulas",
-  "servicesIntro": "Aulas ajustadas à pessoa. O estúdio confirma grade e vaga.",
+  "servicesTitle": "Aulas no Centro",
+  "servicesIntro": "O estúdio em quatro pontos.",
   "services": [
     {
       "title": "Primeira aula",
-      "description": "Um encontro para conhecer o estúdio e o ritmo."
+      "description": "Você conhece o aparelho e o jeito da casa antes de fechar a grade."
     },
     {
-      "title": "Pilates",
-      "description": "Aulas no aparelho ou no solo, conforme a turma."
+      "title": "Pilates em aparelho",
+      "description": "Reformer e acessórios, com olhar em cima do movimento."
+    },
+    {
+      "title": "Solo",
+      "description": "Quando a turma ou o objetivo pedem o exercício no chão."
     },
     {
       "title": "Horários",
-      "description": "Grade confirmada pelo WhatsApp."
+      "description": "Manhã e outros turnos, confirmados pelo WhatsApp."
     },
     {
       "title": "Adaptação",
-      "description": "O exercício é ajustado à pessoa, sem promessa de resultado."
+      "description": "A carga muda com você, não o contrário."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de São Bernardo do Campo.",
+  "locationText": "Centro de São Bernardo do Campo. A referência vai no WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga seu nome e o período em que pode fazer aula. O botão abre o WhatsApp com o texto. Esta página não envia nada.",
+  "contactLead": "Quer saber os horários de aula? Fala com a gente pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Aulas",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale no WhatsApp",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511947038756",
   "phoneDisplay": "(11) 94703-8756",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Pilates em São Bernardo - Studio Invicta Pilates, Centro, São Bernardo do Campo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Invicta Pilates · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "fisio",
   "radius": "12px",

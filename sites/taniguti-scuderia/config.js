@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Taniguti Scuderia - Centro Automotivo",
   "shortName": "Taniguti Scuderia",
   "region": "Umuarama, Osasco",
-  "tagline": "Centro automotivo no Umuarama, em Osasco.",
-  "heroText": "Diagnóstico e revisão no Umuarama. O orçamento sai depois de ver o carro.",
+  "tagline": "Oficina no Umuarama para o carro do dia a dia.",
+  "heroText": "Diagnóstico, revisão e freio, com orçamento depois de ver o veículo.",
   "aboutKicker": "A oficina",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Taniguti Scuderia fica no Umuarama, em Osasco.",
-  "aboutText": "O celular está em link para ligar e para o WhatsApp. Não há tabela de preço nesta página.",
+  "aboutLead": "A Taniguti Scuderia fica no Umuarama e mexe com carro de várias marcas.",
+  "aboutText": "Traz o popular ou o que você considera especial. A gente ouve o barulho, olha embaixo e te diz o que encontrou antes de abrir serviço. O celular marca a entrada.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços",
-  "servicesIntro": "O serviço começa pelo que você relata e pela olhada no veículo.",
+  "servicesTitle": "Centro automotivo multimarcas",
+  "servicesIntro": "Serviço de centro automotivo, explicado na linguagem de quem dirige.",
   "services": [
     {
       "title": "Diagnóstico",
-      "description": "Olhada no que você relatou antes de abrir qualquer serviço."
+      "description": "A gente reproduz o sintoma antes de trocar peça no chute."
     },
     {
       "title": "Revisão",
-      "description": "Fluidos, filtros e itens de rotina, conforme o carro."
+      "description": "Óleo, filtros e o que a quilometragem está pedindo."
     },
     {
-      "title": "Freios e suspensão",
-      "description": "Verificação quando há barulho, vibração ou desgaste."
+      "title": "Freios",
+      "description": "Pastilha, disco e aquele chiado que começou na descida."
     },
     {
-      "title": "Orçamento",
-      "description": "O valor é passado depois da avaliação do veículo."
+      "title": "Suspensão",
+      "description": "Batida seca e volante puxando: olhamos o conjunto."
+    },
+    {
+      "title": "Multimarcas",
+      "description": "Entra o carro que você tem. A conversa é sobre ele, não sobre a bandeira."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Umuarama, Osasco.",
+  "locationText": "Umuarama, Osasco. Manda o modelo que a gente reserva a vaga.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Informe o modelo do carro e o que ele está apresentando. O botão abre o WhatsApp para você pedir o orçamento.",
+  "contactLead": "Diz o modelo do carro e o que ele aprontou. A gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511947759613",
   "phoneDisplay": "(11) 94775-9613",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Taniguti Scuderia - Centro Automotivo, Umuarama, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento somente depois de avaliar o veículo.",
+  "footerNote": "© Taniguti Scuderia · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "oficina",
   "radius": "4px",

@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Gentili Advogados & Associados",
   "shortName": "Gentili Advogados",
   "region": "Moema, São Paulo",
-  "tagline": "Escritório de advocacia em Moema.",
-  "heroText": "Um telefone claro para quem precisa de orientação jurídica em Moema.",
+  "tagline": "Advogados em Moema, com telefone que atende.",
+  "heroText": "Orientação jurídica em Moema, marcada e sem sala de espera infinita.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "Gentili Advogados & Associados fica em Moema, São Paulo.",
-  "aboutText": "Na primeira conversa, o escritório ouve o caso e diz se pode acompanhar. A linguagem daqui é só informativa.",
+  "aboutLead": "A Gentili Advogados fica em Moema para quem precisa de uma conversa objetiva.",
+  "aboutText": "Você liga, marca e chega com o essencial. O escritório ouve, diz se pode cuidar do caso e explica o próximo movimento. O resto fica para a reunião, não para o corredor.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Como é o atendimento",
-  "servicesIntro": "Sem captação por promessa e sem tabela de honorários.",
+  "servicesTitle": "Escritório em Moema",
+  "servicesIntro": "Um jeito direto de ser recebido.",
   "services": [
     {
-      "title": "Conversa inicial",
-      "description": "Você relata a situação e o escritório diz se pode acompanhar."
+      "title": "Atendimento marcado",
+      "description": "Horário combinado, para a reunião começar na hora."
+    },
+    {
+      "title": "Análise do caso",
+      "description": "Leitura do relato e dos papéis antes de qualquer passo."
+    },
+    {
+      "title": "Orientação clara",
+      "description": "O que dá para fazer, dito sem jargão."
     },
     {
       "title": "Documentos",
-      "description": "Leitura do que você já tem, sem antecipar desfecho."
+      "description": "Lista do que reunir, para você não voltar pela metade."
     },
     {
-      "title": "Orientação",
-      "description": "Explicação das opções em linguagem direta."
-    },
-    {
-      "title": "Andamento",
-      "description": "Quando existe processo, os próximos passos são combinados."
+      "title": "Retorno",
+      "description": "Quando o assunto segue, você tem com quem falar no escritório."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Moema, São Paulo.",
+  "locationText": "Moema, São Paulo. A referência da sala vai no telefone.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Descreva o assunto em linhas gerais. O botão abre o WhatsApp para você enviar a mensagem ao escritório. Nada fica gravado aqui.",
+  "contactLead": "Manda uma mensagem objetiva. Retornamos pelo WhatsApp para marcar uma conversa.",
   "navAbout": "Sobre",
   "navServices": "Atuação",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com o escritório",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551155420090",
   "phoneDisplay": "(11) 5542-0090",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Gentili Advogados & Associados, Moema, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Conteúdo informativo, sem promessa de resultado.",
+  "footerNote": "© Gentili Advogados · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "advocacia",
   "radius": "4px",

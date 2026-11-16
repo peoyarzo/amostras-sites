@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Hospital Veterinário Dom Pedro",
   "shortName": "Hovet Dom Pedro",
   "region": "Vila Vitória, Santo André",
-  "tagline": "Hospital veterinário na Vila Vitória.",
-  "heroText": "Hospital veterinário em Santo André, com o telefone na primeira tela.",
+  "tagline": "Hospital veterinário 24 horas na Vila Vitória.",
+  "heroText": "Consulta, internação e pet shop, com telefone na primeira dobra.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "O Hospital Veterinário Dom Pedro fica na Vila Vitória, em Santo André.",
-  "aboutText": "Use o telefone para consulta, banho e tosa ou para saber o que informar antes de ir.",
+  "aboutLead": "O Dom Pedro fica na Vila Vitória e funciona como hospital, não como balcão de ração.",
+  "aboutText": "Você liga, diz o que o animal está sentindo e a gente te fala se vem agora ou se marca. De madrugada a porta segue aberta. De dia, dá para resolver banho, consulta e o que faltou na despensa.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "A página não substitui a orientação da equipe e não promete desfecho.",
+  "servicesTitle": "Hospital e pet shop",
+  "servicesIntro": "Hospital com pet shop ao lado, para a ida render.",
   "services": [
     {
+      "title": "Pronto atendimento",
+      "description": "Plantão para o susto da madrugada e o mal-estar da tarde."
+    },
+    {
       "title": "Consulta",
-      "description": "Avaliação clínica do animal, com orientação a quem cuida dele."
+      "description": "Clínico com explicação do que a gente encontrou."
+    },
+    {
+      "title": "Internação",
+      "description": "O animal fica em observação e você é avisado da evolução."
     },
     {
       "title": "Banho e tosa",
-      "description": "Higiene e tosa com horário marcado."
+      "description": "Higiene marcada, sem misturar com a fila da urgência."
     },
     {
-      "title": "Exames",
-      "description": "Pedidos quando a consulta indicar."
-    },
-    {
-      "title": "Contato direto",
-      "description": "Telefone para remarcar ou avisar que está a caminho."
+      "title": "Pet shop",
+      "description": "Ração, acessório e o que acaba sempre na pior hora."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Vila Vitória, Santo André.",
+  "locationText": "Vila Vitória, Santo André. Chama que orientamos a chegada.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Atendimento 24 horas",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o nome do animal e o motivo do contato. O botão abre o WhatsApp com a mensagem. Esta página não envia os dados.",
+  "contactLead": "Fala com a gente pelo WhatsApp para encaixar a consulta.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma consulta",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551144538160",
   "phoneDisplay": "(11) 4453-8160",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Hospital Veterinário Dom Pedro, Vila Vitória, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Hovet Dom Pedro · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "vet",
   "radius": "14px",

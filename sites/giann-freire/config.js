@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Giann Freire Arquitetura",
   "shortName": "Giann Freire",
   "region": "Pinheiros, São Paulo",
-  "tagline": "Arquitetura em Pinheiros.",
-  "heroText": "Escritório em Pinheiros. Ligue ou chame no WhatsApp para falar de um projeto.",
+  "tagline": "Arquitetura em Pinheiros, do estudo ao projeto.",
+  "heroText": "Um escritório para começar o projeto com uma conversa, não com um PDF frio.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "Giann Freire Arquitetura fica em Pinheiros, São Paulo.",
-  "aboutText": "A página traz o contato e o tipo de trabalho. O desenho e o valor dependem do que for pedido.",
+  "aboutLead": "Giann Freire Arquitetura fica em Pinheiros e desenha para quem vai usar o espaço.",
+  "aboutText": "Traz a metragem, as fotos e o que você não quer repetir do apartamento anterior. A gente devolve um estudo e, se seguir, o projeto. O WhatsApp marca a primeira conversa.",
   "servicesKicker": "Trabalho",
-  "servicesTitle": "Projetos",
-  "servicesIntro": "Conversa, estudo e projeto. Obra só se estiver no combinado.",
+  "servicesTitle": "Escritório em Pinheiros",
+  "servicesIntro": "Projeto de arquitetura, passo a passo.",
   "services": [
     {
-      "title": "Conversa inicial",
-      "description": "Entendimento do espaço e do que você quer mudar."
+      "title": "Briefing",
+      "description": "Como você mora, o que guarda e o que odeia no imóvel atual."
     },
     {
-      "title": "Estudo",
-      "description": "Layout e referências, antes do projeto executivo."
+      "title": "Estudo preliminar",
+      "description": "Primeiras plantas para você reagir antes do detalhe."
     },
     {
       "title": "Projeto",
-      "description": "Desenhos do que for contratado."
+      "description": "Desenho do que será construído ou reformado."
     },
     {
-      "title": "Obra",
-      "description": "Acompanhamento apenas se isso entrar no combinado."
+      "title": "Interiores",
+      "description": "Materiais e mobiliário no mesmo raciocínio da planta."
+    },
+    {
+      "title": "Compatibilização",
+      "description": "Conversa com a obra para o desenho acontecer no canteiro."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Pinheiros, São Paulo.",
+  "locationText": "Pinheiros, São Paulo. Dá para nos encontrar no bairro ou começar pela mensagem.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte o tipo de imóvel e o que você quer fazer. O botão abre o WhatsApp com a mensagem, para você pedir um orçamento.",
+  "contactLead": "Conta o tamanho da ideia. A gente combina a conversa pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Projetos",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511991709028",
   "phoneDisplay": "(11) 99170-9028",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Giann Freire Arquitetura, Pinheiros, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento conforme o pedido, sem prazo prometido.",
+  "footerNote": "© Giann Freire · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "arq",
   "radius": "2px",

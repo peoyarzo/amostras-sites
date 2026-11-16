@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Clínica de Fisioterapia B-Active Moema",
   "shortName": "B-Active",
   "region": "Indianópolis, São Paulo",
-  "tagline": "Fisioterapia em Indianópolis.",
-  "heroText": "Clínica de fisioterapia em Indianópolis, com telefone em link.",
+  "tagline": "Fisioterapia com hora marcada em Indianópolis.",
+  "heroText": "Avaliação e sessão, sem depender de chat escondido para achar a clínica.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A B-Active fica em Indianópolis, São Paulo.",
-  "aboutText": "Para marcar uma avaliação, ligue ou use o formulário. Ele abre o WhatsApp com a sua mensagem e não envia nada sozinho.",
+  "aboutLead": "A B-Active desta unidade fica em Indianópolis.",
+  "aboutText": "Liga, diz o que está limitando o seu dia e marca a avaliação. Nas sessões, o fisioterapeuta te explica o exercício antes de te deixar repetindo sozinho.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "Sessões só depois da avaliação. Sem promessa de resultado.",
+  "servicesTitle": "Clínica em Indianópolis",
+  "servicesIntro": "Um fluxo curto: avaliar, tratar, revisar.",
   "services": [
     {
-      "title": "Avaliação",
-      "description": "Primeira conversa para entender a queixa. A conduta vem depois."
+      "title": "Avaliação física",
+      "description": "Testes simples para ver onde o movimento trava."
     },
     {
-      "title": "Sessões",
-      "description": "Atendimento definido na avaliação, sem promessa de resultado."
+      "title": "Sessão",
+      "description": "Conduta individual, com tempo de começar e de terminar."
     },
     {
-      "title": "Orientação",
-      "description": "Exercícios explicados para o dia a dia, quando indicados."
+      "title": "Exercício terapêutico",
+      "description": "Movimento corrigido, não série copiada da internet."
     },
     {
-      "title": "Remarcação",
-      "description": "Horários pelo telefone."
+      "title": "Dor do dia a dia",
+      "description": "Coluna, ombro, joelho: a queixa que te trouxe até aqui."
+    },
+    {
+      "title": "Acompanhamento",
+      "description": "A cada bloco de sessões, a gente revê se segue ou muda."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Indianópolis, São Paulo.",
+  "locationText": "Indianópolis, São Paulo. A chegada é combinada pelo telefone.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte a queixa em uma frase e o período do dia. O botão abre o WhatsApp com a mensagem pronta.",
+  "contactLead": "Diz seu nome e o melhor turno. Retornamos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551150932789",
   "phoneDisplay": "(11) 5093-2789",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Clínica de Fisioterapia B-Active Moema, Indianópolis, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© B-Active · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "fisio",
   "radius": "12px",

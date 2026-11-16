@@ -94,6 +94,31 @@ for (const file of htmlFiles) {
     fail(`${rel}: promessa ou antes/depois`);
   }
 
+  const visibleHtml = html
+    .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ");
+  const visibleBits = [visibleHtml];
+  const configPathEarly = path.join(dir, "config.js");
+  if (fs.existsSync(configPathEarly)) {
+    const siteText = loadSite(configPathEarly);
+    const collect = (value) => {
+      if (typeof value === "string") visibleBits.push(value);
+      else if (Array.isArray(value)) value.forEach(collect);
+      else if (value && typeof value === "object") Object.values(value).forEach(collect);
+    };
+    collect(siteText);
+  }
+  const visible = visibleBits.join("\n");
+  const bannedVisible = ["nesta página", "promessa", "preço", "parcel", "nada é enviado"];
+  const visibleLower = visible.toLowerCase();
+  for (const word of bannedVisible) {
+    const at = visibleLower.indexOf(word);
+    if (at === -1) continue;
+    const snippet = visible.slice(Math.max(0, at - 36), at + word.length + 36).replace(/\s+/g, " ").trim();
+    fail(`${rel}: texto visível contém "${word}" → ${snippet}`);
+  }
+
   const configPath = path.join(dir, "config.js");
   if (!fs.existsSync(configPath)) continue;
   const site = loadSite(configPath);

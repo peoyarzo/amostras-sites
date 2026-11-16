@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Rosana Pintor Arquitetura e Interiores",
   "shortName": "Rosana Pintor",
   "region": "Jardim, Santo André",
-  "tagline": "Arquitetura e interiores no Jardim, em Santo André.",
-  "heroText": "Projetos e interiores em Santo André. A conversa inicial não tem preço fechado.",
+  "tagline": "Projeto de casa e apartamento no Jardim, em Santo André.",
+  "heroText": "Interiores com detalhe, do primeiro croqui à obra.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "O escritório Rosana Pintor fica no bairro Jardim, em Santo André.",
-  "aboutText": "Dá para ligar e contar o tipo de espaço. O orçamento depende do pedido. Não há prazo prometido nesta página.",
+  "aboutLead": "O escritório de Rosana Pintor fica no Jardim e desenha arquitetura e interiores.",
+  "aboutText": "Você chega com a planta, uma foto do apartamento ou só a vontade de mudar a sala. A gente escuta como a casa é usada e devolve um estudo. Obra, se entrar no combinado, a gente acompanha.",
   "servicesKicker": "Trabalho",
-  "servicesTitle": "Projetos",
-  "servicesIntro": "Estudo, projeto e, se combinado, acompanhamento.",
+  "servicesTitle": "Arquitetura e interiores",
+  "servicesIntro": "Do estudo ao detalhe que se vê todo dia.",
   "services": [
     {
-      "title": "Conversa inicial",
-      "description": "Entendimento do espaço e do que você quer mudar."
+      "title": "Projeto residencial",
+      "description": "Casa ou apartamento pensados para quem vai morar ali."
     },
     {
-      "title": "Estudo",
-      "description": "Layout e referências, antes do projeto executivo."
+      "title": "Interiores",
+      "description": "Marcenaria, luz e o layout que desenrola a circulação."
     },
     {
-      "title": "Projeto",
-      "description": "Desenhos do que for contratado."
+      "title": "Reforma",
+      "description": "O que derrubar, o que ficar e a ordem da obra."
     },
     {
-      "title": "Obra",
-      "description": "Acompanhamento apenas se isso entrar no combinado."
+      "title": "Detalhamento",
+      "description": "Desenho para o marceneiro e para o empreiteiro executarem."
+    },
+    {
+      "title": "Acompanhamento",
+      "description": "Visita à obra quando isso faz parte do combinado."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Jardim, Santo André.",
+  "locationText": "Jardim, Santo André. A conversa pode começar pelo telefone.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte o tipo de imóvel e o que você quer fazer. O botão abre o WhatsApp com a mensagem, para você pedir um orçamento.",
+  "contactLead": "Conta o tipo de imóvel e o que você quer mudar. A gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Projetos",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551128666460",
   "phoneDisplay": "(11) 2866-6460",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Rosana Pintor Arquitetura e Interiores, Jardim, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento conforme o pedido, sem prazo prometido.",
+  "footerNote": "© Rosana Pintor · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "arq",
   "radius": "2px",

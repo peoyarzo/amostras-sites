@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Contnow",
   "shortName": "Contnow",
   "region": "Umuarama, Osasco",
-  "tagline": "Contabilidade no Umuarama, em Osasco.",
-  "heroText": "Rotina contábil, fiscal e departamento pessoal. O retorno é pelo telefone ou pelo WhatsApp.",
+  "tagline": "Societário, folha, imposto e rotina, no Umuarama.",
+  "heroText": "Abertura, departamento pessoal e o fiscal em dia, com resposta no WhatsApp.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Contnow fica no Umuarama, em Osasco.",
-  "aboutText": "Dá para pedir um contato e combinar o envio de documentos. Não há mensalidade nem promessa de economia de imposto nesta página.",
+  "aboutLead": "A Contnow fica no Umuarama e pega a empresa do contrato social à guia do mês.",
+  "aboutText": "Manda o que está apertando: abrir, regularizar, folha ou imposto de renda. A gente diz o que precisa receber de você e devolve a rotina organizada. O celular está aí embaixo.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços do escritório",
-  "servicesIntro": "Serviços de escritório contábil. O escopo é fechado na conversa.",
+  "servicesTitle": "Contabilidade no Umuarama",
+  "servicesIntro": "As frentes em que o escritório trabalha.",
   "services": [
     {
-      "title": "Rotina contábil",
-      "description": "Organização de documentos e lançamentos."
-    },
-    {
-      "title": "Obrigações fiscais",
-      "description": "Apoio no calendário de impostos e declarações."
+      "title": "Abertura e societário",
+      "description": "Contrato, alteração e a papelada de constituir a empresa."
     },
     {
       "title": "Departamento pessoal",
-      "description": "Folha e admissões, conforme a empresa pedir."
+      "description": "Admissão, folha e as obrigações de quem tem equipe."
     },
     {
-      "title": "Abertura e alterações",
-      "description": "Orientação para abrir ou ajustar a empresa."
+      "title": "Fiscal",
+      "description": "Guias e declarações no calendário, sem susto de última hora."
+    },
+    {
+      "title": "Contábil",
+      "description": "Livros e balanço em ordem para banco, sócio e você mesmo."
+    },
+    {
+      "title": "Imposto de renda",
+      "description": "Organização da declaração de quem é dono do negócio."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Umuarama, Osasco.",
+  "locationText": "Umuarama, Osasco. A referência vai pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o tipo de empresa e o que você precisa. O botão abre o WhatsApp com o texto. O escritório responde por lá.",
+  "contactLead": "Conta o porte da empresa e o que você precisa. Respondemos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um contato",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511962676781",
   "phoneDisplay": "(11) 96267-6781",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Contnow, Umuarama, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores combinados direto com o escritório.",
+  "footerNote": "© Contnow · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "contabil",
   "radius": "6px",

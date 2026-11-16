@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Interlingua Idiomas",
   "shortName": "Interlingua",
   "region": "Jardim Bela Vista, Santo André",
-  "tagline": "Escola de idiomas no Jardim Bela Vista.",
-  "heroText": "Inglês e espanhol no Jardim Bela Vista, em Santo André. Peça horários pelo telefone.",
+  "tagline": "Escola de idiomas no Jardim Bela Vista, presencial e online.",
+  "heroText": "Inglês, espanhol e alemão, para criança e adulto, aqui ou de casa.",
   "aboutKicker": "A escola",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Interlingua Idiomas fica no Jardim Bela Vista, em Santo André.",
-  "aboutText": "O telefone fixo e o celular estão em link, junto com o Instagram. A escola não promete fluência em prazo fechado.",
+  "aboutLead": "A Interlingua fica no Jardim Bela Vista e dá aula presencial e online.",
+  "aboutText": "Você diz o idioma e se estuda de manhã, à noite ou no sofá. A escola indica o nível e a turma. Tem telefone fixo, WhatsApp e Instagram para ver o clima da sala.",
   "servicesKicker": "Aulas",
-  "servicesTitle": "Aulas",
-  "servicesIntro": "Outros idiomas, se houver turma, a secretaria confirma.",
+  "servicesTitle": "Inglês, espanhol e alemão",
+  "servicesIntro": "Idiomas que a escola oferece, no bairro e pela tela.",
   "services": [
     {
       "title": "Inglês",
-      "description": "Aulas para quem começa ou já estuda."
+      "description": "Turmas para quem está começando e para quem já conversa."
     },
     {
       "title": "Espanhol",
-      "description": "Turmas conforme a grade da escola."
+      "description": "Aula no bairro, com horário que cabe na semana."
     },
     {
-      "title": "Horários",
-      "description": "Presencial. A vaga é confirmada na secretaria."
+      "title": "Alemão",
+      "description": "Do zero ou retomada, em grupo pequeno."
     },
     {
-      "title": "Matrícula",
-      "description": "Conversa para indicar o nível. Sem promessa de fluência em prazo fixo."
+      "title": "Online",
+      "description": "A mesma aula, de casa, quando o deslocamento não ajuda."
+    },
+    {
+      "title": "Crianças e adultos",
+      "description": "Grupos separados, cada idade no seu ritmo."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Jardim Bela Vista, Santo André.",
+  "locationText": "Jardim Bela Vista, Santo André. A aula online dispensa o deslocamento; a presencial, a gente explica como chegar.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o idioma e o período do dia. O botão abre o WhatsApp com a mensagem para a secretaria.",
+  "contactLead": "Diz o idioma e o período. A gente confirma pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Aulas",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com a secretaria",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511984311160",
   "phoneDisplay": "(11) 4437-2277",
   "phones": [
@@ -63,7 +67,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Interlingua Idiomas, Jardim Bela Vista, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores e turmas informados pela secretaria.",
+  "footerNote": "© Interlingua · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "cursos",
   "radius": "10px",

@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Reabilitando Fisioterapia e Ciência - Moema",
   "shortName": "Reabilitando",
   "region": "Indianópolis, São Paulo",
-  "tagline": "Fisioterapia em Indianópolis.",
-  "heroText": "Avaliação e atendimento em Indianópolis, com telefone para marcar.",
+  "tagline": "Reabilitação com explicação, em Indianópolis.",
+  "heroText": "Sessões para voltar ao movimento, perto de Moema e do metrô da região.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Reabilitando fica em Indianópolis, São Paulo.",
-  "aboutText": "O plano de sessões, se houver, sai da avaliação. Sem promessa de resultado e sem tabela de preço.",
+  "aboutLead": "A Reabilitando fica em Indianópolis e trata a reabilitação como conversa, não como esteira.",
+  "aboutText": "A gente quer saber o que você precisa voltar a fazer: subir escada, trabalhar sentado, correr no fim de semana. A avaliação desenha as sessões. O telefone marca.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "Fisioterapia com conduta individual.",
+  "servicesTitle": "Fisioterapia em Indianópolis",
+  "servicesIntro": "Fisioterapia para a vida que você quer retomar.",
   "services": [
     {
       "title": "Avaliação",
-      "description": "Primeira conversa para entender a queixa. A conduta vem depois."
+      "description": "História da lesão, do trabalho e do que você sente hoje."
     },
     {
       "title": "Sessões",
-      "description": "Atendimento definido na avaliação, sem promessa de resultado."
+      "description": "Atendimento individual, no ritmo que o corpo aguenta."
+    },
+    {
+      "title": "Reabilitação",
+      "description": "Exercício para ganhar função de volta, com correção na hora."
     },
     {
       "title": "Orientação",
-      "description": "Exercícios explicados para o dia a dia, quando indicados."
+      "description": "O que evitar na semana e o que já pode fazer."
     },
     {
-      "title": "Remarcação",
-      "description": "Horários pelo telefone."
+      "title": "Alta combinada",
+      "description": "Você sai sabendo quando voltar, se precisar."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Indianópolis, São Paulo.",
+  "locationText": "Indianópolis, São Paulo. Chama que mandamos a referência.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Conte a queixa em uma frase e o período do dia. O botão abre o WhatsApp com a mensagem pronta.",
+  "contactLead": "Quer marcar uma avaliação? Escreve aqui que confirmamos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma avaliação",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551134430857",
   "phoneDisplay": "(11) 3443-0857",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Reabilitando Fisioterapia e Ciência - Moema, Indianópolis, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Reabilitando · Prévia demonstrativa — página modelo.",
   "layout": "split",
   "font": "fisio",
   "radius": "12px",

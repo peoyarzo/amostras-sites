@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Barbosa & Cruz Advogados",
   "shortName": "Barbosa & Cruz",
   "region": "Santana, São Paulo",
-  "tagline": "Advocacia em Santana.",
-  "heroText": "Escritório em Santana, com WhatsApp e telefone para agendar uma conversa.",
+  "tagline": "Escritório em Santana para assunto de família, cível e INSS.",
+  "heroText": "Três frentes de trabalho e um WhatsApp para marcar a conversa.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "Barbosa & Cruz Advogados fica em Santana, São Paulo.",
-  "aboutText": "O atendimento explica caminhos. Não antecipa decisão e não publica honorários.",
+  "aboutLead": "Barbosa & Cruz fica em Santana e atende família, cível e previdenciário.",
+  "aboutText": "Mora na zona norte e não quer descer até o centro para explicar um problema: o escritório está aqui. Traz o que você tem em mãos. A gente organiza e te diz o que vem depois.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Como é o atendimento",
-  "servicesIntro": "Você conta o assunto em linhas gerais. Os detalhes ficam para a consulta.",
+  "servicesTitle": "Família, cível e previdência",
+  "servicesIntro": "As áreas em que o escritório costuma receber clientes.",
   "services": [
     {
-      "title": "Conversa inicial",
-      "description": "Você relata a situação e o escritório diz se pode acompanhar."
+      "title": "Família",
+      "description": "Divórcio, guarda e acordos tratados com reserva."
     },
     {
-      "title": "Documentos",
-      "description": "Leitura do que você já tem, sem antecipar desfecho."
+      "title": "Cível",
+      "description": "Contratos, cobrança e conflitos do dia a dia."
     },
     {
-      "title": "Orientação",
-      "description": "Explicação das opções em linguagem direta."
+      "title": "Previdenciário",
+      "description": "Pedidos junto ao INSS, com a documentação revista antes."
     },
     {
-      "title": "Andamento",
-      "description": "Quando existe processo, os próximos passos são combinados."
+      "title": "Consulta",
+      "description": "Uma conversa inicial para ver se o caso é conosco."
+    },
+    {
+      "title": "Acompanhamento",
+      "description": "Notícia do andamento, quando existe processo."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Santana, São Paulo.",
+  "locationText": "Santana, São Paulo. Pelo WhatsApp a gente combina a sala e o horário.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Descreva o assunto em linhas gerais. O botão abre o WhatsApp para você enviar a mensagem ao escritório. Nada fica gravado aqui.",
+  "contactLead": "Diz do que se trata. A gente chama no WhatsApp para marcar.",
   "navAbout": "Sobre",
   "navServices": "Atuação",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Fale com o escritório",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511963209335",
   "phoneDisplay": "(11) 96320-9335",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Barbosa & Cruz Advogados, Santana, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Conteúdo informativo, sem promessa de resultado.",
+  "footerNote": "© Barbosa & Cruz · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "advocacia",
   "radius": "4px",

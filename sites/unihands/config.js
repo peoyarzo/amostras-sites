@@ -3,48 +3,52 @@ window.SITE = {
   "name": "UNIHANDS Empresa de Reparos e Reformas em São Paulo",
   "shortName": "UNIHANDS",
   "region": "Indianópolis, São Paulo",
-  "tagline": "Reparos e reformas em Indianópolis.",
-  "heroText": "Visita e orçamento para reparos e reformas na região de Indianópolis.",
+  "tagline": "Reparo e reforma residencial em Indianópolis.",
+  "heroText": "Vazamento, pintura e a reforma que você foi adiando no apartamento.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A UNIHANDS fica em Indianópolis, São Paulo.",
-  "aboutText": "Os celulares públicos estão em link. O preço sai depois da visita. A página não promete prazo de obra.",
+  "aboutLead": "A UNIHANDS fica em Indianópolis e entra em casa para resolver o que quebrou ou o que você quer refazer.",
+  "aboutText": "Manda um vídeo do problema. Se for pequeno, a gente agenda o reparo. Se for reforma, marca uma visita, mede e te devolve o que será feito, por etapa. Os dois celulares estão no contato.",
   "servicesKicker": "Serviços",
   "servicesTitle": "Reparos e reformas",
-  "servicesIntro": "O serviço é o que for fechado no orçamento, nada além.",
+  "servicesIntro": "Do conserto de um dia à reforma do apartamento.",
   "services": [
     {
-      "title": "Visita",
-      "description": "Olhada no que precisa de reparo."
-    },
-    {
-      "title": "Orçamento",
-      "description": "Itens e etapas. O valor sai depois da visita."
-    },
-    {
       "title": "Reparos",
-      "description": "Manutenção do que foi fechado no orçamento."
+      "description": "Hidráulica, fechadura, tomada: o que parou no meio da semana."
     },
     {
-      "title": "Reforma",
-      "description": "Execução do escopo combinado, com contato pelo WhatsApp."
+      "title": "Pintura",
+      "description": "Parede, teto e o retoque antes de receber visita."
+    },
+    {
+      "title": "Pequenas obras",
+      "description": "Bancada, nicho, o rasgo que precisa fechar direito."
+    },
+    {
+      "title": "Reforma residencial",
+      "description": "Cômodo ou apartamento, com etapa combinada."
+    },
+    {
+      "title": "Visita",
+      "description": "A gente vê o imóvel antes de te dizer como executar."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Indianópolis, São Paulo.",
+  "locationText": "Indianópolis, São Paulo. A visita é marcada pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o tipo de reparo e o bairro do imóvel. O botão abre o WhatsApp com o texto. O orçamento sai depois da visita.",
+  "contactLead": "Diz se é reparo, pintura ou reforma. Respondemos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511978869531",
   "phoneDisplay": "(11) 97886-9531",
   "phones": [
@@ -63,7 +67,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "UNIHANDS Empresa de Reparos e Reformas em São Paulo, Indianópolis, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento conforme o pedido, sem prazo prometido.",
+  "footerNote": "© UNIHANDS · Prévia demonstrativa — página modelo.",
   "layout": "panel",
   "font": "arq",
   "radius": "2px",

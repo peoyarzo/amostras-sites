@@ -45,7 +45,7 @@ O template não é mais só odontológico. `config.js` escolhe paleta, fonte do 
 - Arquitetura, engenharia e reformas
 - Idiomas, cursos e autoescolas
 
-Textos de odontologia, estética, veterinária, advocacia, fisioterapia, psicologia e nutrição não trazem preço, promoção, antes e depois nem promessa de resultado ou de cura. Advocacia fica em tom informativo, sem promessa de êxito. Contabilidade, oficinas, arquitetura e cursos não inventam preço nem garantia. Não entram e-mail, registro de conselho, nota do Google, depoimento ou nome de profissional além do nome público do estabelecimento.
+O texto fala como o próprio negócio: benefício concreto, tom natural, sem citar omissão de preço, cura ou resultado. Não entram e-mail, registro de conselho, nota do Google, depoimento ou endereço inventado. O rodapé de cada prévia é só a marca e a linha "Prévia demonstrativa — página modelo."
 
 ## Como criar um site avulso
 

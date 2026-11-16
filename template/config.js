@@ -1,14 +1,14 @@
 /**
  * Dados do site. A página lê window.SITE.
  * Preencha só com dados públicos: nome, região, telefone, Instagram e serviços genéricos.
- * Deixe whatsapp vazio até ter um número. Sem e-mail, sem registro de conselho, sem preço.
+ * Deixe whatsapp vazio até ter um número público. Sem e-mail e sem registro de conselho.
  */
 window.SITE = {
   name: "Nome do consultório",
   shortName: "Consultório",
   region: "Bairro, Cidade",
   tagline: "Uma frase curta sobre o atendimento.",
-  heroText: "Texto breve, sem promessa de resultado, sem preço e sem depoimento.",
+  heroText: "Um texto curto, no tom de quem recebe a pessoa e explica o atendimento.",
   aboutKicker: "A clínica",
   aboutTitle: "Sobre",
   aboutLead: "Onde fica e para quem é o atendimento.",
@@ -27,7 +27,7 @@ window.SITE = {
     },
     {
       title: "Orientação",
-      description: "Explicação das opções, sem promessa de resultado."
+      description: "A gente explica as opções com calma, para você decidir."
     },
     {
       title: "Retorno",
@@ -38,17 +38,17 @@ window.SITE = {
   locationTitle: "Onde fica",
   locationText: "Só a região. O endereço completo fica para o agendamento.",
   hoursLabel: "Horário",
-  hours: "Sob consulta",
+  hours: "Horário combinado pelo WhatsApp",
   contactKicker: "Contato",
   contactTitle: "Contato",
-  contactLead: "Escreva seu nome e a mensagem. O botão abre o WhatsApp com o texto preenchido. Esta página não envia nem guarda o formulário.",
+  contactLead: "Conte rapidinho o que você precisa e a gente responde pelo WhatsApp.",
   navAbout: "Sobre",
   navServices: "Atendimentos",
   navLocation: "Localização",
   navContact: "Contato",
   ctaLabel: "Agende uma avaliação",
   ctaLink: "#contato",
-  formButton: "Abrir no WhatsApp",
+  formButton: "Falar no WhatsApp",
   whatsapp: "",
   phoneDisplay: "",
   phones: [],
@@ -56,7 +56,7 @@ window.SITE = {
   facebook: [],
   mapQuery: "São Paulo - SP",
   banner: "Prévia demonstrativa",
-  footerNote: "Prévia demonstrativa. Página modelo, sem indexação em buscadores.",
+  footerNote: "Prévia demonstrativa — página modelo.",
   layout: "classic",
   font: "odonto",
   radius: "14px",

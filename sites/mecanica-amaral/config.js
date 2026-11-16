@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Auto Mecânica - Amaral",
   "shortName": "Mecânica Amaral",
   "region": "Parque Erasmo Assunção, Santo André",
-  "tagline": "Oficina no Parque Erasmo Assunção.",
-  "heroText": "Auto mecânica em Santo André. Ligue para contar o problema e pedir um orçamento.",
+  "tagline": "Oficina no Parque Erasmo Assunção, com telefone que chama.",
+  "heroText": "Óleo, freio, suspensão e o scanner quando a luz do painel acende.",
   "aboutKicker": "A oficina",
   "aboutTitle": "Sobre",
   "aboutLead": "A Auto Mecânica Amaral fica no Parque Erasmo Assunção, em Santo André.",
-  "aboutText": "O telefone está em link. O valor do serviço depende do diagnóstico.",
+  "aboutText": "Oficina de rua, daquelas em que você fala com quem põe a mão no motor. Liga, conta o sintoma e traz o carro. A gente te mostra a peça antes de seguir.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços",
-  "servicesIntro": "Revisão, freios e suspensão, conforme o carro precisar.",
+  "servicesTitle": "Mecânica de bairro",
+  "servicesIntro": "O que mais entra na oficina nesta região.",
   "services": [
     {
-      "title": "Diagnóstico",
-      "description": "Olhada no que você relatou antes de abrir qualquer serviço."
+      "title": "Troca de óleo",
+      "description": "Filtro junto, com o carro no horário que você deixou."
     },
     {
-      "title": "Revisão",
-      "description": "Fluidos, filtros e itens de rotina, conforme o carro."
+      "title": "Freios",
+      "description": "Pedal baixo ou chiado: a gente mede e te mostra o desgaste."
     },
     {
-      "title": "Freios e suspensão",
-      "description": "Verificação quando há barulho, vibração ou desgaste."
+      "title": "Suspensão",
+      "description": "Amortecedor, bucha e o alinhamento que o pneu está pedindo."
     },
     {
-      "title": "Orçamento",
-      "description": "O valor é passado depois da avaliação do veículo."
+      "title": "Parte elétrica",
+      "description": "Bateria, alternador e a luz que não apaga no painel."
+    },
+    {
+      "title": "Revisão geral",
+      "description": "Um pente-fino antes de viagem ou da venda do carro."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Parque Erasmo Assunção, Santo André.",
+  "locationText": "Parque Erasmo Assunção, Santo André. A vaga é combinada pelo WhatsApp.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Informe o modelo do carro e o que ele está apresentando. O botão abre o WhatsApp para você pedir o orçamento.",
+  "contactLead": "Conta o barulho, o vazamento ou a revisão que você quer. Retornamos pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um orçamento",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511971132136",
   "phoneDisplay": "(11) 97113-2136",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Auto Mecânica - Amaral, Parque Erasmo Assunção, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Orçamento somente depois de avaliar o veículo.",
+  "footerNote": "© Mecânica Amaral · Prévia demonstrativa — página modelo.",
   "layout": "split",
   "font": "oficina",
   "radius": "4px",

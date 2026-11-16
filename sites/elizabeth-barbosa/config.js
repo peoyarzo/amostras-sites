@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Elizabeth Barbosa",
   "shortName": "Elizabeth Barbosa",
   "region": "Tatuapé, São Paulo",
-  "tagline": "Consultório de psicologia no Tatuapé.",
-  "heroText": "Atendimento psicológico no Tatuapé, com WhatsApp e telefone.",
+  "tagline": "Psicologia no Tatuapé, com WhatsApp para marcar.",
+  "heroText": "Um consultório de bairro para conversar com regularidade.",
   "aboutKicker": "O consultório",
   "aboutTitle": "Sobre",
-  "aboutLead": "O consultório de Elizabeth Barbosa fica no Tatuapé, em São Paulo.",
-  "aboutText": "O formulário abre o WhatsApp no seu celular. Não há promessa de cura nem preço nesta página.",
+  "aboutLead": "O consultório de Elizabeth Barbosa fica no Tatuapé, para quem quer atendimento perto de casa.",
+  "aboutText": "Você não precisa explicar tudo na primeira mensagem. Manda o nome e o período. Na sessão, o tempo é seu. O celular da psicóloga está aqui para remarcar quando a semana apertar.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento psicológico",
-  "servicesIntro": "Sessões no ritmo combinado. O conteúdo fica para o consultório.",
+  "servicesTitle": "Consultório no Tatuapé",
+  "servicesIntro": "Atendimento psicológico, com começo simples.",
   "services": [
     {
-      "title": "Primeira conversa",
-      "description": "Um encontro para entender o que você busca."
+      "title": "Acolhida",
+      "description": "A primeira sessão é para você chegar e dizer por que veio."
     },
     {
       "title": "Psicoterapia",
-      "description": "Sessões no ritmo combinado. Não há promessa de cura."
+      "description": "Encontros seguidos, no dia que ficar combinado."
+    },
+    {
+      "title": "Questões do cotidiano",
+      "description": "Família, trabalho, ansiedade de segunda-feira."
     },
     {
       "title": "Sigilo",
-      "description": "O que é dito no consultório fica no consultório."
+      "description": "O que é dito na sala fica na sala."
     },
     {
-      "title": "Horários",
-      "description": "Marcação pelo telefone ou pelo WhatsApp."
+      "title": "Remarcação",
+      "description": "Avisa pelo WhatsApp. A gente acha outro horário."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Tatuapé, São Paulo.",
+  "locationText": "Tatuapé, São Paulo. A sala é indicada na hora de marcar.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Se quiser, diga só o nome e que deseja uma primeira conversa. O botão abre o WhatsApp. Relatos longos ficam para o consultório.",
+  "contactLead": "Conta o melhor horário para você. A gente confirma pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Atendimento",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma conversa",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511996300954",
   "phoneDisplay": "(11) 99630-0954",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Elizabeth Barbosa, Tatuapé, São Paulo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de cura ou de resultado.",
+  "footerNote": "© Elizabeth Barbosa · Prévia demonstrativa — página modelo.",
   "layout": "studio",
   "font": "saude",
   "radius": "16px",

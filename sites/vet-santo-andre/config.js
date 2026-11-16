@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Clínica Veterinária Santo André",
   "shortName": "Vet. Santo André",
   "region": "Jardim, Santo André",
-  "tagline": "Clínica veterinária no Jardim, em Santo André.",
-  "heroText": "Consulta, banho e tosa, e um telefone para ligar sem copiar o número.",
+  "tagline": "Veterinário no Jardim, com internação 24 horas.",
+  "heroText": "Consulta, vacina, banho e uma internação que não fecha de madrugada.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Clínica Veterinária Santo André fica no bairro Jardim.",
-  "aboutText": "O celular está em link. Não há tabela de preço nesta página e o atendimento não promete resultado.",
+  "aboutLead": "A Clínica Veterinária Santo André fica no Jardim, do lado de quem precisa sair rápido com o animal.",
+  "aboutText": "Traz o cachorro, o gato ou a dúvida. A equipe olha, explica o que viu e, se precisar ficar internado, a casa não apaga a luz. Banho e tosa entram na mesma conversa.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "Serviços de clínica e de banho e tosa. A conduta sai da consulta.",
+  "servicesTitle": "Clínica e banho",
+  "servicesIntro": "Do banho à internação, no mesmo endereço.",
   "services": [
     {
       "title": "Consulta",
-      "description": "Avaliação clínica do animal, com orientação a quem cuida dele."
+      "description": "Exame clínico com explicação em voz alta, para o tutor entender."
+    },
+    {
+      "title": "Vacinas",
+      "description": "Carteira em dia, com o reforço marcado antes de você ir embora."
     },
     {
       "title": "Banho e tosa",
-      "description": "Higiene e tosa com horário marcado."
+      "description": "Higiene com horário marcado, sem deixar o animal largado na espera."
     },
     {
-      "title": "Exames",
-      "description": "Pedidos quando a consulta indicar."
+      "title": "Internação",
+      "description": "Acompanhamento de quem precisa ficar, de dia e de madrugada."
     },
     {
-      "title": "Contato direto",
-      "description": "Telefone para remarcar ou avisar que está a caminho."
+      "title": "Orientação",
+      "description": "Comida, remédio e o que observar em casa, dito com clareza."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Jardim, Santo André. A rua é confirmada no telefone.",
+  "locationText": "Jardim, Santo André. Chama que a gente manda a referência.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Internação 24 horas",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o nome do animal e o motivo do contato. O botão abre o WhatsApp com a mensagem. Esta página não envia os dados.",
+  "contactLead": "Diz o nome do animal e o que está acontecendo. A gente responde pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma consulta",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511940193990",
   "phoneDisplay": "(11) 94019-3990",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Clínica Veterinária Santo André, Jardim, Santo André - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Vet. Santo André · Prévia demonstrativa — página modelo.",
   "layout": "classic",
   "font": "vet",
   "radius": "14px",

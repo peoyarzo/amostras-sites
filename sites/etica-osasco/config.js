@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Contabilidade Ética Osasco",
   "shortName": "Ética Osasco",
   "region": "Centro, Osasco",
-  "tagline": "Escritório de contabilidade no centro de Osasco.",
-  "heroText": "Atendimento contábil no Centro. Ligue para falar com o escritório.",
+  "tagline": "Contabilidade no Centro de Osasco, com telefone fixo.",
+  "heroText": "Rotina, folha e abertura, para quem prefere falar com gente.",
   "aboutKicker": "O escritório",
   "aboutTitle": "Sobre",
-  "aboutLead": "A Contabilidade Ética fica no Centro de Osasco.",
-  "aboutText": "O telefone público está em link. Rotina, folha e obrigações têm o escopo combinado no contato.",
+  "aboutLead": "A Contabilidade Ética está no Centro e atende empresa que quer um escritório de verdade, não uma caixa de e-mail muda.",
+  "aboutText": "Liga, conta se é MEI crescendo, loja ou prestador de serviço. A gente encaixa a rotina, a folha e os impostos no tamanho do seu movimento.",
   "servicesKicker": "Serviços",
-  "servicesTitle": "Serviços do escritório",
-  "servicesIntro": "Sem pacote com preço publicado e sem promessa de resultado fiscal.",
+  "servicesTitle": "Escritório no Centro",
+  "servicesIntro": "O básico bem feito, que é o que segura a empresa no mês.",
   "services": [
     {
-      "title": "Rotina contábil",
-      "description": "Organização de documentos e lançamentos."
+      "title": "Rotina mensal",
+      "description": "Lançamentos e obrigações que não podem virar bola de neve."
     },
     {
-      "title": "Obrigações fiscais",
-      "description": "Apoio no calendário de impostos e declarações."
+      "title": "Folha",
+      "description": "Pagamento, férias e admissão sem planilha caseira."
     },
     {
-      "title": "Departamento pessoal",
-      "description": "Folha e admissões, conforme a empresa pedir."
+      "title": "Impostos",
+      "description": "O que vence no mês, avisado antes do dia."
     },
     {
-      "title": "Abertura e alterações",
-      "description": "Orientação para abrir ou ajustar a empresa."
+      "title": "Abertura",
+      "description": "Do zero até o CNPJ funcionar de verdade."
+    },
+    {
+      "title": "Dúvida do dia",
+      "description": "Uma pergunta objetiva, respondida por quem cuida da sua conta."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de Osasco.",
+  "locationText": "Centro de Osasco. Perto de quem já circula pelo calçadão.",
   "hoursLabel": "Horário",
-  "hours": "Sob consulta",
+  "hours": "Horário combinado pelo WhatsApp",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o tipo de empresa e o que você precisa. O botão abre o WhatsApp com o texto. O escritório responde por lá.",
+  "contactLead": "Manda seu nome e se é abertura, folha ou rotina. A gente retorna pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Peça um contato",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "551136883000",
   "phoneDisplay": "(11) 3688-3000",
   "phones": [
@@ -57,7 +61,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Contabilidade Ética Osasco, Centro, Osasco - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Valores combinados direto com o escritório.",
+  "footerNote": "© Ética Osasco · Prévia demonstrativa — página modelo.",
   "layout": "split",
   "font": "contabil",
   "radius": "6px",

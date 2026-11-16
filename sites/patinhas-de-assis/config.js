@@ -3,48 +3,52 @@ window.SITE = {
   "name": "Hospital Veterinário 24h - Patinhas de Assis",
   "shortName": "Patinhas de Assis",
   "region": "Centro, São Bernardo do Campo",
-  "tagline": "Hospital veterinário no Centro de São Bernardo.",
-  "heroText": "O nome da unidade indica atendimento 24 horas. Confirme pelo telefone antes de sair com o animal.",
+  "tagline": "Hospital veterinário aberto a noite inteira, no Centro.",
+  "heroText": "Cirurgia, internação e consulta, com alguém para atender de madrugada.",
   "aboutKicker": "A clínica",
   "aboutTitle": "Sobre",
-  "aboutLead": "O Patinhas de Assis fica no Centro de São Bernardo do Campo.",
-  "aboutText": "Consulta e orientação na hora. Sem promessa de resultado e sem preço nesta página.",
+  "aboutLead": "O Patinhas de Assis fica no Centro de São Bernardo e não fecha a porta à noite.",
+  "aboutText": "Se o animal piorou depois do jantar, liga. A equipe recebe, estabiliza e te explica o que vai acontecer nas próximas horas. De dia, o hospital também faz consulta e cirurgia marcada.",
   "servicesKicker": "Atendimento",
-  "servicesTitle": "Atendimento",
-  "servicesIntro": "O que o animal precisa é definido na avaliação, não por esta prévia.",
+  "servicesTitle": "Hospital 24 horas",
+  "servicesIntro": "Estrutura de hospital, não só de consultório.",
   "services": [
     {
-      "title": "Consulta",
-      "description": "Avaliação clínica do animal, com orientação a quem cuida dele."
+      "title": "Pronto atendimento",
+      "description": "Porta aberta de dia e de noite para o que não pode esperar."
     },
     {
-      "title": "Banho e tosa",
-      "description": "Higiene e tosa com horário marcado."
+      "title": "Consulta",
+      "description": "Avaliação clínica com tempo para o tutor perguntar."
+    },
+    {
+      "title": "Cirurgia",
+      "description": "Procedimentos marcados, com o preparo explicado antes."
+    },
+    {
+      "title": "Internação",
+      "description": "O animal fica acompanhado, e você recebe notícia do estado."
     },
     {
       "title": "Exames",
-      "description": "Pedidos quando a consulta indicar."
-    },
-    {
-      "title": "Contato direto",
-      "description": "Telefone para remarcar ou avisar que está a caminho."
+      "description": "O que a consulta pedir, feito na sequência, sem te mandar para outro bairro."
     }
   ],
   "locationKicker": "Região",
   "locationTitle": "Onde fica",
-  "locationText": "Centro de São Bernardo do Campo.",
+  "locationText": "Centro de São Bernardo do Campo. No WhatsApp a gente confirma se pode vir na hora.",
   "hoursLabel": "Horário",
-  "hours": "Informado como 24 horas. Confirme pelo telefone.",
+  "hours": "Atendimento 24 horas",
   "contactKicker": "Contato",
   "contactTitle": "Contato",
-  "contactLead": "Diga o nome do animal e o motivo do contato. O botão abre o WhatsApp com a mensagem. Esta página não envia os dados.",
+  "contactLead": "Precisa de horário ou de uma orientação agora? Chama pelo WhatsApp.",
   "navAbout": "Sobre",
   "navServices": "Serviços",
   "navLocation": "Localização",
   "navContact": "Contato",
   "ctaLabel": "Agende uma consulta",
   "ctaLink": "#contato",
-  "formButton": "Abrir no WhatsApp",
+  "formButton": "Falar no WhatsApp",
   "whatsapp": "5511917717030",
   "phoneDisplay": "(11) 91771-7030",
   "phones": [
@@ -59,7 +63,7 @@ window.SITE = {
   "facebook": [],
   "mapQuery": "Hospital Veterinário 24h - Patinhas de Assis, Centro, São Bernardo do Campo - SP",
   "banner": "Prévia demonstrativa",
-  "footerNote": "Prévia demonstrativa. Página modelo, sem indexação. Sem preços e sem promessa de resultado.",
+  "footerNote": "© Patinhas de Assis · Prévia demonstrativa — página modelo.",
   "layout": "split",
   "font": "vet",
   "radius": "14px",
