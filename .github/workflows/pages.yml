@@ -15,12 +15,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    name: Publicar no GitHub Pages
+  build:
+    name: Enviar artefato
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,6 +27,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
+  # deploy-pages lista os artefatos assim que começa. No mesmo job do upload
+  # essa lista ainda vem vazia (actions/deploy-pages#451).
+  deploy:
+    name: Publicar no GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
