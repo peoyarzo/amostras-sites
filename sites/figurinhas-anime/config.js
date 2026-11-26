@@ -3,8 +3,8 @@
    Nada fora deste arquivo precisa ser editado para ir ao ar.
    ============================================================ */
 window.SITE = {
-  // Nome provisório do bot. Opções em estudo: Figuriz, Zapfig, Figurinha Já.
-  BOT_NAME: 'Figuriz',
+  // Nome provisório do bot. Nome definido: Zapfig.
+  BOT_NAME: 'Zapfig',
 
   // Número do chip do bot, só dígitos, com DDI+DDD (ex.: '5511999999999').
   // AINDA É PLACEHOLDER: enquanto tiver "X", o botão avisa em vez de abrir o WhatsApp.

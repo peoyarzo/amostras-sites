@@ -27,16 +27,14 @@
   // Planos
   var plansEl = document.getElementById('plans');
   if (plansEl) {
-    plansEl.innerHTML = (S.PLANS || []).map(function (p) {
+    plansEl.innerHTML = (S.PLANS || []).map(function (p, i) {
       var unlimited = !!p.days;
       var per = unlimited
         ? 'só ' + brl(Math.round(p.cents / p.days)) + ' por dia'
         : brl(Math.round(p.cents / p.credits)) + ' por figurinha';
-      var what = p.validity
-        ? p.validity
-        : (unlimited ? p.days + ' dias sem limite' : p.credits + ' figurinhas pra usar quando quiser');
+      var what = unlimited ? p.days + ' dias sem limite' : p.credits + ' figurinhas, ' + p.validity;
       var badge = p.best || p.best2 || (p.promo ? 'Promoção' : '');
-      var cls = 'plan' + (p.best ? ' plan--best' : '') + (p.promo ? ' plan--promo' : '');
+      var cls = 'plan plan--c' + i + (p.best ? ' plan--best' : '') + (p.promo ? ' plan--promo' : '');
       return '<article class="' + cls + '">' +
         (badge ? '<span class="plan__badge">' + esc(badge) + '</span>' : '') +
         '<h3 class="plan__name">' + esc(p.name) + '</h3>' +
@@ -77,7 +75,7 @@
   }
   $all('[data-wa]').forEach(function (a) {
     var v = a.getAttribute('data-wa');
-    var msg = v === 'hi' ? 'Oi!' : v;
+    var msg = (v === 'trial' || v === 'hi') ? 'Oi! Quero fazer figurinhas' : v;
     a.href = waLink(msg);
     a.target = '_blank';
     a.rel = 'noopener';
@@ -98,20 +96,36 @@
     }, { threshold: 0 }).observe(document.getElementById('hero-cta') || hero);
   } else if (sticky) { sticky.classList.add('is-on'); }
 
-  // Demo do chat: revela as mensagens em sequência
+  // Demo do chat: mensagens entram em sequência, o bot "digita" antes de responder
   var chat = document.getElementById('chat');
   if (chat) {
     var msgs = $all('.msg', chat);
+    var typing = document.getElementById('typing');
     var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var timers = [];
+    var playChat = function () {
+      timers.forEach(clearTimeout); timers = [];
+      msgs.forEach(function (m) { m.classList.remove('is-in'); });
+      if (typing) typing.classList.remove('is-on');
+      var t = 400;
+      msgs.forEach(function (m) {
+        var bot = m.classList.contains('msg--bot');
+        if (bot && typing) {
+          timers.push(setTimeout(function () { typing.classList.add('is-on'); chat.appendChild(typing); }, t));
+          t += 900;
+          timers.push(setTimeout(function () { typing.classList.remove('is-on'); }, t));
+        }
+        timers.push(setTimeout(function () { m.classList.add('is-in'); }, t));
+        t += bot ? 1000 : 800;
+      });
+      timers.push(setTimeout(playChat, t + 5000));
+    };
     if (reduce || !('IntersectionObserver' in window)) {
       msgs.forEach(function (m) { m.classList.add('is-in'); });
     } else {
       var started = false;
       new IntersectionObserver(function (en, ob) {
-        if (en[0].isIntersecting && !started) {
-          started = true; ob.disconnect();
-          msgs.forEach(function (m, i) { setTimeout(function () { m.classList.add('is-in'); }, 500 + i * 900); });
-        }
+        if (en[0].isIntersecting && !started) { started = true; ob.disconnect(); playChat(); }
       }, { threshold: 0.3 }).observe(chat);
     }
   }
