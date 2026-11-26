@@ -49,7 +49,7 @@ else htmlFiles.push(indexPath);
 
 const sampleDirs = fs
   .readdirSync(sitesDir, { withFileTypes: true })
-  .filter((entry) => entry.isDirectory() && entry.name !== "assets")
+  .filter((entry) => entry.isDirectory() && entry.name !== "assets" && !entry.name.startsWith("figurinhas-"))
   .map((entry) => entry.name)
   .sort();
 

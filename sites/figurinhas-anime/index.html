@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>{{BOT_NAME}} · Figurinhas de WhatsApp em segundos</title>
+<meta name="description" content="Manda uma foto, vídeo ou GIF no WhatsApp e receba a figurinha pronta. A primeira é grátis; depois, planos no Pix a partir de R$ 3,50.">
+<meta name="theme-color" content="#ffd9ec">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='17' r='13' fill='%23ffe3f0' stroke='%233a2656' stroke-width='2'/%3E%3Ccircle cx='11' cy='16' r='2' fill='%233a2656'/%3E%3Ccircle cx='21' cy='16' r='2' fill='%233a2656'/%3E%3C/svg%3E">
+<link rel="preload" href="nunito.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className='js'</script>
+</head>
+<body>
+
+<!-- Símbolos SVG próprios (sem personagens de terceiros) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="spark" viewBox="0 0 24 24"><path d="M12 0c.9 6.6 4.5 10.5 12 12-7.5 1.5-11.1 5.4-12 12-.9-6.6-4.5-10.5-12-12C7.5 10.5 11.1 6.6 12 0z"/></symbol>
+    <symbol id="scene" viewBox="0 0 120 120">
+      <rect width="120" height="120" fill="#ffd0e6"/>
+      <rect y="60" width="120" height="60" fill="#c9b8ff"/>
+      <circle cx="84" cy="36" r="16" fill="#ffe08a"/>
+      <path d="M0 96c20-26 38-26 56-6 16-18 38-22 64 4v26H0z" fill="#8f7ae6"/>
+      <path d="M0 108c24-14 50-14 70-2 18-8 36-8 50 2v12H0z" fill="#6b57c9"/>
+      <ellipse cx="26" cy="30" rx="14" ry="6" fill="#fff" opacity=".85"/>
+      <ellipse cx="38" cy="26" rx="10" ry="5" fill="#fff" opacity=".85"/>
+    </symbol>
+    <clipPath id="blob" clipPathUnits="objectBoundingBox"><path d="M.5.04C.78.02.97.2.96.5.97.8.78.98.5.96.22.98.03.8.04.5.03.2.22.02.5.04z"/></clipPath>
+    <symbol id="sticker" viewBox="0 0 120 120">
+      <path d="M60 4C93 2 116 24 114 60c2 36-21 58-54 56C27 118 4 96 6 60 4 24 27 2 60 4z" fill="#fff" stroke="#3a2656" stroke-width="3"/>
+      <g clip-path="url(#blob2)"><use href="#scene" x="10" y="10" width="100" height="100"/></g>
+      <circle cx="46" cy="66" r="4" fill="#3a2656"/><circle cx="74" cy="66" r="4" fill="#3a2656"/>
+      <circle cx="47.500" cy="64.500" r="1.400" fill="#fff"/><circle cx="75.500" cy="64.500" r="1.400" fill="#fff"/>
+      <ellipse cx="38" cy="74" rx="6" ry="3.500" fill="#ff8fc0" opacity=".8"/><ellipse cx="82" cy="74" rx="6" ry="3.500" fill="#ff8fc0" opacity=".8"/>
+      <path d="M54 74q3 4 6 0q3 4 6 0" fill="none" stroke="#3a2656" stroke-width="2.500" stroke-linecap="round"/>
+    </symbol>
+    <clipPath id="blob2"><path d="M60 12C88 11 106 28 104 60c2 30-16 48-44 46C32 108 14 90 16 60 14 28 32 11 60 12z"/></clipPath>
+  </defs>
+</svg>
+
+<div class="strip" id="preview-strip">Prévia de página · o bot ainda não está no ar</div>
+
+<header class="top">
+  <a class="brand" href="#hero" aria-label="Início"><span class="brand__dot" aria-hidden="true"></span><span data-bot-name>Figuriz</span></a>
+  <a class="btn btn--sm" data-wa="hi" href="#">Chamar no WhatsApp</a>
+</header>
+
+<main>
+<section class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="pill"><svg class="ico" aria-hidden="true"><use href="#spark"/></svg> 1ª figurinha por nossa conta</p>
+      <h1>Foto, vídeo ou GIF viram <span class="hl">figurinha</span> em segundos</h1>
+      <p class="lead">Chama a gente no WhatsApp, manda a imagem e a figurinha volta pronta na conversa. Sem app pra baixar, sem cadastro.</p>
+      <div class="cta-row" id="hero-cta">
+        <a class="btn btn--big" data-wa="trial" href="#">Chamar no WhatsApp <small>teste grátis</small></a>
+        <a class="link" href="#planos">Ver planos</a>
+      </div>
+      <ul class="chips">
+        <li>Sem app</li>
+        <li>Pix a partir de R$ 3,50</li>
+        <li>Só respondemos quem chama primeiro</li>
+      </ul>
+    </div>
+
+    <div class="hero__art">
+      <svg class="mascot" viewBox="0 0 220 200" role="img" aria-label="Mascote kawaii segurando uma figurinha">
+        <use href="#spark" class="sp sp1" x="8" y="20" width="22" height="22" fill="#ffb3d6"/>
+        <use href="#spark" class="sp sp2" x="186" y="6" width="26" height="26" fill="#ffe08a"/>
+        <use href="#spark" class="sp sp3" x="196" y="110" width="16" height="16" fill="#8f7ae6"/>
+        <ellipse cx="110" cy="186" rx="64" ry="8" fill="#3a2656" opacity=".12"/>
+        <path d="M52 70L44 22l40 24z" fill="#fff" stroke="#3a2656" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M168 70l8-48-40 24z" fill="#fff" stroke="#3a2656" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M54 62l-3-22 18 11zM166 62l3-22-18 11z" fill="#ffb3d6"/>
+        <path d="M110 42c50 0 78 28 78 68 0 38-30 70-78 70S32 148 32 110c0-40 28-68 78-68z" fill="#fff" stroke="#3a2656" stroke-width="4"/>
+        <ellipse cx="80" cy="108" rx="9" ry="12" fill="#3a2656"/><ellipse cx="140" cy="108" rx="9" ry="12" fill="#3a2656"/>
+        <circle cx="83" cy="103" r="3.500" fill="#fff"/><circle cx="143" cy="103" r="3.500" fill="#fff"/>
+        <circle cx="78" cy="106" r="1.600" fill="#fff"/><circle cx="138" cy="106" r="1.600" fill="#fff"/>
+        <ellipse cx="62" cy="128" rx="11" ry="6.500" fill="#ff8fc0" opacity=".85"/><ellipse cx="158" cy="128" rx="11" ry="6.500" fill="#ff8fc0" opacity=".85"/>
+        <path d="M98 126q6 8 12 0q6 8 12 0" fill="none" stroke="#3a2656" stroke-width="4" stroke-linecap="round"/>
+        <g class="held"><use href="#sticker" x="120" y="108" width="84" height="84" transform="rotate(10 162 150)"/></g>
+        <ellipse cx="124" cy="170" rx="14" ry="11" fill="#fff" stroke="#3a2656" stroke-width="4"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="band" aria-label="Resumo">
+  <div class="wrap band__row">
+    <p><b>Foto</b> vira figurinha parada</p>
+    <p><b>GIF e vídeo</b> viram figurinha animada</p>
+    <p><b>Pix</b> pelo Mercado Pago</p>
+    <p><b>Zero</b> mensagem não pedida</p>
+  </div>
+</section>
+
+<section class="sec" id="como-funciona">
+  <div class="wrap">
+    <h2>Como funciona <span class="sub">(dá pra fazer com o polegar)</span></h2>
+    <ol class="steps">
+      <li class="step"><span class="step__n">1</span><h3>Chama no WhatsApp</h3><p>Toque no botão. A conversa abre com a mensagem pronta, é só enviar.</p></li>
+      <li class="step"><span class="step__n">2</span><h3>Manda a imagem</h3><p>Foto, GIF ou vídeo de até 6 segundos. Pode mandar do jeito que está.</p></li>
+      <li class="step"><span class="step__n">3</span><h3>Recebe a figurinha</h3><p>Ela volta na conversa em poucos segundos. Salva e usa nos seus grupos.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec sec--lav" id="demo">
+  <div class="wrap demo">
+    <div class="demo__copy">
+      <h2>É só uma conversa</h2>
+      <p class="lead">Nada de painel, login ou instalar app. Você manda, a gente devolve.</p>
+      <ul class="ticks">
+        <li>A imagem inteira cabe na figurinha, sem cortar nas bordas</li>
+        <li>GIFs e vídeos curtos viram figurinha animada</li>
+        <li>Arquivos de até 8 MB, enviados como foto ou vídeo</li>
+        <li>Seu saldo e a validade ficam à mão com o <code>/status</code></li>
+      </ul>
+      <a class="btn" data-wa="trial" href="#">Testar agora, é grátis</a>
+    </div>
+    <div class="phone" aria-label="Exemplo ilustrativo de conversa">
+      <div class="phone__bar"><span class="avatar" aria-hidden="true"></span><span><b data-bot-name>Figuriz</b><i>online</i></span></div>
+      <div class="chat" id="chat">
+        <div class="msg msg--me"><p>Oi! Quero testar</p></div>
+        <div class="msg msg--bot"><p>Oi! Manda uma imagem, GIF ou vídeo curto que eu transformo em figurinha ✨</p></div>
+        <div class="msg msg--me msg--media"><svg viewBox="0 0 120 120" aria-label="Foto enviada"><use href="#scene"/></svg></div>
+        <div class="msg msg--bot msg--stk"><svg viewBox="0 0 120 120" aria-label="Figurinha recebida"><use href="#sticker"/></svg></div>
+        <div class="msg msg--me msg--media"><svg viewBox="0 0 120 120" aria-label="Vídeo enviado"><use href="#scene"/><circle cx="60" cy="60" r="20" fill="#3a2656" opacity=".7"/><path d="M54 49l18 11-18 11z" fill="#fff"/></svg><em>0:04</em></div>
+        <div class="msg msg--bot msg--stk msg--wiggle"><svg viewBox="0 0 120 120" aria-label="Figurinha animada recebida"><use href="#sticker"/></svg></div>
+      </div>
+      <p class="phone__cap">Exemplo ilustrativo</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="planos">
+  <div class="wrap">
+    <h2>Escolhe o seu <span class="sub">(todos pagam por Pix)</span></h2>
+    <div class="trial">
+      <div>
+        <h3>Teste grátis</h3>
+        <p>Sua primeira conversa ganha <b>1 figurinha</b> pra você ver como fica. Sem pagar, sem cadastro.</p>
+      </div>
+      <a class="btn" data-wa="trial" href="#">Quero minha figurinha grátis</a>
+    </div>
+    <div class="plans" id="plans"></div>
+    <p class="note">Pagamento único por Pix, sem renovação automática. Nos planos de dias, o tempo corre a partir da aprovação do pagamento.</p>
+  </div>
+</section>
+
+<section class="sec sec--mint" id="confianca">
+  <div class="wrap">
+    <h2>Sem pegadinha</h2>
+    <div class="trust">
+      <div class="card"><h3>Você chama primeiro</h3><p>A gente só responde quem puxou conversa. Nada de mensagem não pedida, promoção ou lista de transmissão.</p></div>
+      <div class="card"><h3>Pix de verdade</h3><p>Você paga no app do seu banco; quem processa é o Mercado Pago. O plano é liberado sozinho quando o pagamento é aprovado.</p></div>
+      <div class="card"><h3>Sem senha, sem app</h3><p>Não pedimos senha, código do WhatsApp nem dados de cartão. Nunca passe esse código pra ninguém.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="testimonials" hidden>
+  <div class="wrap">
+    <h2>Quem já usou</h2>
+    <div class="t-list">
+      <figure class="t-card t-card--ex"><span class="ex">Exemplo · aqui entra depoimento real</span><blockquote>Texto autorizado pela pessoa, curto e com o resultado que ela teve.</blockquote><figcaption>Nome · cidade</figcaption></figure>
+      <figure class="t-card t-card--ex"><span class="ex">Exemplo · aqui entra depoimento real</span><blockquote>Texto autorizado pela pessoa, curto e com o resultado que ela teve.</blockquote><figcaption>Nome · cidade</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--lav" id="faq">
+  <div class="wrap wrap--narrow">
+    <h2>Perguntas rápidas</h2>
+    <div class="faq">
+      <details><summary>Como eu pago?</summary><p>Você pede o plano pela conversa (por exemplo, <code>/comprar 30</code>) e o bot manda um Pix copia e cola. Paga no app do seu banco e, quando o Mercado Pago aprova, o plano é liberado sozinho.</p></details>
+      <details><summary>É seguro?</summary><p>A gente nunca pede senha, código de verificação do WhatsApp ou dados de cartão. O Pix é processado pelo Mercado Pago. Se alguém pedir seu código do WhatsApp em nome do bot, não passe.</p></details>
+      <details><summary>Quanto tempo demora?</summary><p>A figurinha costuma voltar em poucos segundos. Vídeos e GIFs podem levar um pouco mais. O Pix é liberado assim que o Mercado Pago confirma; se você pagou e nada mudou, mande <code>/status</code> que o bot consulta de novo.</p></details>
+      <details><summary>O que posso mandar?</summary><p>Foto, GIF ou vídeo de até 6 segundos, com até 8 MB. Envie como foto ou vídeo, não como documento.</p></details>
+      <details><summary>Funciona em grupo?</summary><p>Por enquanto, só na conversa privada com o bot. Você cria a figurinha lá e usa nos grupos que quiser.</p></details>
+      <details><summary>Os pacotes vencem?</summary><p>Os pacotes de 15 e 25 figurinhas não têm data de validade. Os planos de dias valem pelo período contratado.</p></details>
+      <details><summary>Vocês vão me mandar mensagem depois?</summary><p>Não. Só respondemos quando você escreve primeiro.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Bora fazer a primeira?</h2>
+    <p class="lead">Leva menos de um minuto. A primeira é por nossa conta.</p>
+    <a class="btn btn--big" data-wa="trial" href="#">Chamar no WhatsApp <small>teste grátis</small></a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><b data-bot-name>Figuriz</b> é um serviço independente e não tem ligação com o WhatsApp ou a Meta.</p>
+    <p>WhatsApp é marca de seus respectivos titulares.</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky-cta"><a class="btn btn--big" data-wa="trial" href="#">Chamar no WhatsApp <small>1ª grátis</small></a></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
