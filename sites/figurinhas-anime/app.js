@@ -32,7 +32,9 @@
       var per = unlimited
         ? 'só ' + brl(Math.round(p.cents / p.days)) + ' por dia'
         : brl(Math.round(p.cents / p.credits)) + ' por figurinha';
-      var what = unlimited ? p.days + ' dias sem limite' : p.credits + ' figurinhas pra usar quando quiser';
+      var what = p.validity
+        ? p.validity
+        : (unlimited ? p.days + ' dias sem limite' : p.credits + ' figurinhas pra usar quando quiser');
       var badge = p.best || p.best2 || (p.promo ? 'Promoção' : '');
       var cls = 'plan' + (p.best ? ' plan--best' : '') + (p.promo ? ' plan--promo' : '');
       return '<article class="' + cls + '">' +
@@ -75,7 +77,7 @@
   }
   $all('[data-wa]').forEach(function (a) {
     var v = a.getAttribute('data-wa');
-    var msg = v === 'trial' ? 'Oi! Quero testar a figurinha grátis' : v === 'hi' ? 'Oi!' : v;
+    var msg = v === 'hi' ? 'Oi!' : v;
     a.href = waLink(msg);
     a.target = '_blank';
     a.rel = 'noopener';
