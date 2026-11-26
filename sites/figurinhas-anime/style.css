@@ -176,3 +176,19 @@ details p{padding-bottom:16px;font-weight:600;color:var(--ink2)}
   *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .js .msg{opacity:1;transform:none}
 }
+
+/* como a galera usa */
+.sec--pinks{background:var(--pink-s);padding-inline:0}
+.gx{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px 20px 26px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.gx::-webkit-scrollbar{display:none}
+.gx__card{flex:0 0 min(76vw,290px);scroll-snap-align:center;margin:0}
+.gx__shot{border:4px solid var(--ink);border-radius:28px;box-shadow:var(--shadow);overflow:hidden;background:#fff}
+.gx__shot img{display:block;width:100%;height:auto}
+.gx__card figcaption{padding:16px 6px 0}
+.gx__card h3{font-size:1.15rem;margin-bottom:2px}
+.gx__card p{font-weight:600;color:var(--ink2);font-size:.95rem;line-height:1.4}
+.gx__cta{display:flex;justify-content:center;margin-top:6px}
+@media(min-width:960px){
+  .gx{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;overflow:visible;width:min(1080px,100% - 40px);margin-inline:auto;padding:10px 0 30px}
+  .gx__card{flex:none}
+}
